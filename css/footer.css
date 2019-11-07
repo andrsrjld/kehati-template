@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'PFDinTextCompPro';
+    src: url('../fonts/PFDinTextCompPro-Medium.ttf');
+
+}
+
+@font-face {
+    font-family: 'PFDinTextCompPro-Regular';
+    src: url('../fonts/PFDinTextCompPro-Regular.ttf');
+}
+
+.html {
+    font-family: PFDinTextCompPro !important;
+}
+
+.border-top {
+    border-top: 0px solid #dee2e6 !important;
+}
+
+.border-color-medium-dark-gray {
+    border-color: #363636 !important;
+}
+
+.social-media {
+    color: #333333;
+    font-family: PFDinTextCompPro;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.logo-kehati {
+    width: 199px;
+    height: 75px;
+    margin-bottom: 4rem !important;
+}
+
+.program {
+    color: #333333;
+    font-family: PFDinTextCompPro-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.03px;
+    line-height: 22px;
+    text-align: left;
+    text-transform: inherit !important;
+}
+
+.alamat {
+    color: #333333;
+    font-family: PFDinTextCompPro-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.04px;
+    line-height: 22px;
+    width: 299px;
+    text-align: left;
+    margin-bottom: 3rem !important;
+}
+
+.yayasan-kehati {
+    color: #333333;
+    font-family: PFDinTextCompPro;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.04px;
+    line-height: 24px;
+    width: 106px;
+    text-align: left;
+    text-transform: inherit !important;
+}
+
+.follow-us {
+    color: #333333;
+    font-family: PFDinTextCompPro;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.14px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.yayasankehati {
+    color: #333333;
+    font-family: PFDinTextCompPro;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.14px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: inherit !important;
+}
+
+.poweredby {
+    color: #B7B7B7;
+    font-family: PFDinTextCompPro;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.03px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.bg-extra-dark-gray {
+    background-color: #FFFFFF;
+}
