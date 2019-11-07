@@ -2500,8 +2500,6 @@ $(document).ready(function () {
     });
     SetResizeContent();
 
-    var $allNonRatinaImages = $("img:not([data-rjs])");
-    $allNonRatinaImages.attr('data-no-retina', '');
 
     /*==============================================================*/
     //demo button  - START CODE
