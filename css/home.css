@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'PFDinTextCompPro';
+    src: url('../fonts/PFDinTextCompPro-Medium.ttf');
+
+}
+
+@font-face {
+    font-family: 'PFDinTextCompPro-Regular';
+    src: url('../fonts/PFDinTextCompPro-Regular.ttf');
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.box-layout {
+    padding: 0px !important;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.mask {
+    border-radius: 10px;
+}
+
+.border-color-extra-light-gray {
+    border-color: transparent !important;
+}
+
+.border-bottom {
+    border-bottom: transparent !important;
+}
+
+.short-desc {
+    color: #333333;
+    font-family: PFDinTextCompPro-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.04px;
+    line-height: 22px;
+    width: 786px;
+    text-align: center;
+}
+
+.icon-desc {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro;
+    font-size: 35px;
+    font-weight: 500;
+    letter-spacing: 0.08px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.logo-desc {
+    width: 204px;
+    height: 199px;
+}
+
+section {
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.feature-box .content {
+    padding: 0px 0px;
+}
+
+.padding-ten-right {
+    padding-right: 0%;
+}
+
+.yang-muda {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.06px;
+    line-height: 48px;
+    width: 308.48px;
+    text-align: left;
+    margin-bottom: 15px !important;
+}
+
+p {
+    margin: 0 0 0px !important;
+}
+
+.sejak-tahun {
+    color:#0A0B09;
+    font-family: PFDinTextCompPro-Regular;
+    font-size: 18px;
+    font-weight: 580;
+    letter-spacing: 0.04px;
+    line-height: 25px;
+    width: 319px;
+    text-align: left;
+}
+
+.bergabung {
+    color: #3FA06B;
+    font-family: PFDinTextCompPro-Regular;
+    font-size: 28px;
+    font-weight: 200;
+    letter-spacing: 0.05px;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 15px !important;
+}
+
+.bergabung-1 {
+    color: #FFFFFF;
+    font-family: PFDinTextCompPro;
+    font-size: 15px !important;
+    font-weight: 500;
+    letter-spacing: 0.04px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.btn.btn-dark-gray {
+    background: #3FA06B;
+    border-color: #3FA06B;
+    color: #fff;
+    border-radius: 8px !important;
+}
+
+.btn.btn-dark-gray:hover,
+.btn.btn-dark-gray:focus {
+    background: transparent;
+    color: #3FA06B;
+}
