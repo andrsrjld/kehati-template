@@ -37,6 +37,17 @@
     border-bottom: transparent !important;
 }
 
+.font-medium {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.05px;
+    line-height: 30px;
+    width: 355px;
+    text-align: center;
+}
+
 .short-desc {
     color: #333333;
     font-family: PFDinTextCompPro-Regular;
@@ -44,7 +55,6 @@
     font-weight: 400;
     letter-spacing: 0.04px;
     line-height: 22px;
-    width: 786px;
     text-align: center;
 }
 
@@ -93,7 +103,7 @@ p {
 }
 
 .sejak-tahun {
-    color:#0A0B09;
+    color: #0A0B09;
     font-family: PFDinTextCompPro-Regular;
     font-size: 18px;
     font-weight: 580;
@@ -135,4 +145,47 @@ p {
 .btn.btn-dark-gray:focus {
     background: transparent;
     color: #3FA06B;
+}
+
+.bg-light-gray {
+    background-color:
+        #ffffff;
+}
+
+.text-publikasi {
+    text-align: center !important;
+}
+
+.padding-40px-all {
+    padding: 20px;
+}
+
+.publikasi {
+    color: white !important;
+}
+
+.text-extra-dark-gray.font-weight-600.d-block.alt-font {
+    height: 55px !important;
+}
+
+.padding-30px-all {
+    padding: 15px 10px 0 0;
+}
+
+.unduh-text {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.05px;
+    line-height: 25px;
+}
+
+.btn.btn-dark-gray-unduh {
+    background:#3FA06B;
+border-color: #3FA06B;
+color:#fff;
+    border-radius: 8px !important;
+    width: 177px;
 }
