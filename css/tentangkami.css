@@ -1,0 +1,34 @@
+section {
+    padding: 2.5% 0;
+    overflow: hidden;
+}
+
+.desc-title {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro;
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 0.08px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.desc {
+    color: #B7B7B7;
+    font-family: PFDinTextCompPro;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.04px;
+    line-height: 22px;
+    width: 70%;
+    text-align: justify;
+    margin-left: 15%;
+}
+
+p {
+    margin: 0 15% 0px !important;
+}
+
+.height-slider {
+    height: 254px !important;
+}
