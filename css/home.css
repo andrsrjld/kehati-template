@@ -224,3 +224,8 @@ p {
 .full-width-image {
     width: 1363px !important;
 }
+
+.row.justify-content-center {
+    margin-right: -75px;
+    margin-left: -75px;
+}
