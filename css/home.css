@@ -74,7 +74,7 @@
 }
 
 section {
-    padding: 50px 0;
+    padding: 10px 0;
     overflow: hidden;
 }
 
@@ -169,7 +169,9 @@ p {
 }
 
 .padding-20px-all {
-    padding: 20px;
+    padding-top: 20px;
+padding-right: 60px;
+padding-left: 60px;
 }
 
 .unduh-text {
@@ -248,7 +250,7 @@ p {
 }
 
 .grid-post {
-    padding: 0 5.4%;
+    padding: 0 9%;
     height: 714px;
     width: 100%;
     margin: 0;
