@@ -222,7 +222,7 @@ p {
 }
 
 .full-width-image {
-    width: 1363px !important;
+    width: 100% !important;
 }
 
 .row.justify-content-center {
@@ -321,63 +321,40 @@ p {
     border-radius: 14px;
 }
 
-.titlegrid1 {
-    background-color: 
-rgba(255, 255, 255, 0.0);
-bottom: 24px;
-height: auto;
-width: 80%;
-position: absolute;
-margin: 0;
-left: 42px;
--ms-transform: rotate(0);
--webkit-transform: rotate(0);
-transform: rotate(0);
-font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-font-size: 44.0px;
-color:
-    rgba(255, 255, 255, 1.0);
-    text-align: left;
-    letter-spacing: .09px;
-    line-height: 48.0px;
+.titlegrid{
+    color: #FFFFFF;
+  font-family: PFDinTextCompPro;
+  font-size: 25px;
+  font-weight: 500;
+  letter-spacing: 0.05px;
+  line-height: 30px;
+  width: 338px;
+  text-align: left;
 }
 
 .titlegrid1 {
-    background-color: rgba(255, 255, 255, 0.0);
     bottom: 24px;
     height: auto;
-    width: 80%;
+    width: 100%;
     position: absolute;
     margin: 0;
-    left: 42px;
+    left: 5%;
     -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
-    font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-    font-size: 33.0px;
-    color: rgba(255, 255, 255, 1.0);
-    text-align: left;
-    letter-spacing: .09px;
-    line-height: 38.0px
-}
+}  
 
 .titlegrid2 {
-    background-color: rgba(255, 255, 255, 0.0);
-    top: 10%;
+    background-color:rgba(255, 255, 255, 0.0);
+    top: 5%;
     height: auto;
-    width: 80%;
+    width: 100%;
     position: absolute;
     margin: 0;
-    left: 12%;
+    left: 5%;
     -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
-    font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-    font-size: 33.0px;
-    color: rgba(255, 255, 255, 1.0);
-    text-align: left;
-    letter-spacing: .09px;
-    line-height: 38.0px;
 }
 
 .titlegrid3 {
@@ -387,54 +364,37 @@ color:
     width: 80%;
     position: absolute;
     margin: 0;
-    left: 42px;
+    left: 5%;
     -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
-    font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-    font-size: 33.0px;
-    color: rgba(255, 255, 255, 1.0);
-    text-align: left;
-    letter-spacing: .09px;
-    line-height: 38.0px
 }
 
 .titlegrid4 {
     background-color: rgba(255, 255, 255, 0.0);
-    bottom: 24px;
+    bottom: 80%;
     height: auto;
     width: 80%;
     position: absolute;
     margin: 0;
-    left: 42px;
+    left: 2.5%;
     -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
-    font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-    font-size: 33.0px;
-    color: rgba(255, 255, 255, 1.0);
-    text-align: left;
-    letter-spacing: .09px;
-    line-height: 38.0px
 }
 
 .titlegrid5 {
     background-color: #000;
-    height: 40%;
+    height: auto;
     width: 100%;
     position: absolute;
     margin: 0;
     -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
-    font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-    font-size: 33.0px;
-    color: rgba(255, 255, 255, 1.0);
-    text-align: left;
-    letter-spacing: .09px;
-    line-height: 38.0px;
     bottom: 0;
     padding-left: 46px;
     padding-right: 46px;
     padding-top: 14px;
+    padding-bottom: 20px;
 }
