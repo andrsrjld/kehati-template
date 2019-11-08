@@ -168,8 +168,8 @@ p {
     height: 55px !important;
 }
 
-.padding-30px-all {
-    padding: 15px 10px 0 0;
+.padding-20px-all {
+    padding: 20px;
 }
 
 .unduh-text {
@@ -183,9 +183,40 @@ p {
 }
 
 .btn.btn-dark-gray-unduh {
-    background:#3FA06B;
-border-color: #3FA06B;
-color:#fff;
+    background: #3FA06B;
+    border-color: #3FA06B;
+    color: #fff;
     border-radius: 8px !important;
     width: 177px;
+}
+
+.margin-two-bottom {
+    margin-bottom: 2%;
+}
+
+.judul-section {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro;
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 0.09px;
+    line-height: 48px;
+    text-align: center;
+}
+
+.padding-ten-right {
+    padding-right: 3%;
+}
+
+.garis {
+    background-color: 
+    rgba(63, 160, 107, 1.0);
+    height: 2px;
+    width: 88px;
+    margin: auto;
+        margin-top: auto;
+    margin-top: -20px;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
 }
