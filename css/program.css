@@ -32,3 +32,14 @@ p {
 .height-slider {
     height: 254px !important;
 }
+
+.program-kehati {
+    color: #FFFFFF;
+    font-family: PFDinTextCompPro;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.margin-min90px-bottom {
+    margin-bottom: -80px;
+}
