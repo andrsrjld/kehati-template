@@ -170,7 +170,7 @@ section.wow.fadeIn.bg-light-gray.V2 {
     line-height: 29px;
     width: 100%;
     text-align: justify;
-    padding: 20px 15%;
+    padding: 30px 15%;
 }
 
 .row.align-items-center.v1 {
@@ -195,4 +195,149 @@ p.yang-muda.v1 {
     color: #fff;
     line-height: 36px;
     letter-spacing: 6px;
+}
+
+.descript-nilainilaidasar.v3 {
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.slider {
+    width: 72%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: 1;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.slick-prev.slick-arrow {
+    top: 30%;
+    background: #B7B7B7;
+    background-image: url(../img/01-01-shape-copy@2x.png);
+    width: 43px;
+    height: 60px;
+    position: absolute;
+    left: -14%;
+    background-repeat: no-repeat;
+    background-size: 23%;
+    background-position: 58% 50%;
+    transform: rotate(180deg);
+}
+
+.slick-next.slick-arrow {
+    top: 30%;
+    transform: inherit;
+    background: #b7b7b7;
+    background-image: url(../img/01-01-shape-copy@2x.png);
+    width: 43px;
+    height: 60px;
+    position: absolute;
+    right: -14%;
+    background-repeat: no-repeat;
+    background-size: 23%;
+    background-position: 58% 50%;
+}
+
+.slick-prev {
+    left: -25px;
+}
+
+[dir='rtl'] .slick-prev {
+    right: -25px;
+    left: auto;
+}
+
+.slick-prev:before {
+    content: '<';
+    font-size: 25px;
+    color: #0000;
+    font-weight: bold;
+}
+
+[dir='rtl'] .slick-prev:before {
+    content: '<';
+    font-size: 25px;
+    color: #0000;
+    font-weight: bold;
+}
+
+.slick-next {
+    right: -25px;
+}
+
+[dir='rtl'] .slick-next {
+    right: auto;
+    left: -25px;
+}
+
+.slick-next:before {
+    content: '>';
+    font-size: 25px;
+    color: #0000;
+    font-weight: bold;
+}
+
+[dir='rtl'] .slick-next:before {
+    content: '>';
+    font-size: 25px;
+    color: #0000;
+    font-weight: bold;
+}
+
+.slider {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.slick-prev:before {
+    display: none;
+}
+
+.slick-next:before {
+    display: none;
+}
+
+.description.title-news.tentangkami {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro-Medium;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.03px;
+    line-height: 17px;
+    width: 144px;
+    text-align: center;
+    margin: auto;
+    margin-top: 17px;
+}
+
+img.pathner {
+    width: auto;
+    margin: auto;
+    min-height: 60px;
+    max-height: 90px;
 }
