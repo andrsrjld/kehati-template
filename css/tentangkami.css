@@ -333,6 +333,7 @@ p.yang-muda.v1 {
     text-align: center;
     margin: auto;
     margin-top: 17px;
+    margin-bottom: 20px;
 }
 
 img.pathner {
@@ -340,4 +341,16 @@ img.pathner {
     margin: auto;
     min-height: 60px;
     max-height: 90px;
+}
+
+section.wow.fadeIn.bg-light-gray.V4 {
+    margin-top: 65px;
+}
+
+section.wow.fadeIn.bg-light-gray.v5 {
+    margin-top: -45px;
+}
+
+.row.pengurus {
+    padding: 0% 15%;
 }
