@@ -150,9 +150,9 @@ section.wow.fadeIn.bg-light-gray.v1 {
 
 .judul-section {
     color: #0A0B09;
-    font-family: PFDinTextCompPro-Medium;
+    font-family: PFDinTextCompPro-Regular;
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0.05px;
     line-height: 30px;
     text-align: center;
@@ -353,4 +353,10 @@ section.wow.fadeIn.bg-light-gray.v5 {
 
 .row.pengurus {
     padding: 0% 15%;
+}
+
+img.img-dana {
+    margin-top: 80px;
+    width: 60%;
+    margin-left: 20%;
 }
