@@ -220,29 +220,29 @@ section.wow.fadeIn.bg-light-gray.v1 {
 
 .slick-prev.slick-arrow {
     top: 30%;
-    width: 40px;
     background: #B7B7B7;
     background-image: url(../img/01-01-shape-copy@2x.png);
-    height: 55px;
+    width: 43px;
+    height: 60px;
     position: absolute;
-    left: -12%;
+    left: -14%;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 23%;
     background-position: 58% 50%;
     transform: rotate(180deg);
 }
 
 .slick-next.slick-arrow {
     top: 30%;
-    width: 40px;
     transform: inherit;
     background: #b7b7b7;
     background-image: url(../img/01-01-shape-copy@2x.png);
-    height: 55px;
+    width: 43px;
+    height: 60px;
     position: absolute;
-    right: -12%;
+    right: -14%;
     background-repeat: no-repeat;
-    background-size: 50%;
+    background-size: 23%;
     background-position: 58% 50%;
 }
 
