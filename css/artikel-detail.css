@@ -1,0 +1,33 @@
+.font-medium {
+    color: #FFFFFF;
+    font-family: PFDinTextCompPro;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.05px;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+
+.majalah {
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .artikel {
+      margin-top: 2%;
+  }
+
+  section {
+    padding: 50px 0;
+    overflow: hidden;
+}
+  
+.font-medium2 {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro;
+    font-size: 20px;
+}
