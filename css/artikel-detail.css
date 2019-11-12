@@ -31,3 +31,18 @@
     font-family: PFDinTextCompPro;
     font-size: 20px;
 }
+
+.thumnail-berita img {
+    width: 140%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.row.row-artikel1 {
+    padding: 0% 14%;
+    margin-top: 0;
+}
+
+.margin-two-bottom {
+    margin-bottom: 3%;
+}
