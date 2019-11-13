@@ -442,6 +442,11 @@ a.lokasi4 {
     height: 667px;
 }
 
+section.half-section {
+    padding-top: 85px;
+    padding-bottom: 0px;
+}
+
 @media only screen and (min-width: 300px) {
     .short-desc {
         padding: 0 12%;
