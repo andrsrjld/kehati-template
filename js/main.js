@@ -110,24 +110,6 @@ function init_scroll_navigate() {
             $body.addClass('color-' + $(this).data('color'));
         }
     });
-
-    /* ===================================
-     sticky nav Start
-     ====================================== */
-    var headerHeight = $('nav').outerHeight();
-    if (!$('header').hasClass('no-sticky')) {
-        if ($(document).scrollTop() >= headerHeight) {
-            $('header').addClass('sticky');
-
-        } else if ($(document).scrollTop() <= headerHeight) {
-            $('header').removeClass('sticky');
-            setTimeout(function() {
-                setPageTitleSpace();
-            }, 500);
-        }
-        SetMegamenuPosition();
-    }
-
     /* ===================================
      header appear on scroll up
      ====================================== */
