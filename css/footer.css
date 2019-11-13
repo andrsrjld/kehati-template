@@ -24,10 +24,10 @@
 .social-media {
     color: #333333;
     font-family: PFDinTextCompPro;
-    font-size: 20px;
-    font-weight: 500;
-    letter-spacing: 1.14px;
-    line-height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.04px;
+    line-height: 22px;
     text-align: left;
 }
 
@@ -106,4 +106,47 @@
 
 .bg-extra-dark-gray {
     background-color: #FFFFFF;
+}
+
+.img-sos {
+    width: 15px;
+    margin-left: 13px;
+}
+
+.col-footer {
+    margin-bottom: 46px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.labelfooter {
+    margin-left: 20px;
+    height: auto;
+    width: 100%;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: PFDinTextCompPro;
+    font-size: 25.0px;
+    color: rgba(51, 51, 51, 1.0);
+    text-align: left;
+    letter-spacing: 1.14px;
+    line-height: 19.0px;
+}
+
+.row.row-menufooter {
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.link-footer {
+    font-family: PFDinTextCompPro-Regular;
+    font-size: 19.0px;
+    color: rgba(51, 51, 51, 1.0);
+    text-align: left;
+    letter-spacing: 1.03px;
+    line-height: 18.0px;
+    list-style-type: none;
+    margin-left: -22.5px;
+    margin-bottom: 20px;
 }
