@@ -6,7 +6,7 @@
 @font-face {
     font-family: 'PFDinTextCompPro-Regular';
     src: url('../fonts/PFDinTextCompPro-Regular.ttf');
-}
+} 
 
 .container-fluid {
     width: 100%;
@@ -50,12 +50,12 @@
 .short-desc {
     color: #333333;
     font-family: PFDinTextCompPro-Regular;
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.04px;
     line-height: 33px;
     text-align: center;
-    padding: 10px;
+    padding: 0 10%;
 }
 
 .icon-desc {
@@ -440,4 +440,10 @@ a.lokasi4 {
 
 .swiper-container {
     height: 667px;
+}
+
+@media only screen and (min-width: 300px) {
+    .short-desc {
+        padding: 0 12%;
+    }
 }
