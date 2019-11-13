@@ -16,6 +16,10 @@ header a.logo img {
     max-height: auto;
 }
 
+nav.navbar.navbar-default ul.nav>li>a:hover {
+    color: #3fa06b;
+}
+
 nav.navbar.navbar-default ul.nav>li>a {
     padding: 26px 0;
     background: transparent;
