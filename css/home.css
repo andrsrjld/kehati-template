@@ -6,7 +6,7 @@
 @font-face {
     font-family: 'PFDinTextCompPro-Regular';
     src: url('../fonts/PFDinTextCompPro-Regular.ttf');
-} 
+}
 
 .container-fluid {
     width: 100%;
@@ -447,8 +447,27 @@ section.half-section {
     padding-bottom: 0px;
 }
 
-@media only screen and (min-width: 300px) {
+@media only screen and (min-width: 375px) {
+
+    section.half-section {
+        padding-top: 85px;
+        padding-bottom: 0px;
+    }
+
     .short-desc {
         padding: 0 12%;
     }
+
+    .icon-desc {
+        font-size: 30px;
+    }
+
+    .grid1 {
+        margin-bottom: 20px;
+    }
+
+    .titlegrid1 .titlegrid2 .titlegrid3 .titlegrid4 .titlegrid5 .titlegrid6 {
+        bottom: 0;
+    }
+    
 }
