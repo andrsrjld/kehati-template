@@ -297,7 +297,7 @@ nav.navbar.bootsnav ul.nav>li>a.active {
     header .logo .logo-light.default {
         visibility: visible;
         opacity: 1;
-        width: 132px;
+        width: 116px;
         margin-top: 12px;
         margin-bottom: 12px;
         transition-duration: 0.5s;
@@ -353,7 +353,7 @@ nav.navbar.bootsnav ul.nav>li>a.active {
         letter-spacing: 0.3px;
         line-height: 20px;
         text-align: center;
-        font-size: 12px;
+        font-size: 11px;
     }
     header .logo .logo-dark.default,
     header .logo .logo-light.default {
