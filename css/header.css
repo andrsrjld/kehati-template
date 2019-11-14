@@ -215,7 +215,7 @@ header.sticky nav.header-light .header-social-icon {
 }
 
 .col-auto.pr-lg-0 {
-    margin-top: 3%;
+    margin-top: 4%;
 }
 
 .simple-dropdown .dropdown-menu {
@@ -276,8 +276,12 @@ nav.navbar.bootsnav ul.nav>li>a.active {
 }
 
 @media (min-width:300px) {
+    .container {
+        max-width: 100%;
+    }
+
     nav.navbar.navbar-default ul.nav>li>a {
-        padding: 26px 0;
+        padding: 12px 0;
         background: transparent;
         border-color: transparent;
         display: block;
