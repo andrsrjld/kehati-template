@@ -1,11 +1,11 @@
 @font-face {
     font-family: "PFDinTextCompPro-Medium";
-    src: url('../fonts/PFDinTextCompPro-Medium.ttf') format("truetype");
+    src: url('../../fonts/PFDinTextCompPro-Medium.ttf') format("truetype");
 }
 
 @font-face {
     font-family: "PFDinTextCompPro-Regular";
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf') format("truetype");
+    src: url('../../fonts/PFDinTextCompPro-Regular.ttf') format("truetype");
 }
 
 
@@ -5704,12 +5704,12 @@ li.link-menu {
     left: 4px;
     width: 22px;
     height: 22px;
-    background: url('../img/in.png');
+    background: url('../../img/in.png');
     border-radius: 40px;
 }
 
 #language:checked+.lbl-language:after {
-    background: url('../img/en.png');
+    background: url('../../img/en.png');
     left: calc(50%-8px);
     transform: translateX(80%);
 
@@ -5867,7 +5867,7 @@ a:hover {
     top: 30%;
     width: 40px;
     background: #B7B7B7;
-    background-image: url(../img/01-01-shape-copy@2x.png);
+    background-image: url(../../img/01-01-shape-copy@2x.png);
     height: 55px;
     position: absolute;
     left: -12%;
@@ -5882,7 +5882,7 @@ a:hover {
     width: 40px;
     transform: inherit;
     background: #b7b7b7;
-    background-image: url(../img/01-01-shape-copy@2x.png);
+    background-image: url(../../img/01-01-shape-copy@2x.png);
     height: 55px;
     position: absolute;
     right: -12%;
@@ -6021,7 +6021,7 @@ a:hover {
 }
 
 .inputsort.select-input {
-    background-image: url(../img/panahdown.png);
+    background-image: url(../../img/panahdown.png);
     background-repeat: no-repeat;
     background-position: 98%;
     background-size: 12px;
@@ -6252,7 +6252,7 @@ ul.list {
     margin-top: -35px;
     padding: 0% 13.5%;
     padding-right: 0%;
-    list-style-image: url(../img/point.png);
+    list-style-image: url(../../img/point.png);
 }
 
 li.point-list {
@@ -6367,7 +6367,7 @@ a.page-link.description.pagination {
 }
 
 .inputsort.select-input {
-    background-image: url(../img/panahdown.png);
+    background-image: url(../../img/panahdown.png);
     background-repeat: no-repeat;
     background-position: 97%;
     background-size: 15px;

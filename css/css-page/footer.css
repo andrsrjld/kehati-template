@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'PFDinTextCompPro';
-    src: url('../fonts/PFDinTextCompPro-Medium.ttf');
+    src: url('../../fonts/PFDinTextCompPro-Medium.ttf');
 
 }
 
 @font-face {
     font-family: 'PFDinTextCompPro-Regular';
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf');
+    src: url('../../fonts/PFDinTextCompPro-Regular.ttf');
 }
 
 .html {
@@ -150,3 +150,11 @@
     margin-left: -22.5px;
     margin-bottom: 20px;
 }
+
+@media only screen and (min-width: 375px) {
+    .col-md-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
