@@ -10,16 +10,6 @@
     margin-left: auto;
 }
 
-.judul-section {
-    color: #0A0B09;
-    font-family: PFDinTextCompPro;
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: 0.09px;
-    line-height: 48px;
-    text-align: center;
-}
-
 .garis {
     background-color: rgba(63, 160, 107, 1.0);
     height: 2px;
@@ -73,16 +63,6 @@ h1.slider-title {
     margin-left: auto;
 }
 
-.judul-section {
-    color: #0A0B09;
-    font-family: PFDinTextCompPro;
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: 0.09px;
-    line-height: 48px;
-    text-align: center;
-}
-
 .garis {
     background-color: rgba(63, 160, 107, 1.0);
     height: 2px;
@@ -98,16 +78,6 @@ h1.slider-title {
 
 section.wow.fadeIn.bg-light-gray {
     padding: 20px 12%;
-}
-
-p.descript-ekositem {
-    color: #B7B7B7;
-    font-family: PFDinTextCompPro-Medium;
-    font-size: 21px;
-    font-weight: 500;
-    letter-spacing: 0.04px;
-    line-height: 25px;
-    text-align: justify;
 }
 
 .bg-light-gray {
@@ -128,27 +98,8 @@ a.btn.btn-dark-gray-unduh.selengkapnya {
     text-align: center;
 }
 
-.thumnail-berita {
-    border-radius: 10px;
-    width: 300px;
-    height: 185px;
-    overflow: hidden;
-}
-
 section.wow.fadeIn.bg-light-gray.v1 {
     padding: 20px 0%;
-}
-
-.description.title-news {
-    margin-top: 33px;
-    color: #0A0B09;
-    font-family: PFDinTextCompPro-Medium;
-    font-size: 21px;
-    font-weight: 500;
-    letter-spacing: 0.03px;
-    line-height: 26px;
-    width: 270px;
-    text-align: left;
 }
 
 .row.row-berita {
@@ -291,20 +242,6 @@ a.btn.btn-light.btn-bergabung.selengkapnyadescription.v1 {
     text-align: center;
 }
 
-.description.title-program {
-    position: absolute;
-    color: #FFFFFF;
-    font-family: PFDinTextCompPro;
-    font-size: 22px;
-    font-weight: 500;
-    letter-spacing: 0.05px;
-    line-height: 26px;
-    width: 215px;
-    top: 16%;
-    margin: 0% 21px;
-    text-align: left;
-}
-
 @media (min-width:300px) {
     .swiper-container {
         overflow: hidden;
@@ -325,6 +262,54 @@ a.btn.btn-light.btn-bergabung.selengkapnyadescription.v1 {
         margin-left: 2%;
         width: 60%;
         text-transform: uppercase;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    p.descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 10px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .thumnail-berita {
+        border-radius: 10px;
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .description.title-program {
+        position: absolute;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 9px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 10px;
+        width: 100px;
+        top: 16%;
+        margin: 0% 21px;
+        text-align: left;
+    }
+    .description.title-news {
+        margin-top: 33px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 21px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 26px;
+        width: 100%;
+        text-align: left;
     }
 }
 
@@ -349,6 +334,54 @@ a.btn.btn-light.btn-bergabung.selengkapnyadescription.v1 {
         width: 75%;
         text-transform: uppercase;
     }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 28px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    p.descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .thumnail-berita {
+        border-radius: 10px;
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .description.title-program {
+        position: absolute;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 24px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 26px;
+        width: 240px;
+        top: 16%;
+        margin: 0% 21px;
+        text-align: left;
+    }
+    .description.title-news {
+        margin-top: 33px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 45px;
+        width: 100%;
+        text-align: left;
+    }
 }
 
 @media (min-width:768px) {
@@ -371,6 +404,54 @@ a.btn.btn-light.btn-bergabung.selengkapnyadescription.v1 {
         margin-left: -24%;
         width: 65%;
         text-transform: uppercase;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 28px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    p.descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .thumnail-berita {
+        border-radius: 10px;
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .description.title-program {
+        position: absolute;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 32px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 42px;
+        width: 294px;
+        top: 20%;
+        margin: 0% 21px;
+        text-align: left;
+    }
+    .description.title-news {
+        margin-top: 12px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 26px;
+        width: 100%;
+        text-align: left;
     }
 }
 
@@ -395,6 +476,54 @@ a.btn.btn-light.btn-bergabung.selengkapnyadescription.v1 {
         width: 76%;
         text-transform: uppercase;
     }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    p.descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .thumnail-berita {
+        border-radius: 10px;
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .description.title-program {
+        position: absolute;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 11px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 26px;
+        width: 112px;
+        top: 16%;
+        margin: 0% 21px;
+        text-align: left;
+    }
+    .description.title-news {
+        margin-top: 7px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 26px;
+        width: 100%;
+        text-align: left;
+    }
 }
 
 @media (min-width:1200px) {
@@ -417,6 +546,54 @@ a.btn.btn-light.btn-bergabung.selengkapnyadescription.v1 {
         margin-left: -40%;
         width: 75%;
         text-transform: uppercase;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 32px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    p.descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .thumnail-berita {
+        border-radius: 10px;
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .description.title-program {
+        position: absolute;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 26px;
+        width: 165px;
+        top: 16%;
+        margin: 0% 21px;
+        text-align: left;
+    }
+    .description.title-news {
+        margin-top: 10px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 19px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 26px;
+        width: 100%;
+        text-align: left;
     }
 }
 
@@ -441,6 +618,65 @@ a.btn.btn-light.btn-bergabung.selengkapnyadescription.v1 {
         width: 80%;
         text-transform: uppercase;
     }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 35px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    p.descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .thumnail-berita {
+        border-radius: 10px;
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .description.title-program {
+        position: absolute;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 26px;
+        width: 169px;
+        top: 16%;
+        margin: 0% 21px;
+        text-align: left;
+    }
+    .description.title-news {
+        margin-top: 33px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 21px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 26px;
+        width: 100%;
+        text-align: left;
+    }
+    .description.title-news {
+        margin-top: 16px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 21px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 26px;
+        width: 100%;
+        text-align: left;
+    }
 }
 
 @media (min-width:1360px) {
@@ -463,6 +699,65 @@ a.btn.btn-light.btn-bergabung.selengkapnyadescription.v1 {
         margin-left: -40%;
         width: 82%;
         text-transform: uppercase;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 36px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    p.descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .thumnail-berita {
+        border-radius: 10px;
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .description.title-program {
+        position: absolute;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 19px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 26px;
+        width: 170px;
+        top: 16%;
+        margin: 0% 21px;
+        text-align: left;
+    }
+    .description.title-news {
+        margin-top: 33px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 21px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 26px;
+        width: 100%;
+        text-align: left;
+    }
+    .description.title-news {
+        margin-top: 6px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 23px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 26px;
+        width: 100%;
+        text-align: left;
     }
 }
 
@@ -487,6 +782,65 @@ a.btn.btn-light.btn-bergabung.selengkapnyadescription.v1 {
         width: 75%;
         text-transform: uppercase;
     }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 38px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    p.descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .thumnail-berita {
+        border-radius: 10px;
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .description.title-program {
+        position: absolute;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 26px;
+        width: 215px;
+        top: 16%;
+        margin: 0% 21px;
+        text-align: left;
+    }
+    .description.title-news {
+        margin-top: 33px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 21px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 26px;
+        width: 100%;
+        text-align: left;
+    }
+    .description.title-news {
+        margin-top: 8px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 26px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 26px;
+        width: 100%;
+        text-align: left;
+    }
 }
 
 @media (min-width:1600px) {
@@ -510,4 +864,60 @@ a.btn.btn-light.btn-bergabung.selengkapnyadescription.v1 {
         width: 90%;
         text-transform: uppercase;
     }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    p.descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 21px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    .thumnail-berita {
+        border-radius: 10px;
+        width: 100%;
+        height: fit-content;
+        overflow: hidden;
+    }
+    .description.title-program {
+        position: absolute;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 26px;
+        width: 215px;
+        top: 16%;
+        margin: 0% 21px;
+        text-align: left;
+    }
+    .description.title-news {
+        margin-top: 33px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 21px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 26px;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.thumnail-berita img {
+    width: 100%;
+}
+
+.padding-ten-right {
+    padding-right: 0%;
 }
