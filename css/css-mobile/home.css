@@ -4,11 +4,15 @@
  
 and (min-width: 320px) 
 
-and (max-width: 375px)
+and (max-width: 374px)
 
 and (-webkit-min-device-pixel-ratio: 1)
  
 and (orientation: portrait) {
+    .mobile-grid-view {
+        display: none;
+    }
+
     .col-auto.pr-lg-0 {
         margin-top: 5%;
     }
@@ -139,11 +143,15 @@ and (orientation: portrait) {
  
 and (min-width: 360px) 
 
-and (max-width: 480px)
+and (max-width: 479px)
 
 and (-webkit-min-device-pixel-ratio: 1)
  
 and (orientation: portrait) {
+    .mobile-grid-view {
+        display: none;
+    }
+
     .col-auto.pr-lg-0 {
         margin-top: 3%;
     }
@@ -266,11 +274,15 @@ and (orientation: portrait) {
  
 and (min-width: 375px) 
 
-and (max-width: 414px)
+and (max-width: 479px)
 
 and (-webkit-min-device-pixel-ratio: 1)
  
 and (orientation: portrait) {
+    .mobile-grid-view {
+        display: none;
+    }
+
     .col-auto.pr-lg-0 {
         margin-top: 5%;
     }
@@ -356,7 +368,7 @@ and (orientation: portrait) {
     .titlegrid4 {
         background-color: 
         rgba(255, 255, 255, 0.0);
-        bottom: 40%;
+        bottom: 60%;
         height: auto;
         width: 90%;
         position: absolute;
@@ -387,107 +399,194 @@ and (orientation: portrait) {
     }
 }
 
+/* ----------- Android Tablet ----------- */
 
+/* Potrait */
+
+@media only screen
+ 
+and (min-width: 480px) 
+
+and (max-width: 767px)
+
+and (-webkit-min-device-pixel-ratio: 1)
+ 
+and (orientation: portrait) {
     .icon-desc {
         font-size: 30px;
     }
 
-    .grid-post {
-        padding: 0 9%;
-        height: 100%;
+    .desktop-grid-view {
+        display: none;
     }
 
-    .row-grid {
+    .mobile-grid-view {
+        display: block;
+    }
+
+    .desktop-grid-view {
+        display: none;
+    }
+
+    .mobile-grid-view {
+        display: block;
         position: inherit;
-        width: 110%;
-        height: 100%;
+        margin: 15px;
+        padding-bottom: 65%;
     }
 
-    .grid1 {
-        height: 25%;
+    .icon-desc {
+        letter-spacing: 0px !important;
+    }
+
+    .tablet-view1 {
+        height: 33.33%;
         padding: 1%;
-        position: inherit;
-        top: 0%;
+        position: absolute;
+        top: 0.5%;
+    }
+
+    .tablet-view2 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 0%;
+        width: 50%;
+    }
+
+    .tablet-view3 {
+        height: 60%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+        width: 50%;
+    }
+
+    .tablet-view4 {
+        height: 53.5%;
+        padding: 1%;
+        position: absolute;
+        top: 67.33%;
+        left: 0%;
+        width: 50%;
+    }
+
+    .tablet-view5 {
+        height: 26.5%;
+        padding: 1%;
+        position: absolute;
+        top: 94.33%;
+        left: 50%;
+        width: 50%;
+    }
+
+    .tablet-view6 {
+        height: 24.33%;
+        padding: 1%;
+        position: absolute;
+        top: 121%;
         left: 0%;
     }
-    
-    .grid2 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid3 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid4 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid5 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid6 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
+
+    .titlegrid4{
+        bottom: 60%;
     }
 
     .titlegrid5 {
-        background-color: #000;
-        height: auto;
-        width: 100%;
-        position: absolute;
-        margin: 0;
-        -ms-transform: rotate(0);
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
-        bottom: 0;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
-
-    .titlegrid4 {
-        background-color: 
-        rgba(255, 255, 255, 0.0);
-        bottom: 40%;
-        height: auto;
-        width: 90%;
-        position: absolute;
-        margin: 0;
-        padding-left: 1.5%;
-        padding-right: 1.5%;
-        -ms-transform: rotate(0);
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
-    }
-    
-    .col-md-6 {
-        padding-left: 15px;
         padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+/* Landscape */
+
+@media only screen
+ 
+and (min-width: 480px) 
+
+and (max-width: 767px)
+
+and (-webkit-min-device-pixel-ratio: 1)
+ 
+and (orientation: Landscape) {
+    .icon-desc {
+        font-size: 30px;
     }
 
-    .btn.btn-dark-gray.btn-small.text-extra-small.border-radius-4.margin-20px-top.bergabung-1 {
-        margin-right: 20px;
+    .desktop-grid-view {
+        display: none;
     }
 
-    section {
-        padding: 25px 0;
-        overflow: hidden;
+    .mobile-grid-view {
+        display: block;
     }
 
-    .sm-padding-15px-left {
-        margin-top: -30px;
+    .desktop-grid-view {
+        display: none;
+    }
+
+    .mobile-grid-view {
+        display: block;
+        position: inherit;
+        margin: 15px;
+        padding-bottom: 65%;
+    }
+
+    .icon-desc {
+        letter-spacing: 0px !important;
+    }
+
+    .tablet-view1 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 0.5%;
+    }
+
+    .tablet-view2 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 0%;
+        width: 50%;
+    }
+
+    .tablet-view3 {
+        height: 60%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+        width: 50%;
+    }
+
+    .tablet-view4 {
+        height: 59%;
+        padding: 1%;
+        position: absolute;
+        top: 67.33%;
+        left: 0%;
+        width: 50%;
+    }
+
+    .tablet-view5 {
+        height: 32.33%;
+        padding: 1%;
+        position: absolute;
+        top: 94.33%;
+        left: 50%;
+        width: 50%;
+    }
+
+    .tablet-view6 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 126.5%;
+        left: 0%;
     }
 }
 
@@ -499,14 +598,71 @@ and (orientation: portrait) {
  
 and (min-width: 768px) 
 
-and (max-width: 1024px)
+and (max-width: 1023px)
 
 and (-webkit-min-device-pixel-ratio: 1)
  
 and (orientation: portrait) {
+    .desktop-grid-view {
+        display: none;
+    }
+
+    .mobile-grid-view {
+        display: block;
+        position: inherit;
+        margin: 15px;
+        padding-bottom: 65%;
+    }
 
     .icon-desc {
         letter-spacing: 0px !important;
+    }
+
+    .tablet-view1 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 0.5%;
+    }
+
+    .tablet-view2 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 0%;
+    }
+
+    .tablet-view3 {
+        height: 60%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+    }
+
+    .tablet-view4 {
+        height: 60%;
+        padding: 1%;
+        position: absolute;
+        top: 67.33%;
+        left: 0%;
+    }
+
+    .tablet-view5 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 94.33%;
+        left: 50%;
+    }
+
+    .tablet-view6 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 127.5%;
+        left: 0%;
     }
 }
 
@@ -516,11 +672,72 @@ and (orientation: portrait) {
  
 and (min-width: 768px) 
 
-and (max-width: 1024px)
+and (max-width: 1023px)
 
 and (-webkit-min-device-pixel-ratio: 1)
  
 and (orientation: Landscape) {
+    .desktop-grid-view {
+        display: none;
+    }
+
+    .mobile-grid-view {
+        display: block;
+        position: inherit;
+        margin: 15px;
+        padding-bottom: 65%;
+    }
+
+    .icon-desc {
+        letter-spacing: 0px !important;
+    }
+
+    .tablet-view1 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 0.5%;
+    }
+
+    .tablet-view2 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 0%;
+    }
+
+    .tablet-view3 {
+        height: 60%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+    }
+
+    .tablet-view4 {
+        height: 60%;
+        padding: 1%;
+        position: absolute;
+        top: 67.33%;
+        left: 0%;
+    }
+
+    .tablet-view5 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 94.33%;
+        left: 50%;
+    }
+
+    .tablet-view6 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 127.5%;
+        left: 0%;
+    }
 
     .icon-desc {
         letter-spacing: 0px !important;

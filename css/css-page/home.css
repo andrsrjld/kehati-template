@@ -28,6 +28,10 @@
     border-radius: 10px;
 }
 
+img {
+    max-width: 150%;
+}
+
 .border-color-extra-light-gray {
     border-color: transparent !important;
 }
@@ -240,7 +244,7 @@ p {
 }
 
 .crop-img img {
-    width: 100%;
+    width: 150%;
 }
 
 .crop-img:hover img {
