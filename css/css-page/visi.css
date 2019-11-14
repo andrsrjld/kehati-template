@@ -7,7 +7,7 @@ ul.list.misi {
     margin-top: 15px;
     padding: 0% 1.5%;
     padding-right: 0%;
-    list-style-image: url(../img/point.png);
+    list-style-image: url(../../img/point.png);
 }
 
 span.small-title {
@@ -27,7 +27,7 @@ ul.sejaktahun2014ke.tentangkamiv4.v2.list {
     margin-top: 15px;
     width: 83%;
     padding-right: 0%;
-    list-style-image: url(../img/point.png);
+    list-style-image: url(../../img/point.png);
 }
 
 li.point-list {

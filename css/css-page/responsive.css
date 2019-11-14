@@ -1560,8 +1560,8 @@
     nav.navbar.bootsnav .simple-dropdown .dropdown-menu > li.dropdown > ul, nav.navbar.bootsnav .simple-dropdown .dropdown-menu > li.dropdown > ul > li.dropdown > ul {left : 0;}
 
     .simple-dropdown .dropdown-menu > li > a.dropdown-toggle .fas {display:none}
-    nav .accordion-menu {padding: 26px 15px 26px 15px;}
-    .sticky nav .accordion-menu {padding: 26px 15px 26px 15px;}
+    nav .accordion-menu {padding: 26px 15px 15px 15px;}
+    .sticky nav .accordion-menu {padding: 26px 15px 15px 15px;}
     nav.navbar.bootsnav.menu-center ul.nav.navbar-center {width:100%;}
     .center-logo {left: 0; position: relative; max-width:100%; margin: 0; top: 0; transform:  none; padding: 26px 15px;}
     .navbar-nav li {position: relative}
