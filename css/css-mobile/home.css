@@ -387,3 +387,142 @@ and (orientation: portrait) {
     }
 }
 
+
+    .icon-desc {
+        font-size: 30px;
+    }
+
+    .grid-post {
+        padding: 0 9%;
+        height: 100%;
+    }
+
+    .row-grid {
+        position: inherit;
+        width: 110%;
+        height: 100%;
+    }
+
+    .grid1 {
+        height: 25%;
+        padding: 1%;
+        position: inherit;
+        top: 0%;
+        left: 0%;
+    }
+    
+    .grid2 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    
+    .grid3 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    
+    .grid4 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    
+    .grid5 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    
+    .grid6 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+
+    .titlegrid5 {
+        background-color: #000;
+        height: auto;
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        bottom: 0;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .titlegrid4 {
+        background-color: 
+        rgba(255, 255, 255, 0.0);
+        bottom: 40%;
+        height: auto;
+        width: 90%;
+        position: absolute;
+        margin: 0;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    
+    .col-md-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .btn.btn-dark-gray.btn-small.text-extra-small.border-radius-4.margin-20px-top.bergabung-1 {
+        margin-right: 20px;
+    }
+
+    section {
+        padding: 25px 0;
+        overflow: hidden;
+    }
+
+    .sm-padding-15px-left {
+        margin-top: -30px;
+    }
+}
+
+/* ----------- Ipad 3rd & 4th Generation, Air, Mini ----------- */
+ 
+/* Portrait */
+
+@media only screen
+ 
+and (min-width: 768px) 
+
+and (max-width: 1024px)
+
+and (-webkit-min-device-pixel-ratio: 1)
+ 
+and (orientation: portrait) {
+
+    .icon-desc {
+        letter-spacing: 0px !important;
+    }
+}
+
+/* Landscape */
+
+@media only screen
+ 
+and (min-width: 768px) 
+
+and (max-width: 1024px)
+
+and (-webkit-min-device-pixel-ratio: 1)
+ 
+and (orientation: Landscape) {
+
+    .icon-desc {
+        letter-spacing: 0px !important;
+    }
+}
