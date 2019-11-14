@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'PFDinTextCompPro';
-    src: url('../fonts/PFDinTextCompPro-Medium.ttf');
+    src: url('../../fonts/PFDinTextCompPro-Medium.ttf');
 
 }
 
 @font-face {
     font-family: 'PFDinTextCompPro-Regular';
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf');
+    src: url('../../fonts/PFDinTextCompPro-Regular.ttf');
 }
 
 .html {

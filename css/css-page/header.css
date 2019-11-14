@@ -1,11 +1,11 @@
 @font-face {
     font-family: "PFDinTextCompPro-Medium";
-    src: url('../fonts/PFDinTextCompPro-Medium.ttf') format("truetype");
+    src: url('../../fonts/PFDinTextCompPro-Medium.ttf') format("truetype");
 }
 
 @font-face {
     font-family: "PFDinTextCompPro-Regular";
-    src: url('../fonts/PFDinTextCompPro-Regular.ttf') format("truetype");
+    src: url('../../fonts/PFDinTextCompPro-Regular.ttf') format("truetype");
 }
 
 .container {
@@ -116,13 +116,13 @@ i.fas.fa-search.search-button {
     width: 22px;
     left: 4px;
     bottom: 4px;
-    background-image: url('../img/in.png');
+    background-image: url('../../img/in.png');
     -webkit-transition: .4s;
     transition: .4s;
 }
 
 input:checked+.btn-switch:before {
-    background-image: url('../img/en.png');
+    background-image: url('../../img/en.png');
     margin-left: -9px;
 }
 
@@ -265,7 +265,7 @@ nav.navbar.navbar-default ul li.dropdown .dropdown-menu li>a:hover {
 }
 
 nav.navbar.navbar-default ul li.dropdown .dropdown-menu li>a:hover+.btn-switch:before {
-    background-image: url('../img/en.png');
+    background-image: url('../../img/en.png');
 }
 
 header.header-appear nav.bootsnav.header-light-transparent .navbar-nav>li>a.active,

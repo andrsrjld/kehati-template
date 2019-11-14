@@ -238,7 +238,7 @@ p.yang-muda.v1 {
 .slick-prev.slick-arrow {
     top: 30%;
     background: #B7B7B7;
-    background-image: url(../img/01-01-shape-copy@2x.png);
+    background-image: url(../../img/01-01-shape-copy@2x.png);
     width: 43px;
     height: 60px;
     position: absolute;
@@ -253,7 +253,7 @@ p.yang-muda.v1 {
     top: 30%;
     transform: inherit;
     background: #b7b7b7;
-    background-image: url(../img/01-01-shape-copy@2x.png);
+    background-image: url(../../img/01-01-shape-copy@2x.png);
     width: 43px;
     height: 60px;
     position: absolute;
