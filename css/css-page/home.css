@@ -28,10 +28,6 @@
     border-radius: 10px;
 }
 
-img {
-    max-width: 150%;
-}
-
 .border-color-extra-light-gray {
     border-color: transparent !important;
 }
@@ -88,7 +84,7 @@ section {
 
 .padding-ten-right {
     padding-right: 0%;
-    padding-left: 0% ;
+    padding-left: 0%;
 }
 
 .yang-muda {
