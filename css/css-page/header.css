@@ -279,7 +279,6 @@ nav.navbar.bootsnav ul.nav>li>a.active {
     .container {
         max-width: 100%;
     }
-
     nav.navbar.navbar-default ul.nav>li>a {
         padding: 12px 0;
         background: transparent;
@@ -316,7 +315,6 @@ nav.navbar.bootsnav ul.nav>li>a.active {
     .container {
         max-width: 87%;
     }
-
     nav.navbar.navbar-default ul.nav>li>a {
         padding: 26px 0;
         background: transparent;
@@ -329,6 +327,35 @@ nav.navbar.bootsnav ul.nav>li>a.active {
         line-height: 20px;
         text-align: center;
         font-size: 8.4px;
+    }
+    header .logo .logo-dark.default,
+    header .logo .logo-light.default {
+        visibility: visible;
+        opacity: 1;
+        width: 98px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+        transition-duration: 0.5s;
+        -webkit-transition-duration: 0.5s;
+        -moz-transition-duration: 0.5s;
+        -ms-transition-duration: 0.5s;
+        -o-transition-duration: 0.5s;
+    }
+}
+
+@media (min-width:1024px) {
+    nav.navbar.navbar-default ul.nav>li>a {
+        padding: 26px 0;
+        background: transparent;
+        border-color: transparent;
+        display: block;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Regular;
+        font-weight: 600;
+        letter-spacing: 0px;
+        line-height: 20px;
+        text-align: center;
+        font-size: 9.7px;
     }
     header .logo .logo-dark.default,
     header .logo .logo-light.default {
