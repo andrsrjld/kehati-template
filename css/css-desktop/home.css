@@ -405,3 +405,7 @@ padding-left: 60px;
 .mobile-grid-view {
     display: none;
 }
+
+.mobile-about {
+    display: none;
+}
