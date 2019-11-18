@@ -1,4 +1,12 @@
 @media (min-width:1024px) {
+    .mobile-view {
+        display: none;
+    }
+
+    .desktop-view {
+        display: block;
+    }
+    
     .swiper-container {
         overflow: hidden;
         position: relative;
@@ -141,6 +149,7 @@
 }
 
 @media (min-width:1280px) {
+
     .swiper-container {
         overflow: hidden;
         position: relative;
