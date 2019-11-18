@@ -4,7 +4,11 @@
 
 .desktop-view {
     display: none;
-}   
+}
+
+.nav-item {
+    display: block;
+}
 
 .swiper-container {
     overflow: hidden;

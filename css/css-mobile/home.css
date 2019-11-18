@@ -1,4 +1,3 @@
-/* ----------- iPhone 5 ----------- */
 .unduh-text {
     color: #0A0B09;
     font-family: PFDinTextCompPro;
@@ -9,6 +8,7 @@
     line-height: 25px;
 }
 
+/* ----------- iPhone 5 ----------- */
 @media only screen
  
 and (min-width: 320px) 
@@ -150,8 +150,8 @@ and (orientation: portrait) {
     }
 }
 
+
 /* ----------- Android ----------- */
- 
 @media only screen
  
 and (min-width: 360px) 
