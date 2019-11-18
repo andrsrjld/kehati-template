@@ -140,6 +140,12 @@ section.wow.fadeIn.bg-light-gray.v1 {
     opacity: 1;
 }
 
+.buy-theme {
+    display: none;
+}.all-demo {
+    display: none;
+}
+
 .slick-prev.slick-arrow {
     top: 30%;
     background: #B7B7B7;

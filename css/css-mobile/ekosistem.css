@@ -87,6 +87,14 @@ p.descript-ekositem {
     text-align: center;
 }
 
+p.descript-ekositem {
+    font-size: 14px;
+}
+
+.swiper-full-screen .swiper-pagination {
+    display: none;
+}
+
 /* ----------- iPhone 5 ----------- */
 @media only screen
  
@@ -170,6 +178,22 @@ and (orientation: portrait) {
         display: none !important;
     }
 
+    .padding-ten-right {
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .description.title-news {
+        font-size: 18px;
+    }
+
+    .row.row-berita {
+        padding-bottom: 65px;
+    }
+
+    .judul-section {
+        font-size: 25px;
+    }
 }
 
 /* Landscape */
@@ -191,6 +215,22 @@ and (orientation: Landscape) {
         display: none !important;
     }
 
+    .padding-ten-right {
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .description.title-news {
+        font-size: 18px;
+    }
+
+    .row.row-berita {
+        padding-bottom: 65px;
+    }
+
+    .judul-section {
+        font-size: 25px;
+    }
 }
 
 /* ----------- Ipad 3rd & 4th Generation, Air, Mini ----------- */
@@ -213,7 +253,23 @@ and (orientation: portrait) {
     .slick-next.slick-arrow {
         display: none !important;
     }
-    
+
+    .padding-ten-right {
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .description.title-news {
+        font-size: 18px;
+    }
+
+    .row.row-berita {
+        padding-bottom: 65px;
+    }
+
+    .judul-section {
+        font-size: 25px;
+    }
 }
 
 /* Landscape */
@@ -235,4 +291,20 @@ and (orientation: Landscape) {
         display: none !important;
     }
 
+    .padding-ten-right {
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .description.title-news {
+        font-size: 18px;
+    }
+
+    .row.row-berita {
+        padding-bottom: 65px;
+    }
+
+    .judul-section {
+        font-size: 25px;
+    }
 }
