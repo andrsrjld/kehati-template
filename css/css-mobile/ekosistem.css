@@ -3,7 +3,7 @@
 }
 
 .desktop-view {
-    display: none;
+    display: none !important;
 }   
 
 .swiper-container {
@@ -64,7 +64,7 @@ p.descript-ekositem {
     text-align: left;
 }
 .description.title-news {
-    margin-top: 33px;
+    margin-top: 15px;
     color: #0A0B09;
     font-family: PFDinTextCompPro-Medium;
     font-size: 21px;
@@ -72,7 +72,27 @@ p.descript-ekositem {
     letter-spacing: 0.03px;
     line-height: 26px;
     width: 100%;
-    text-align: left;
+    text-align: center;
+}
+.padding-ten-right{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.row-berita img {
+    width: 85%;
+}
+
+.thumnail-berita {
+    text-align: center;
+}
+
+p.descript-ekositem {
+    font-size: 14px;
+}
+
+.swiper-full-screen .swiper-pagination {
+    display: none;
 }
 
 /* ----------- iPhone 5 ----------- */
@@ -85,133 +105,14 @@ and (max-width: 374px)
 and (-webkit-min-device-pixel-ratio: 1)
  
 and (orientation: portrait) {
-
-    .col-auto.pr-lg-0 {
-        margin-top: 5%;
+    .slick-prev.slick-arrow {
+        display: none !important;
     }
 
-    section.half-section {
-        padding-top: 85px;
-        padding-bottom: 0px;
+    .slick-next.slick-arrow {
+        display: none !important;
     }
-
-    .short-desc {
-        padding: 0 12%;
-    }
-
-    .icon-desc {
-        font-size: 30px;
-    }
-
-    .grid-post {
-        padding: 0 9%;
-        height: 100%;
-    }
-
-    .row-grid {
-        position: inherit;
-        width: 110%;
-        height: 100%;
-    }
-
-    .grid1 {
-        height: 25%;
-        padding: 1%;
-        position: inherit;
-        top: 0%;
-        left: 0%;
-    }
-    
-    .grid2 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid3 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid4 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid5 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid6 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-
-    .titlegrid5 {
-        background-color: #000;
-        height: auto;
-        width: 100%;
-        position: absolute;
-        margin: 0;
-        -ms-transform: rotate(0);
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
-        bottom: 0;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
-
-    .titlegrid4 {
-        background-color: 
-        rgba(255, 255, 255, 0.0);
-        bottom: 25%;
-        height: auto;
-        width: 90%;
-        position: absolute;
-        margin: 0;
-        padding-left: 1.5%;
-        padding-right: 1.5%;
-        -ms-transform: rotate(0);
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
-    }
-    
-    .col-md-6 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .btn.btn-dark-gray.btn-small.text-extra-small.border-radius-4.margin-20px-top.bergabung-1 {
-        margin-right: 20px;
-    }
-
-    section {
-        padding: 25px 0;
-        overflow: hidden;
-    }
-
-    .sm-padding-15px-left {
-        margin-top: 0px !important;
-    }
-
-    .sejak-tahun {
-        width: 100%;
-    }
-
-    .yang-muda {
-        width: 100%;
-    }
-
-    .md-padding-15px-all {
-        padding: 10px !important;
-    }
+   
 }
 
 
@@ -225,132 +126,14 @@ and (max-width: 479px)
 and (-webkit-min-device-pixel-ratio: 1)
  
 and (orientation: portrait) {
-    .mobile-grid-view {
-        display: none;
+    .slick-prev.slick-arrow {
+        display: none !important;
     }
 
-    .mobile-about {
-        display: block;
+    .slick-next.slick-arrow {
+        display: none !important;
     }
-
-    .desktop-about {
-        display: none;
-    }
-
-    .col-auto.pr-lg-0 {
-        margin-top: 3%;
-    }
-
-    section.half-section {
-        padding-top: 85px;
-        padding-bottom: 0px;
-    }
-
-    .short-desc {
-        padding: 0 12%;
-    }
-
-    .icon-desc {
-        font-size: 30px;
-    }
-
-    .grid-post {
-        padding: 0 9%;
-        height: 100%;
-    }
-
-    .row-grid {
-        position: inherit;
-        width: 110%;
-        height: 100%;
-    }
-
-    .grid1 {
-        height: 25%;
-        padding: 1%;
-        position: inherit;
-        top: 0%;
-        left: 0%;
-    }
-    
-    .grid2 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid3 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid4 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid5 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid6 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-
-    .titlegrid5 {
-        background-color: #000;
-        height: auto;
-        width: 100%;
-        position: absolute;
-        margin: 0;
-        -ms-transform: rotate(0);
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
-        bottom: 0;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 2%;
-        padding-bottom: 2%;
-    }
-
-    .titlegrid4 {
-        background-color: 
-        rgba(255, 255, 255, 0.0);
-        bottom: 40%;
-        height: auto;
-        width: 90%;
-        position: absolute;
-        margin: 0;
-        padding-left: 1.5%;
-        padding-right: 1.5%;
-        -ms-transform: rotate(0);
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
-    }
-    
-    .col-md-6 {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    .btn.btn-dark-gray.btn-small.text-extra-small.border-radius-4.margin-20px-top.bergabung-1 {
-        margin-right: 20px;
-    }
-
-    section {
-        padding: 25px 0;
-        overflow: hidden;
-    }
-
-    .sm-padding-15px-left {
-        margin-top: -30px;
-    }
+   
 }
 
 /* ----------- iPhone 6, 6S, 7, 8 and X ----------- */
@@ -364,130 +147,164 @@ and (max-width: 479px)
 and (-webkit-min-device-pixel-ratio: 1)
  
 and (orientation: portrait) {
-    .mobile-grid-view {
-        display: none;
+    .slick-prev.slick-arrow {
+        display: none !important;
     }
 
-    .mobile-about {
-        display: block;
+    .slick-next.slick-arrow {
+        display: none !important;
     }
 
-    .desktop-about {
-        display: none;
+}
+
+/* ----------- Android Tablet ----------- */
+
+/* Potrait */
+
+@media only screen
+ 
+and (min-width: 480px) 
+
+and (max-width: 767px)
+
+and (-webkit-min-device-pixel-ratio: 1)
+ 
+and (orientation: portrait) {
+    .slick-prev.slick-arrow {
+        display: none !important;
     }
 
-    .col-auto.pr-lg-0 {
-        margin-top: 5%;
+    .slick-next.slick-arrow {
+        display: none !important;
     }
 
-    section.half-section {
-        padding-top: 85px;
-        padding-bottom: 0px;
+    .padding-ten-right {
+        padding-right: 0%;
+        padding-left: 0%;
     }
 
-    .short-desc {
-        padding: 0 12%;
+    .description.title-news {
+        font-size: 18px;
     }
 
-    .icon-desc {
-        font-size: 30px;
+    .row.row-berita {
+        padding-bottom: 65px;
     }
 
-    .grid-post {
-        padding: 0 9%;
-        height: 100%;
+    .judul-section {
+        font-size: 25px;
+    }
+}
+
+/* Landscape */
+
+@media only screen
+ 
+and (min-width: 480px) 
+
+and (max-width: 767px)
+
+and (-webkit-min-device-pixel-ratio: 1)
+ 
+and (orientation: Landscape) {
+    .slick-prev.slick-arrow {
+        display: none !important;
     }
 
-    .row-grid {
-        position: inherit;
-        width: 110%;
-        height: 100%;
+    .slick-next.slick-arrow {
+        display: none !important;
     }
 
-    .grid1 {
-        height: 25%;
-        padding: 1%;
-        position: inherit;
-        top: 0%;
-        left: 0%;
-    }
-    
-    .grid2 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid3 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid4 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid5 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
-    }
-    
-    .grid6 {
-        height: 35%;
-        padding: 1%;
-        position: inherit;
+    .padding-ten-right {
+        padding-right: 0%;
+        padding-left: 0%;
     }
 
-    .titlegrid5 {
-        background-color: #000;
-        height: auto;
-        width: 100%;
-        position: absolute;
-        margin: 0;
-        -ms-transform: rotate(0);
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
-        bottom: 0;
-        padding-left: 4%;
-        padding-right: 4%;
-        padding-top: 2%;
-        padding-bottom: 2%;
+    .description.title-news {
+        font-size: 18px;
     }
 
-    .titlegrid4 {
-        background-color: 
-        rgba(255, 255, 255, 0.0);
-        bottom: 60%;
-        height: auto;
-        width: 90%;
-        position: absolute;
-        margin: 0;
-        padding-left: 1.5%;
-        padding-right: 1.5%;
-        -ms-transform: rotate(0);
-        -webkit-transform: rotate(0);
-        transform: rotate(0);
-    }
-    
-    .col-md-6 {
-        padding-left: 15px;
-        padding-right: 15px;
+    .row.row-berita {
+        padding-bottom: 65px;
     }
 
-    .btn.btn-dark-gray.btn-small.text-extra-small.border-radius-4.margin-20px-top.bergabung-1 {
-        margin-right: 20px;
+    .judul-section {
+        font-size: 25px;
+    }
+}
+
+/* ----------- Ipad 3rd & 4th Generation, Air, Mini ----------- */
+ 
+/* Portrait */
+
+@media only screen
+ 
+and (min-width: 768px) 
+
+and (max-width: 1023px)
+
+and (-webkit-min-device-pixel-ratio: 1)
+ 
+and (orientation: portrait) {
+    .slick-prev.slick-arrow {
+        display: none !important;
     }
 
-    section {
-        padding: 25px 0;
-        overflow: hidden;
+    .slick-next.slick-arrow {
+        display: none !important;
     }
 
-    .sm-padding-15px-left {
-        margin-top: 0px;
+    .padding-ten-right {
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .description.title-news {
+        font-size: 18px;
+    }
+
+    .row.row-berita {
+        padding-bottom: 65px;
+    }
+
+    .judul-section {
+        font-size: 25px;
+    }
+}
+
+/* Landscape */
+
+@media only screen
+ 
+and (min-width: 768px) 
+
+and (max-width: 1023px)
+
+and (-webkit-min-device-pixel-ratio: 1)
+ 
+and (orientation: Landscape) {
+    .slick-prev.slick-arrow {
+        display: none !important;
+    }
+
+    .slick-next.slick-arrow {
+        display: none !important;
+    }
+
+    .padding-ten-right {
+        padding-right: 0%;
+        padding-left: 0%;
+    }
+
+    .description.title-news {
+        font-size: 18px;
+    }
+
+    .row.row-berita {
+        padding-bottom: 65px;
+    }
+
+    .judul-section {
+        font-size: 25px;
     }
 }
