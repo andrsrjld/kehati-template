@@ -74,6 +74,18 @@ p.descript-ekositem {
     width: 100%;
     text-align: center;
 }
+.padding-ten-right{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.row-berita img {
+    width: 85%;
+}
+
+.thumnail-berita {
+    text-align: center;
+}
 
 /* ----------- iPhone 5 ----------- */
 @media only screen
