@@ -1,9 +1,9 @@
 @media (min-width:1024px) {
-    .carousel-item.artikel {
+    .swiper-container {
         height: 309px;
     }
     .title-slide.whyforestisimport.artikel {
-        position: absolute;
+        position: inherit;
         top: 47%;
         color: #FFFFFF;
         font-family: PFDinTextCompPro-Regular;
@@ -17,7 +17,7 @@
     }
     ul.nav.nav-tabs.artikel {
         position: absolute;
-        top: 425px;
+        top: 385px;
         width: 100%;
         padding: 0% 26%;
         border: 1px solid #fff;
@@ -60,11 +60,11 @@
 }
 
 @media (min-width:1200px) {
-    .carousel-item.artikel {
+    .swiper-container {
         height: 350px;
     }
     .title-slide.whyforestisimport.artikel {
-        position: absolute;
+        position: inherit;
         top: 47%;
         color: #FFFFFF;
         font-family: PFDinTextCompPro-Regular;
@@ -78,7 +78,7 @@
     }
     ul.nav.nav-tabs.artikel {
         position: absolute;
-        top: 508px;
+        top: 468px;
         width: 100%;
         padding: 0% 26%;
         border: 1px solid #fff;
@@ -121,11 +121,11 @@
 }
 
 @media (min-width:1280px) {
-    .carousel-item.artikel {
+    .swiper-container {
         height: 340px;
     }
     .title-slide.whyforestisimport.artikel {
-        position: absolute;
+        position: inherit;
         top: 47%;
         color: #FFFFFF;
         font-family: PFDinTextCompPro-Regular;
@@ -139,7 +139,7 @@
     }
     ul.nav.nav-tabs.artikel {
         position: absolute;
-        top: 497px;
+        top: 454px;
         width: 100%;
         padding: 0% 26%;
         border: 1px solid #fff;
@@ -182,11 +182,11 @@
 }
 
 @media (min-width:1360px) {
-    .carousel-item.artikel {
+    .swiper-container {
         height: 330px;
     }
     .title-slide.whyforestisimport.artikel {
-        position: absolute;
+        position: inherit;
         top: 47%;
         color: #FFFFFF;
         font-family: PFDinTextCompPro-Regular;
@@ -200,7 +200,7 @@
     }
     ul.nav.nav-tabs.artikel {
         position: absolute;
-        top: 486px;
+        top: 447px;
         width: 100%;
         padding: 0% 26%;
         border: 1px solid #fff;
@@ -243,11 +243,11 @@
 }
 
 @media (min-width:1440px) {
-    .carousel-item.artikel {
+    .swiper-container {
         height: 360px;
     }
     .title-slide.whyforestisimport.artikel {
-        position: absolute;
+        position: inherit;
         top: 47%;
         color: #FFFFFF;
         font-family: PFDinTextCompPro-Regular;
@@ -261,7 +261,7 @@
     }
     ul.nav.nav-tabs.artikel {
         position: absolute;
-        top: 519px;
+        top: 475px;
         width: 100%;
         padding: 0% 26%;
         border: 1px solid #fff;
@@ -304,11 +304,11 @@
 }
 
 @media (min-width:1600px) {
-    .carousel-item.artikel {
+    .swiper-container {
         height: 390px;
     }
     .title-slide.whyforestisimport.artikel {
-        position: absolute;
+        position: inherit;
         top: 47%;
         color: #FFFFFF;
         font-family: PFDinTextCompPro-Regular;
@@ -322,7 +322,7 @@
     }
     ul.nav.nav-tabs.artikel {
         position: absolute;
-        top: 547px;
+        top: 506px;
         width: 100%;
         padding: 0% 26%;
         border: 1px solid #fff;
