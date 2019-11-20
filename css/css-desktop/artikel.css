@@ -1,9 +1,9 @@
 @media (min-width:1024px) {
-    .carousel-item.artikel {
+    .swiper-container {
         height: 309px;
     }
     .title-slide.whyforestisimport.artikel {
-        position: absolute;
+        position: inherit;
         top: 47%;
         color: #FFFFFF;
         font-family: PFDinTextCompPro-Regular;
@@ -17,9 +17,9 @@
     }
     ul.nav.nav-tabs.artikel {
         position: absolute;
-        top: 425px;
+        top: 385px;
         width: 100%;
-        padding: 0% 26%;
+        padding: 0% 15%;
         border: 1px solid #fff;
     }
     a.nav-link.btn.btn-light.btn-bergabung.tab {
@@ -29,7 +29,7 @@
         height: 36px;
         color: #0A0B09;
         font-family: PFDinTextCompPro;
-        font-size: 13px;
+        font-size: 9px;
         font-weight: 500;
         letter-spacing: 0.04px;
         line-height: 19px;
@@ -60,11 +60,11 @@
 }
 
 @media (min-width:1200px) {
-    .carousel-item.artikel {
+    .swiper-container {
         height: 350px;
     }
     .title-slide.whyforestisimport.artikel {
-        position: absolute;
+        position: inherit;
         top: 47%;
         color: #FFFFFF;
         font-family: PFDinTextCompPro-Regular;
@@ -78,9 +78,9 @@
     }
     ul.nav.nav-tabs.artikel {
         position: absolute;
-        top: 508px;
+        top: 468px;
         width: 100%;
-        padding: 0% 26%;
+        padding: 0% 15%;
         border: 1px solid #fff;
     }
     a.nav-link.btn.btn-light.btn-bergabung.tab {
@@ -90,7 +90,7 @@
         height: 36px;
         color: #0A0B09;
         font-family: PFDinTextCompPro;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 500;
         letter-spacing: 0.04px;
         line-height: 19px;
@@ -121,11 +121,11 @@
 }
 
 @media (min-width:1280px) {
-    .carousel-item.artikel {
+    .swiper-container {
         height: 340px;
     }
     .title-slide.whyforestisimport.artikel {
-        position: absolute;
+        position: inherit;
         top: 47%;
         color: #FFFFFF;
         font-family: PFDinTextCompPro-Regular;
@@ -139,15 +139,76 @@
     }
     ul.nav.nav-tabs.artikel {
         position: absolute;
-        top: 497px;
+        top: 454px;
         width: 100%;
-        padding: 0% 26%;
+        padding: 0% 15%;
         border: 1px solid #fff;
     }
     a.nav-link.btn.btn-light.btn-bergabung.tab {
         border: 2px solid #3FA06B;
         border-radius: 10px;
         width: 123px;
+        height: 36px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .description.timenews {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 17px;
+        margin-top: 13px;
+        text-align: left;
+    }
+    .description.title-news.v1 {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 22px;
+        width: 214px;
+        text-align: left;
+        padding: 5px 0;
+        padding-bottom: 23px;
+    }
+}
+
+@media (min-width:1360px) {
+    .swiper-container {
+        height: 330px;
+    }
+    .title-slide.whyforestisimport.artikel {
+        position: inherit;
+        top: 47%;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    ul.nav.nav-tabs.artikel {
+        position: absolute;
+        top: 447px;
+        width: 100%;
+        padding: 0% 15%;
+        border: 1px solid #fff;
+    }
+    a.nav-link.btn.btn-light.btn-bergabung.tab {
+        border: 2px solid #3FA06B;
+        border-radius: 10px;
+        width: 130px;
         height: 36px;
         color: #0A0B09;
         font-family: PFDinTextCompPro;
@@ -181,73 +242,12 @@
     }
 }
 
-@media (min-width:1360px) {
-    .carousel-item.artikel {
-        height: 330px;
-    }
-    .title-slide.whyforestisimport.artikel {
-        position: absolute;
-        top: 47%;
-        color: #FFFFFF;
-        font-family: PFDinTextCompPro-Regular;
-        font-size: 40px;
-        font-weight: 500;
-        letter-spacing: 0.08px;
-        line-height: 46px;
-        width: 100%;
-        text-transform: uppercase;
-        text-align: center;
-    }
-    ul.nav.nav-tabs.artikel {
-        position: absolute;
-        top: 486px;
-        width: 100%;
-        padding: 0% 26%;
-        border: 1px solid #fff;
-    }
-    a.nav-link.btn.btn-light.btn-bergabung.tab {
-        border: 2px solid #3FA06B;
-        border-radius: 10px;
-        width: 130px;
-        height: 36px;
-        color: #0A0B09;
-        font-family: PFDinTextCompPro;
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 0.04px;
-        line-height: 19px;
-        text-align: center;
-    }
-    .description.timenews {
-        color: #B7B7B7;
-        font-family: PFDinTextCompPro;
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 0.03px;
-        line-height: 17px;
-        margin-top: 13px;
-        text-align: left;
-    }
-    .description.title-news.v1 {
-        color: #0A0B09;
-        font-family: PFDinTextCompPro;
-        font-size: 16px;
-        font-weight: 500;
-        letter-spacing: 0.04px;
-        line-height: 22px;
-        width: 214px;
-        text-align: left;
-        padding: 5px 0;
-        padding-bottom: 23px;
-    }
-}
-
 @media (min-width:1440px) {
-    .carousel-item.artikel {
+    .swiper-container {
         height: 360px;
     }
     .title-slide.whyforestisimport.artikel {
-        position: absolute;
+        position: inherit;
         top: 47%;
         color: #FFFFFF;
         font-family: PFDinTextCompPro-Regular;
@@ -261,9 +261,9 @@
     }
     ul.nav.nav-tabs.artikel {
         position: absolute;
-        top: 519px;
+        top: 475px;
         width: 100%;
-        padding: 0% 26%;
+        padding: 0% 15%;
         border: 1px solid #fff;
     }
     a.nav-link.btn.btn-light.btn-bergabung.tab {
@@ -273,7 +273,7 @@
         height: 36px;
         color: #0A0B09;
         font-family: PFDinTextCompPro;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 500;
         letter-spacing: 0.04px;
         line-height: 19px;
@@ -304,11 +304,11 @@
 }
 
 @media (min-width:1600px) {
-    .carousel-item.artikel {
+    .swiper-container {
         height: 390px;
     }
     .title-slide.whyforestisimport.artikel {
-        position: absolute;
+        position: inherit;
         top: 47%;
         color: #FFFFFF;
         font-family: PFDinTextCompPro-Regular;
@@ -322,9 +322,9 @@
     }
     ul.nav.nav-tabs.artikel {
         position: absolute;
-        top: 547px;
+        top: 506px;
         width: 100%;
-        padding: 0% 26%;
+        padding: 0% 15%;
         border: 1px solid #fff;
     }
     a.nav-link.btn.btn-light.btn-bergabung.tab {
@@ -334,7 +334,7 @@
         height: 36px;
         color: #0A0B09;
         font-family: PFDinTextCompPro;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 500;
         letter-spacing: 0.04px;
         line-height: 19px;
