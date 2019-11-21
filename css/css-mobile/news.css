@@ -101,6 +101,10 @@ p.descript-ekositem {
     background-position: center;
 }
 
+ul.nav.nav-tabs.artikel {
+    padding: 3% 15%;
+}
+
 /* ----------- iPhone 5 ----------- */
 @media only screen
  
