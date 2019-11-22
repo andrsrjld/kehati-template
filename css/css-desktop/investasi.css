@@ -5,11 +5,12 @@
         width: 100%;
         margin: 18px 0px;
         padding: 0% 10%;
+        margin-top: -55px;
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
         font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-        font-size: 62px;
+        font-size: 28px;
         color: #FFF;
         text-align: center;
         letter-spacing: .09px;
@@ -60,7 +61,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0);
         font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-        font-size: 26px;
+        font-size: 22px;
         color: rgba(10, 11, 9, 1.0);
         text-align: center;
         letter-spacing: .09px;
@@ -93,7 +94,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0);
         font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
-        font-size: 16.0px;
+        font-size: 12px;
         color: #B7B7B7;
         text-align: center;
         letter-spacing: .04px;
@@ -104,10 +105,20 @@
         text-align: center;
     }
     .descript-insvestasi.v1 {
-        background: #0000;
+        height: auto;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        transform: scale(0.8);
+        padding: 0% 4%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-size: 17px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .04px;
+        line-height: 29.0px;
+        padding-top: 15px;
     }
     .row-investasi {
         margin-top: 26px;
@@ -149,10 +160,20 @@
         text-align: center;
     }
     .descript-insvestasi.v1 {
-        background: #0000;
+        height: auto;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        transform: scale(0.8);
+        padding: 0% 4%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-size: 11px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .04px;
+        line-height: 29.0px;
+        padding-top: 15px;
     }
     .sejak-8 {
         color: #FFFFFF;
@@ -176,11 +197,19 @@
         text-align: center;
     }
     .title-investasi.v1 {
-        margin: 0;
-        padding: 0;
-        position: initial;
-        transform: scale(0.8);
+        height: auto;
         width: 100%;
+        margin: 18px 0px;
+        padding: 0% 10%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-size: 23px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .09px;
+        line-height: 45px;
     }
     .no-repeat {
         background-repeat: no-repeat;
@@ -202,7 +231,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0);
         font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-        font-size: 62px;
+        font-size: 37px;
         color: #FFF;
         text-align: center;
         letter-spacing: .09px;
@@ -253,7 +282,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0);
         font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-        font-size: 26px;
+        font-size: 23px;
         color: rgba(10, 11, 9, 1.0);
         text-align: center;
         letter-spacing: .09px;
@@ -286,7 +315,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0);
         font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
-        font-size: 16.0px;
+        font-size: 14px;
         color: #B7B7B7;
         text-align: center;
         letter-spacing: .04px;
@@ -297,10 +326,20 @@
         text-align: center;
     }
     .descript-insvestasi.v1 {
-        background: #0000;
+        height: auto;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        transform: scale(0.8);
+        padding: 0% 4%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-size: 17px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .04px;
+        line-height: 29.0px;
+        padding-top: 15px;
     }
     .row-investasi {
         margin-top: 26px;
@@ -332,20 +371,38 @@
         text-align: center;
     }
     .title-investasi.v1 {
-        margin: 0;
-        padding: 0;
-        position: initial;
-        transform: scale(0.8);
+        height: auto;
         width: 100%;
+        margin: 18px 0px;
+        padding: 0% 10%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-size: 38px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .09px;
+        line-height: 45px;
     }
     .descript-insvestasi {
         text-align: center;
     }
     .descript-insvestasi.v1 {
-        background: #0000;
+        height: auto;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        transform: scale(0.8);
+        padding: 0% 4%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-size: 13px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .04px;
+        line-height: 29.0px;
+        padding-top: 15px;
     }
     .sejak-8 {
         color: #FFFFFF;
@@ -369,11 +426,19 @@
         text-align: center;
     }
     .title-investasi.v1 {
-        margin: 0;
-        padding: 0;
-        position: initial;
-        transform: scale(0.8);
+        height: auto;
         width: 100%;
+        margin: 18px 0px;
+        padding: 0% 10%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-size: 30px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .09px;
+        line-height: 45px;
     }
     .no-repeat {
         background-repeat: no-repeat;
@@ -395,7 +460,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0);
         font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-        font-size: 62px;
+        font-size: 39px;
         color: #FFF;
         text-align: center;
         letter-spacing: .09px;
@@ -446,7 +511,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0);
         font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-        font-size: 26px;
+        font-size: 24px;
         color: rgba(10, 11, 9, 1.0);
         text-align: center;
         letter-spacing: .09px;
@@ -479,7 +544,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0);
         font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
-        font-size: 16.0px;
+        font-size: 15px;
         color: #B7B7B7;
         text-align: center;
         letter-spacing: .04px;
@@ -490,10 +555,20 @@
         text-align: center;
     }
     .descript-insvestasi.v1 {
-        background: #0000;
+        height: auto;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        transform: scale(0.8);
+        padding: 0% 4%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-size: 17px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .04px;
+        line-height: 29.0px;
+        padding-top: 15px;
     }
     .row-investasi {
         margin-top: 26px;
@@ -525,20 +600,38 @@
         text-align: center;
     }
     .title-investasi.v1 {
-        margin: 0;
-        padding: 0;
-        position: initial;
-        transform: scale(0.8);
+        height: auto;
         width: 100%;
+        margin: 18px 0px;
+        padding: 0% 10%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-size: 38px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .09px;
+        line-height: 45px;
     }
     .descript-insvestasi {
         text-align: center;
     }
     .descript-insvestasi.v1 {
-        background: #0000;
+        height: auto;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        transform: scale(0.8);
+        padding: 0% 4%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .04px;
+        line-height: 29.0px;
+        padding-top: 15px;
     }
     .sejak-8 {
         color: #FFFFFF;
@@ -562,11 +655,19 @@
         text-align: center;
     }
     .title-investasi.v1 {
-        margin: 0;
-        padding: 0;
-        position: initial;
-        transform: scale(0.8);
+        height: auto;
         width: 100%;
+        margin: 18px 0px;
+        padding: 0% 10%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-size: 32px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .09px;
+        line-height: 45px;
     }
     .no-repeat {
         background-repeat: no-repeat;
@@ -588,7 +689,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0);
         font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-        font-size: 62px;
+        font-size: 42px;
         color: #FFF;
         text-align: center;
         letter-spacing: .09px;
@@ -683,10 +784,20 @@
         text-align: center;
     }
     .descript-insvestasi.v1 {
-        background: #0000;
+        height: auto;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        transform: scale(0.8);
+        padding: 0% 4%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-size: 17px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .04px;
+        line-height: 29.0px;
+        padding-top: 15px;
     }
     .row-investasi {
         margin-top: 26px;
@@ -718,20 +829,38 @@
         text-align: center;
     }
     .title-investasi.v1 {
-        margin: 0;
-        padding: 0;
-        position: initial;
-        transform: scale(0.8);
+        height: auto;
         width: 100%;
+        margin: 18px 0px;
+        padding: 0% 10%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-size: 38px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .09px;
+        line-height: 45px;
     }
     .descript-insvestasi {
         text-align: center;
     }
     .descript-insvestasi.v1 {
-        background: #0000;
+        height: auto;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        transform: scale(0.8);
+        padding: 0% 4%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-size: 15px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .04px;
+        line-height: 29.0px;
+        padding-top: 15px;
     }
     .sejak-8 {
         color: #FFFFFF;
@@ -755,11 +884,19 @@
         text-align: center;
     }
     .title-investasi.v1 {
-        margin: 0;
-        padding: 0;
-        position: initial;
-        transform: scale(0.8);
+        height: auto;
         width: 100%;
+        margin: 18px 0px;
+        padding: 0% 10%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-size: 32px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .09px;
+        line-height: 45px;
     }
     .no-repeat {
         background-repeat: no-repeat;
@@ -781,7 +918,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0);
         font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-        font-size: 62px;
+        font-size: 48px;
         color: #FFF;
         text-align: center;
         letter-spacing: .09px;
@@ -876,10 +1013,20 @@
         text-align: center;
     }
     .descript-insvestasi.v1 {
-        background: #0000;
+        height: auto;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        transform: scale(0.8);
+        padding: 0% 4%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-size: 17px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .04px;
+        line-height: 29.0px;
+        padding-top: 15px;
     }
     .row-investasi {
         margin-top: 26px;
@@ -911,20 +1058,38 @@
         text-align: center;
     }
     .title-investasi.v1 {
-        margin: 0;
-        padding: 0;
-        position: initial;
-        transform: scale(0.8);
+        height: auto;
         width: 100%;
+        margin: 18px 0px;
+        padding: 0% 10%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-size: 38px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .09px;
+        line-height: 45px;
     }
     .descript-insvestasi {
         text-align: center;
     }
     .descript-insvestasi.v1 {
-        background: #0000;
+        height: auto;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        transform: scale(0.8);
+        padding: 0% 4%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-size: 15px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .04px;
+        line-height: 29.0px;
+        padding-top: 15px;
     }
     .sejak-8 {
         color: #FFFFFF;
@@ -948,11 +1113,19 @@
         text-align: center;
     }
     .title-investasi.v1 {
-        margin: 0;
-        padding: 0;
-        position: initial;
-        transform: scale(0.8);
+        height: auto;
         width: 100%;
+        margin: 18px 0px;
+        padding: 0% 10%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-size: 32px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .09px;
+        line-height: 45px;
     }
     .no-repeat {
         background-repeat: no-repeat;
@@ -974,7 +1147,7 @@
         -webkit-transform: rotate(0);
         transform: rotate(0);
         font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-        font-size: 62px;
+        font-size: 60px;
         color: #FFF;
         text-align: center;
         letter-spacing: .09px;
@@ -1069,10 +1242,20 @@
         text-align: center;
     }
     .descript-insvestasi.v1 {
-        background: #0000;
+        height: auto;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        transform: scale(0.8);
+        padding: 0% 4%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-size: 17px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .04px;
+        line-height: 29.0px;
+        padding-top: 15px;
     }
     .row-investasi {
         margin-top: 26px;
@@ -1104,20 +1287,38 @@
         text-align: center;
     }
     .title-investasi.v1 {
-        margin: 0;
-        padding: 0;
-        position: initial;
-        transform: scale(0.8);
+        height: auto;
         width: 100%;
+        margin: 18px 0px;
+        padding: 0% 10%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-size: 38px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .09px;
+        line-height: 45px;
     }
     .descript-insvestasi {
         text-align: center;
     }
     .descript-insvestasi.v1 {
-        background: #0000;
+        height: auto;
+        width: 100%;
         margin: 0;
-        padding: 0;
-        transform: scale(0.8);
+        padding: 0% 4%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-size: 17px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .04px;
+        line-height: 29.0px;
+        padding-top: 15px;
     }
     .sejak-8 {
         color: #FFFFFF;
@@ -1141,11 +1342,19 @@
         text-align: center;
     }
     .title-investasi.v1 {
-        margin: 0;
-        padding: 0;
-        position: initial;
-        transform: scale(0.8);
+        height: auto;
         width: 100%;
+        margin: 18px 0px;
+        padding: 0% 10%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-size: 38px;
+        color: #fff;
+        text-align: center;
+        letter-spacing: .09px;
+        line-height: 45px;
     }
     .no-repeat {
         background-repeat: no-repeat;
