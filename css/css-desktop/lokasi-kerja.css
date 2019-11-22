@@ -1,0 +1,524 @@
+.desktop-view{
+    display: block !important;
+}
+
+.mobile-view {
+    display: none;
+}
+
+@media (min-width:1024px) {
+    .cover-location {
+        width: 40px;
+    }
+
+    .row-pagination {
+        padding: 0% 0%;
+    }
+
+    .col.labelfooter.col-pagination {
+        padding: 5% 5%;
+    }
+}
+
+@media (min-width:1200px) {
+    h1.text-white-2.alt-font.font-weight-600.letter-spacing-minus-1.margin-min90px-bottom.program-kehati {
+        margin-top: 0%;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 35px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        width: 100%;
+        text-align: center;
+    }
+    section.wow.fadeIn.parallax {
+        height: 334px;
+    }
+    .row.align-items-center {
+        padding: 0% 9%;
+        margin-top: -15px;
+    }
+    p.text-large.bergabung {
+        color: #3FA06B;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 14px;
+        text-align: left;
+    }
+    p.yang-muda {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 21px;
+        font-weight: 600;
+        letter-spacing: 0.05px;
+        line-height: 27px;
+        width: 75%;
+        text-align: left;
+    }
+    p.sejak-tahun {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 10px;
+        font-weight: 400;
+        letter-spacing: 0.03px;
+        line-height: 23px;
+        width: 75%;
+        text-align: left;
+        padding-top: 9px;
+    }
+    img.padding-ten-right.md-no-padding-right.w-100 {
+        margin-top: 12px;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 23px;
+        font-weight: 600;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 23px;
+        font-weight: 400;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .desc-title {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 33px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        text-align: center;
+    }
+    section.wow.fadeIn.bg-light-gray.v1 {
+        margin-top: -44px;
+    }
+    section.wow.fadeIn.v12 {
+        margin-top: -57px;
+    }
+    .descript-nilainilaidasar {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Regular;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        line-height: 29px;
+        width: 100%;
+        text-align: justify;
+        padding: 30px 15%;
+    }
+}
+
+@media (min-width:1280px) {
+    h1.text-white-2.alt-font.font-weight-600.letter-spacing-minus-1.margin-min90px-bottom.program-kehati {
+        margin-top: 6%;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 36px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        width: 100%;
+        text-align: center;
+    }
+    section.wow.fadeIn.parallax {
+        height: 381px;
+    }
+    .row.align-items-center {
+        padding: 0% 9%;
+        margin-top: -22px;
+    }
+    p.text-large.bergabung {
+        color: #3FA06B;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 14px;
+        text-align: left;
+    }
+    p.yang-muda {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 22px;
+        font-weight: 600;
+        letter-spacing: 0.05px;
+        line-height: 27px;
+        width: 75%;
+        text-align: left;
+    }
+    p.sejak-tahun {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 11px;
+        font-weight: 400;
+        letter-spacing: 0.03px;
+        line-height: 23px;
+        width: 75%;
+        text-align: left;
+        padding-top: 7px;
+    }
+    img.padding-ten-right.md-no-padding-right.w-100 {
+        margin-top: 12px;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .desc-title {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        text-align: center;
+    }
+    section.wow.fadeIn.bg-light-gray.v1 {
+        margin-top: -48px;
+    }
+    section.wow.fadeIn.v12 {
+        margin-top: -57px;
+    }
+    .descript-nilainilaidasar {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Regular;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        line-height: 29px;
+        width: 100%;
+        text-align: justify;
+        padding: 30px 15%;
+    }
+}
+
+@media (min-width:1360px) {
+    h1.text-white-2.alt-font.font-weight-600.letter-spacing-minus-1.margin-min90px-bottom.program-kehati {
+        margin-top: 11%;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 38px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        width: 100%;
+        text-align: center;
+    }
+    section.wow.fadeIn.parallax {
+        height: 402px;
+    }
+    .row.align-items-center {
+        padding: 0% 9%;
+        margin-top: -32px;
+    }
+    p.text-large.bergabung {
+        color: #3FA06B;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 14px;
+        text-align: left;
+    }
+    p.yang-muda {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 23px;
+        font-weight: 600;
+        letter-spacing: 0.05px;
+        line-height: 27px;
+        width: 75%;
+        text-align: left;
+    }
+    p.sejak-tahun {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 11px;
+        font-weight: 400;
+        letter-spacing: 0.03px;
+        line-height: 23px;
+        width: 75%;
+        text-align: left;
+        padding-top: 3px;
+    }
+    img.padding-ten-right.md-no-padding-right.w-100 {
+        margin-top: -4px;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 25px;
+        font-weight: 600;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 25px;
+        font-weight: 400;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .desc-title {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 35px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        text-align: center;
+    }
+    section.wow.fadeIn.bg-light-gray.v1 {
+        margin-top: -52px;
+    }
+    section.wow.fadeIn.v12 {
+        margin-top: -57px;
+    }
+    .descript-nilainilaidasar {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Regular;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        line-height: 29px;
+        width: 100%;
+        text-align: justify;
+        padding: 30px 15%;
+    }
+}
+
+@media (min-width:1440px) {
+    h1.text-white-2.alt-font.font-weight-600.letter-spacing-minus-1.margin-min90px-bottom.program-kehati {
+        margin-top: 13%;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        width: 100%;
+        text-align: center;
+    }
+    section.wow.fadeIn.parallax {
+        height: 429px;
+    }
+    .row.align-items-center {
+        padding: 0% 9%;
+        margin-top: -28px;
+    }
+    p.text-large.bergabung {
+        color: #3FA06B;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 14px;
+        text-align: left;
+    }
+    p.yang-muda {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 0.05px;
+        line-height: 27px;
+        width: 75%;
+        text-align: left;
+    }
+    p.sejak-tahun {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.03px;
+        line-height: 23px;
+        width: 75%;
+        text-align: left;
+        padding-top: 5px;
+    }
+    img.padding-ten-right.md-no-padding-right.w-100 {
+        margin-top: 122px;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 27px;
+        font-weight: 600;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 27px;
+        font-weight: 400;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .desc-title {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 37px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        text-align: center;
+    }
+    section.wow.fadeIn.bg-light-gray.v1 {
+        margin-top: -50px;
+    }
+    section.wow.fadeIn.v12 {
+        margin-top: -57px;
+    }
+    .descript-nilainilaidasar {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Regular;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        line-height: 29px;
+        width: 100%;
+        text-align: justify;
+        padding: 30px 15%;
+    }
+}
+
+@media (min-width:1600px) {
+    h1.text-white-2.alt-font.font-weight-600.letter-spacing-minus-1.margin-min90px-bottom.program-kehati {
+        margin-top: 12%;
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 42px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        width: 100%;
+        text-align: center;
+    }
+    section.wow.fadeIn.parallax {
+        height: 445px;
+    }
+    .row.align-items-center {
+        padding: 0% 9%;
+        margin-top: -23px;
+    }
+    p.text-large.bergabung {
+        color: #3FA06B;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 14px;
+        text-align: left;
+    }
+    p.yang-muda {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 27px;
+        font-weight: 600;
+        letter-spacing: 0.05px;
+        line-height: 27px;
+        width: 75%;
+        text-align: left;
+    }
+    p.sejak-tahun {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Medium;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.03px;
+        line-height: 23px;
+        width: 75%;
+        text-align: left;
+        padding-top: 26px;
+    }
+    img.padding-ten-right.md-no-padding-right.w-100 {
+        margin-top: 122px;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 28px;
+        font-weight: 600;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .descript-ekositem {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Regular;
+        font-size: 28px;
+        font-weight: 400;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .desc-title {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 38px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        text-align: center;
+    }
+    section.wow.fadeIn.bg-light-gray.v1 {
+        margin-top: -79px;
+    }
+    section.wow.fadeIn.v12 {
+        margin-top: -57px;
+    }
+    .descript-nilainilaidasar {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro-Regular;
+        font-weight: 400;
+        letter-spacing: 0.3px;
+        line-height: 29px;
+        width: 100%;
+        text-align: justify;
+        padding: 30px 15%;
+    }
+}
+
+section.wow.fadeIn.parallax.mobile-view {
+    display: none;
+}
+
+span.btn.btn-dark-gray-unduh.selengkapnya.read-more {
+    display: none;
+}
