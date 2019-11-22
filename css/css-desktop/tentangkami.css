@@ -404,7 +404,7 @@
 
 @media (min-width:1440px) {
     h1.text-white-2.alt-font.font-weight-600.letter-spacing-minus-1.margin-min90px-bottom.program-kehati {
-        margin-top: 21%;
+        margin-top: 13%;
         color: #FFFFFF;
         font-family: PFDinTextCompPro-Medium;
         font-size: 40px;
@@ -503,7 +503,7 @@
 
 @media (min-width:1600px) {
     h1.text-white-2.alt-font.font-weight-600.letter-spacing-minus-1.margin-min90px-bottom.program-kehati {
-        margin-top: 21%;
+        margin-top: 12%;
         color: #FFFFFF;
         font-family: PFDinTextCompPro-Medium;
         font-size: 42px;
@@ -598,4 +598,12 @@
         text-align: justify;
         padding: 30px 15%;
     }
+}
+
+section.wow.fadeIn.parallax.mobile-view {
+    display: none;
+}
+
+span.btn.btn-dark-gray-unduh.selengkapnya.read-more {
+    display: none;
 }
