@@ -250,6 +250,10 @@ header.sticky nav.header-light .header-social-icon {
     text-transform: capitalize;
 }
 
+.dropdown-menu.animated.fadeOut {
+    left: 15%;
+}
+
 header.header-appear nav.bootsnav.header-light-transparent .navbar-nav>li.dropdown.on>a,
 header.header-appear nav.bootsnav.header-light .navbar-nav>li.dropdown.on>a,
 header nav.navbar .navbar-nav>li.dropdown.on>a,
@@ -258,9 +262,8 @@ nav.navbar.bootsnav ul.nav>li.dropdown.on>a {
 }
 
 nav.navbar.navbar-default ul li.dropdown .dropdown-menu li>a:hover {
-    color: #000;
+    color: #3FA06B;
     background: transparent;
-    border-bottom: 4px solid #3FA06B;
 }
 
 nav.navbar.navbar-default ul li.dropdown .dropdown-menu li>a:hover+.btn-switch:before {
