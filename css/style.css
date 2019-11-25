@@ -18171,3 +18171,14 @@ aside .latest-post li figure {
 .thumnail-berita img {
     transform: scale(1.2);
 }
+
+.thumnail-berita-ekosistem{
+    height: 200px;
+}
+
+.thumnail-berita-tentangkami{
+    height: 250px;
+}
+.thumnail-berita-tentangkami img {
+    transform: scale(1);
+}
