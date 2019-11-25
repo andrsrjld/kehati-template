@@ -1,95 +1,3 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td {
-    border: 0;
-    font: inherit;
-    font-size: 100%;
-    margin: 0;
-    padding: 0;
-    vertical-align: baseline
-}
-
-ol,
-ul {
-    list-style: none
-}
-
-blockquote,
-q {
-    quotes: none
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-    content: '';
-    content: none
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0
-}
-
 @font-face {
     font-family: "OpenSansLight";
     font-style: normal;
@@ -768,11 +676,6 @@ td {
 .block {
     display: block
 }
-
-.icon-link:hover {
-    text-decoration: none
-}
-
 .row .span1,
 .row .span2,
 .row .span3,
@@ -9115,3 +9018,105 @@ p {
 .col-3 {
     padding-right: 0px !important;
 }
+
+
+
+/*----------------------------------------------------------------------
+Page loader CSS BY HighHay
+
+USAGE:
+------
+- Add this as an external CSS file and put it before other css links inside
+html file
+- Add the following tag inside HTML file :
+<div class='page-loader'>
+    <div><i class='fa fa-spinner  fa-spin'></i><p>loading</p></div>
+</div>
+------------------------------------------------------------------------*/
+.page-loader {
+    position: fixed;
+    z-index: 200;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #8b8b8b;
+    background: #ffffff;
+    display: block;
+  }
+  
+  .page-loader .fa {
+    font-size: 2.5rem;
+  }
+  
+  .page-loader,
+  .page-loader.visible {
+    transition: 0.6s;
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .page-loader.p-hidden {
+    visibility: hidden;
+    opacity: 0;
+  }
+  
+  .page-loader div {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    display: block;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .page-loader div .icon {
+    position: absolute;
+    display: inline-block;
+    margin-left: -40px;
+    margin-top: -40px;
+    left: 50%;
+    width: 80px;
+    height: 80px;
+    content: "";
+    background: transparent;
+    border-radius: 100px;
+    border: 2px solid currentColor;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+  }
+  
+  .page-loader div p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: currentColor;
+    letter-spacing: 1em;
+    padding-left: 1em;
+    text-transform: uppercase;
+    /*			font-family: ;*/
+    font-family: 'Montserrat', 'Roboto', 'Helvetica', sans-serif;
+    font-weight: bold;
+  }
+  
+  #loading {
+    -webkit-animation: rotation 2s infinite linear;
+    width: 10%;
+  }
+  
+  @-webkit-keyframes rotation {
+    from {
+      -webkit-transform: rotate(0deg);
+    }
+  
+    to {
+      -webkit-transform: rotate(359deg);
+    }
+  }
+
+  .left {
+      left : 50% !important; 
+  }
