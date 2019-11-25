@@ -9223,42 +9223,6 @@ footer .small-icon li {
     font-weight: 500
 }
 
-@-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-o-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
 .mfp-figure {
     -webkit-animation-name: fadeIn;
     -moz-animation-name: fadeIn;
@@ -18191,3 +18155,9 @@ aside .latest-post li figure {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 9999
 } */
+
+
+.buy-theme,
+.all-demo {
+    display: none !important;
+}

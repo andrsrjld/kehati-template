@@ -2511,3 +2511,14 @@ $(document).on('load', function() {
 
     fullScreenHeight();
 });
+
+
+$(document).on('ready', function () {
+    // 7. Page Loader : hide loader when all are loaded
+	contextWindow.on('load', function () {
+		$('#page-loader').addClass('p-hidden');
+		$('.section').addClass('anim');
+		$('.scrollpage-container .section-home').addClass('active');
+		siteHeaderFooter.removeClass('loading-anim');
+	});
+});

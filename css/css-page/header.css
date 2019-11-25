@@ -255,7 +255,6 @@ header.header-appear nav.bootsnav.header-light .navbar-nav>li.dropdown.on>a,
 header nav.navbar .navbar-nav>li.dropdown.on>a,
 nav.navbar.bootsnav ul.nav>li.dropdown.on>a {
     color: #3FA06B;
-    border-bottom: 4px solid #3FA06B;
 }
 
 nav.navbar.navbar-default ul li.dropdown .dropdown-menu li>a:hover {
@@ -272,7 +271,7 @@ header.header-appear nav.bootsnav.header-light-transparent .navbar-nav>li>a.acti
 header.header-appear nav.bootsnav.header-light .navbar-nav>li>a.active,
 header nav.navbar .navbar-nav>li>a.active,
 nav.navbar.bootsnav ul.nav>li>a.active {
-    color: #3FA06B;
+    color: #000;
 }
 
 @media (min-width:300px) {
