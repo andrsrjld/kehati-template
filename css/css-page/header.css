@@ -235,14 +235,14 @@ header.sticky nav.header-light .header-social-icon {
 }
 
 .simple-dropdown .dropdown-menu>li a {
-    padding: 9px 0 7px;
+    padding: 0px 0 7px;
     overflow: hidden;
     position: relative;
     left: 0;
     display: block;
     color: #0A0B09;
     font-family: PFDinTextCompPro-Regular;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     letter-spacing: 1.14px;
     line-height: 24px;
