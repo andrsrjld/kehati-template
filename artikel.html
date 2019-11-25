@@ -5,7 +5,7 @@
 
 <head>
     <!-- title -->
-    <title>KEHATI</title>
+    <title>POFO – Creative Agency, Corporate and Portfolio Multi-purpose Template</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
@@ -60,17 +60,15 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css'>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="css/pageloader.css">
+
+    <!--[if IE]>
+            <script src="js/html5shiv.js"></script>
+        <![endif]-->
 </head>
 
 <body>
     <div class="box-layout">
-        <div class="page-loader" id="page-loader">
-            <div>
-                <div class="" id="loading"></div>
-                <img id="loading" src="img/kehati-svg.svg">
-            </div>
-        </div>
+        <!-- start header -->
         <!-- start header -->
         <header>
             <!-- start navigation -->
@@ -172,17 +170,46 @@
             <!-- end navigation -->
         </header>
 
+        <!-- start slider tab -->
+        <ul class="nav nav-tabs artikel" role="tabs-list">
+            <li class="nav-item">
+                <a class="nav-link btn btn-light btn-bergabung tab active tabs-link js-tabs-link" href="#semua"
+                    role="tab" data-toggle="tab">Semua</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-light btn-bergabung tab tabs-link js-tabs-link" href="#kehutanan" role="tab"
+                    data-toggle="tab">Ekosistem Kehutanan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-light btn-bergabung tab tabs-link js-tabs-link" href="#pertanian" role="tab"
+                    data-toggle="tab">Ekosistem Pertanian</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-light btn-bergabung tab tabs-link js-tabs-link" href="#kelautan" role="tab"
+                    data-toggle="tab">Ekosistem Kelautan</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-light btn-bergabung tab tabs-link js-tabs-link" href="#kampanye" role="tab"
+                    data-toggle="tab">Pendidikan Kampanye</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-light btn-bergabung tab tabs-link js-tabs-link" href="#indeks" role="tab"
+                    data-toggle="tab">Indeks</a>
+            </li>
+        </ul>
+        <!-- end slider tab -->
+
         <div class="tabs-content">
             <!-- start slider with row -->
             <div id="semua" class="tabs-item js-tabs-item">
                 <div class="js-semua">
 
-                    <div role="tabpanel" class="tab-pane fade active show " id="slidesemua">
+                    <div role="tabpanel" class="tab-pane fade active show" id="slidesemua">
                         <div class="container-fluid">
                             <div class="swiper-full-screen swiper-container width-100">
                                 <div class="swiper-wrapper">
                                     <!-- start slider item -->
-                                    <div class="swiper-slide cover-background swiper-container"
+                                    <div class="swiper-slide cover-background"
                                         style="background-image:url(img/slide-semua.png)">
                                         <div class="bg-extra-dark-gray"></div>
                                         <div class="container  one-fourth-screen sm-height-400px">
@@ -973,45 +1000,20 @@
             </div>
             <!-- end slider with row -->
 
-            <!-- start slider tab -->
-            <ul class="nav nav-tabs artikel" role="tabs-list">
-                <li class="nav-item">
-                    <a class="nav-link btn btn-light btn-bergabung tab active tabs-link js-tabs-link" href="#semua"
-                        role="tab" data-toggle="tab">Semua</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-light btn-bergabung tab tabs-link js-tabs-link" href="#kehutanan"
-                        role="tab" data-toggle="tab">Ekosistem Kehutanan</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-light btn-bergabung tab tabs-link js-tabs-link" href="#pertanian"
-                        role="tab" data-toggle="tab">Ekosistem Pertanian</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-light btn-bergabung tab tabs-link js-tabs-link" href="#kelautan"
-                        role="tab" data-toggle="tab">Ekosistem Kelautan</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-light btn-bergabung tab tabs-link js-tabs-link" href="#kampanye"
-                        role="tab" data-toggle="tab">Pendidikan Kampanye</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn btn-light btn-bergabung tab tabs-link js-tabs-link" href="#indeks" role="tab"
-                        data-toggle="tab">Indeks</a>
-                </li>
-            </ul>
-            <!-- end slider tab -->
+
         </div>
-        <nav class="pagination-artikel" aria-label="Page navigation example">
-            <ul class="pagination">
-                <li class="page-item artikel v1"><a class="page-link description pagination " href="#">Previous</a></li>
-                <li class="page-item artikel"><a class="page-link description pagination " href="#">1</a></li>
-                <li class="page-item artikel"><a class="page-link description pagination " href="#">2</a></li>
-                <li class="page-item artikel"><a class="page-link description pagination " href="#">3</a></li>
-                <li class="page-item artikel v1"><a class="page-link description pagination " href="#">Next</a></li>
-            </ul>
-        </nav>
+
     </div>
+
+    <nav class="pagination-artikel" aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item artikel v1"><a class="page-link description pagination " href="#">Previous</a></li>
+            <li class="page-item artikel"><a class="page-link description pagination " href="#">1</a></li>
+            <li class="page-item artikel"><a class="page-link description pagination " href="#">2</a></li>
+            <li class="page-item artikel"><a class="page-link description pagination " href="#">3</a></li>
+            <li class="page-item artikel v1"><a class="page-link description pagination " href="#">Next</a></li>
+        </ul>
+    </nav>
 
     <!-- start footer -->
     <footer class="footer-classic-dark bg-extra-dark-gray padding-five-bottom sm-padding-30px-bottom">
@@ -1021,12 +1023,12 @@
                     <!-- start about -->
                     <div
                         class="col-lg-4 col-md-6 widget md-margin-30px-bottom text-center text-md-left last-paragraph-no-margin">
-                        <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 yayasan-kehati">
+                        <div class="logo-kehati"><img src="img/00-00-logo-kehati-1@2x.png" alt=""></div>
+                        <div
+                            class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 yayasan-kehati">
                             Yayasan KEHATI</div>
-                        <p class="text-small width-95 sm-width-100 alamat">Yayasan KEHATI merupakan lembaga nirlaba yang
-                            mengemban amanat untuk menghimpun, mengelola, dan menyalurkan dana hibah bagi pelestarian
-                            dan pemanfaatan keanekaragaman hayati di Indonesia secara berkelanjutan untuk kesejahteraan
-                            masyarakat Indonesia.</p>
+                        <p class="text-small width-95 sm-width-100 alamat">Jl. Bangka VIII No.3B, RT.1/RW.12, Pela
+                            Mampang, Kec. Mampang Prpt., Kota Jakarta Selatan, DKI Jakarta 12720</p>
                         <div class="widget-title alt-font text-small text-medium-gray font-weight-600 social-media">
                             Social Media
                             <a href="#"><img class="img-sos" src="img/00-00-ic-medsoc-twitter@2x.png" alt=""></a>
@@ -1038,23 +1040,23 @@
                     <!-- end about -->
                     <!-- start blog post -->
                     <!-- <div class="col-lg-2 col-md-6 col-6 widget md-margin-30px-bottom">
-                            <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
-                                Program</div>
-                            <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
-                                Kemitraan</div>
-                            <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
-                                Publikasi</div>
-                            <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
-                                Lokasi Kerja</div>
-                        </div> -->
+                        <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
+                            Program</div>
+                        <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
+                            Kemitraan</div>
+                        <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
+                            Publikasi</div>
+                        <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
+                            Lokasi Kerja</div>
+                    </div> -->
                     <!-- end blog post -->
                     <!-- start newsletter -->
                     <!-- <div class="col-lg-2 col-md-6 col-6 widget md-margin-30px-bottom text-center text-md-left">
-                            <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 program">
-                                Tentang Kami</div>
-                            <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 program">
-                                Galeri</div>
-                        </div> -->
+                        <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 program">
+                            Tentang Kami</div>
+                        <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 program">
+                            Galeri</div>
+                    </div> -->
                     <!-- end newsletter -->
 
                     <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
@@ -1153,20 +1155,30 @@
     <script type="text/javascript" src="js/instafeed.min.js"></script>
     <!-- retina -->
     <script type="text/javascript" src="js/retina.min.js"></script>
+    <!-- revolution -->
     <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
     <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
     <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-   <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-   <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-   <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-   <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-   <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-   <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-   <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-   <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
     <!-- setting -->
     <script type="text/javascript" src="js/main.js"></script>
+    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script>
+    <script src="js/script.js"></script>
+
+
+
+
 </body>
+
+<!-- Mirrored from www.themezaa.com/html/pofo/home-creative-branding-agency.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Nov 2019 09:55:25 GMT -->
 
 </html>
