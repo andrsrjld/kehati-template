@@ -115,7 +115,7 @@ h1,
 .homepage-hero-wrapper .hdr,
 .hero h1,
 .hero .magazine-toc-indepth {
-    font: 52px/1.1 OpenSansRegular !important;
+    font-family: 52px/1.1 OpenSansRegular !important;
     margin-bottom: 15px;
     font-weight: bold
 }
