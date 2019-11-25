@@ -2514,6 +2514,11 @@ $(document).on('load', function() {
 
 
 $(document).on('ready', function () {
+    // variables
+	var contextWindow = $(window);
+	var $root = $('html');
+    var siteHeaderFooter = $('.page-footer, .page-header, .page-cover');
+    
     // 7. Page Loader : hide loader when all are loaded
 	contextWindow.on('load', function () {
 		$('#page-loader').addClass('p-hidden');
