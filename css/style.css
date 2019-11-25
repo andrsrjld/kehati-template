@@ -10387,8 +10387,8 @@ nav.navbar.bootsnav.menu-center ul.nav.navbar-center {
 }
 
 nav.navbar.bootsnav .simple-dropdown .dropdown-menu>li {
-    padding-left: 28px;
-    padding-right: 28px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .simple-dropdown .dropdown-menu>li>a {
