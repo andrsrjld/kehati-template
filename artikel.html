@@ -61,12 +61,16 @@
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css'>
     <link rel="stylesheet" href="./style.css">
 
-    <!--[if IE]>
-            <script src="js/html5shiv.js"></script>
-        <![endif]-->
+    <link rel="stylesheet" href="css/pageloader.css">
 </head>
 
 <body>
+    <div class="page-loader" id="page-loader">
+        <div>
+            <div class="" id="loading"></div>
+            <img id="loading" src="img/kehati-svg.svg">
+        </div>
+    </div>
     <div class="box-layout">
         <!-- start header -->
         <!-- start header -->
@@ -1023,12 +1027,13 @@
                     <!-- start about -->
                     <div
                         class="col-lg-4 col-md-6 widget md-margin-30px-bottom text-center text-md-left last-paragraph-no-margin">
-                        <div class="logo-kehati"><img src="img/00-00-logo-kehati-1@2x.png" alt=""></div>
                         <div
                             class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 yayasan-kehati">
                             Yayasan KEHATI</div>
-                        <p class="text-small width-95 sm-width-100 alamat">Jl. Bangka VIII No.3B, RT.1/RW.12, Pela
-                            Mampang, Kec. Mampang Prpt., Kota Jakarta Selatan, DKI Jakarta 12720</p>
+                        <p class="text-small width-95 sm-width-100 alamat">Yayasan KEHATI merupakan lembaga nirlaba yang
+                            mengemban amanat untuk menghimpun, mengelola, dan menyalurkan dana hibah bagi pelestarian
+                            dan pemanfaatan keanekaragaman hayati di Indonesia secara berkelanjutan untuk kesejahteraan
+                            masyarakat Indonesia.</p>
                         <div class="widget-title alt-font text-small text-medium-gray font-weight-600 social-media">
                             Social Media
                             <a href="#"><img class="img-sos" src="img/00-00-ic-medsoc-twitter@2x.png" alt=""></a>
@@ -1037,27 +1042,6 @@
                             <a href="#"><img class="img-sos" src="img/00-00-ic-medsoc-youtube@2x.png" alt=""></a>
                         </div>
                     </div>
-                    <!-- end about -->
-                    <!-- start blog post -->
-                    <!-- <div class="col-lg-2 col-md-6 col-6 widget md-margin-30px-bottom">
-                        <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
-                            Program</div>
-                        <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
-                            Kemitraan</div>
-                        <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
-                            Publikasi</div>
-                        <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
-                            Lokasi Kerja</div>
-                    </div> -->
-                    <!-- end blog post -->
-                    <!-- start newsletter -->
-                    <!-- <div class="col-lg-2 col-md-6 col-6 widget md-margin-30px-bottom text-center text-md-left">
-                        <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 program">
-                            Tentang Kami</div>
-                        <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 program">
-                            Galeri</div>
-                    </div> -->
-                    <!-- end newsletter -->
 
                     <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
                         <div class="row row-menufooter">
@@ -1158,24 +1142,11 @@
     <!-- revolution -->
     <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
     <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-    <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
-    <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
     <!-- setting -->
     <script type="text/javascript" src="js/main.js"></script>
-    <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
     <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script>
     <script src="js/script.js"></script>
-
-
-
 
 </body>
 

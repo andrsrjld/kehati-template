@@ -201,6 +201,7 @@ header.sticky nav.header-light .logo .logo-dark {
 
 nav.navbar.navbar-default.bootsnav.background-white.header-light.navbar-expand-lg.on.no-full {
     position: fixed;
+    z-index: 100;
 }
 
 header.header-appear nav.header-light-transparent .header-searchbar,
