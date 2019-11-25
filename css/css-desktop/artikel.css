@@ -82,6 +82,7 @@
         width: 100%;
         padding: 0% 15%;
         border: 1px solid #fff;
+        z-index: 99;
     }
     a.nav-link.btn.btn-light.btn-bergabung.tab {
         border: 2px solid #3FA06B;
@@ -143,6 +144,7 @@
         width: 100%;
         padding: 0% 15%;
         border: 1px solid #fff;
+        z-index: 99;
     }
     a.nav-link.btn.btn-light.btn-bergabung.tab {
         border: 2px solid #3FA06B;
@@ -204,6 +206,7 @@
         width: 100%;
         padding: 0% 15%;
         border: 1px solid #fff;
+        z-index: 99;
     }
     a.nav-link.btn.btn-light.btn-bergabung.tab {
         border: 2px solid #3FA06B;
@@ -265,6 +268,7 @@
         width: 100%;
         padding: 0% 15%;
         border: 1px solid #fff;
+        z-index: 99;
     }
     a.nav-link.btn.btn-light.btn-bergabung.tab {
         border: 2px solid #3FA06B;
@@ -326,6 +330,7 @@
         width: 100%;
         padding: 0% 15%;
         border: 1px solid #fff;
+        z-index: 99;
     }
     a.nav-link.btn.btn-light.btn-bergabung.tab {
         border: 2px solid #3FA06B;
