@@ -9224,11 +9224,11 @@ footer .small-icon li {
 }
 
 .mfp-figure {
-    -webkit-animation-name: fadeIn;
-    -moz-animation-name: fadeIn;
-    -o-animation-name: fadeIn;
-    -ms-animation-name: fadeIn;
-    animation-name: fadeIn;
+    -webkit-animation-name: ;
+    -moz-animation-name: ;
+    -o-animation-name: ;
+    -ms-animation-name: ;
+    animation-name: ;
     -webkit-animation-duration: .4s;
     -moz-animation-duration: .4s;
     -ms-animation-duration: .4s;
@@ -18160,4 +18160,14 @@ aside .latest-post li figure {
 .buy-theme,
 .all-demo {
     display: none !important;
+}
+
+.thumnail-berita {
+    width: 100%;
+    height: 155px;
+    overflow: hidden;
+    border-radius: 11px;
+}
+.thumnail-berita img {
+    transform: scale(1.2);
 }
