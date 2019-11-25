@@ -18182,3 +18182,8 @@ aside .latest-post li figure {
 .thumnail-berita-tentangkami img {
     transform: scale(1);
 }
+
+.position-relative-margin-top-50 {
+    position: relative !important;
+    margin-top: 50px;
+}

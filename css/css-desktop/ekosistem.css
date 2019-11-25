@@ -465,3 +465,29 @@
         text-align: left;
     }
 }
+
+.thumnail-berita {
+    width: 100%;
+    height: 155px;
+    overflow: hidden;
+    border-radius: 11px;
+}
+.thumnail-berita img {
+    transform: scale(1.2);
+}
+
+.thumnail-berita-ekosistem{
+    height: 200px;
+}
+
+.thumnail-berita-tentangkami{
+    height: 250px;
+}
+.thumnail-berita-tentangkami img {
+    transform: scale(1);
+}
+
+.position-relative-margin-top-50 {
+    position: relative !important;
+    margin-top: 50px;
+}

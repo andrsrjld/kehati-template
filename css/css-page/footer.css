@@ -109,6 +109,10 @@
     background-color: #FFFFFF;
 }
 
+.bg-extra-dark-black {
+    background-color: #333333;
+}
+
 .img-sos {
     width: 15px;
     margin-left: 13px;
