@@ -206,6 +206,7 @@
     }
     .crop-img img {
         width: 100%;
+        height: max-content;
     }
     .crop-img:hover img {
         transform: scale(1.1);
@@ -2158,4 +2159,9 @@
 p.desc {
     width: 100%;
     padding: 0 10%;
+}
+
+.crop-img img {
+    width: 100%;
+    height: 100% !important;
 }
