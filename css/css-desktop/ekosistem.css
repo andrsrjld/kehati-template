@@ -465,6 +465,11 @@
         text-align: left;
     }
 }
+.swiper-container {
+
+    height: 666px;
+
+}
 
 .thumnail-berita {
     width: 100%;
