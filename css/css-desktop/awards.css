@@ -1,0 +1,33 @@
+.btn.btn-medium{
+    width: 100%;
+    color: #3FA06B;
+    padding: 10px 25px 10px;
+}
+.btn.btn-transparent-black:hover, .btn.btn-transparent-black:focus{
+  width: 100%;
+  background:#3FA06B;
+  border-color:#3FA06B;
+  color:#ffffff;
+  font-family: PFDinTextCompPro-Regular !important;
+  font-size: 15px;
+}
+
+.btn.btn-transparent-black{
+    border-color: #3FA06B;
+    color: #3FA06B;
+    font-family: PFDinTextCompPro-Regular !important;
+    font-size: 15px;
+}
+
+.descript-nilainilaidasar {
+    color: 
+    #B7B7B7;
+    font-family: PFDinTextCompPro-Regular;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 29px;
+    width: 100%;
+    text-align: justify;
+    padding: 30px 15%;
+}
