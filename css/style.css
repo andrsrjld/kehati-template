@@ -18196,3 +18196,32 @@ aside .latest-post li figure {
 .social-media {
     margin-left: 7px;
 }
+
+.col6-relative{
+    position: relative;
+}
+
+.card-shadow {
+    border: 0;
+    box-shadow: 0 0 20px 
+    #ccc;
+}
+
+section.wow.fadeIn.bg-light-gray {
+    padding: 5% 10%;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: 
+    #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
