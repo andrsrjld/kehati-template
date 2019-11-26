@@ -18187,3 +18187,12 @@ aside .latest-post li figure {
     position: relative !important;
     margin-top: 50px;
 }
+
+.visi-footer .logo-visi{
+    max-width: 62%;
+    margin-top: 30px;
+}
+
+.social-media {
+    margin-left: 7px;
+}
