@@ -1,3 +1,14 @@
+
+@font-face {
+    font-family: "open-sans-regular";
+    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "open-sans-bold";
+    src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
 .box-layout {
     padding: 0px !important;
 }
@@ -260,3 +271,8 @@ a.btn.btn-light.btn-bergabung.selengkapnyadescription.v1 {
 section.wow.fadeIn.bg-light-gray.v1 {
     padding: 5% 0%;
 }
+
+.slick-dots li button {
+    display: none;
+}
+

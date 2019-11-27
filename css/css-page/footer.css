@@ -9,6 +9,16 @@
     src: url('../../fonts/PFDinTextCompPro-Regular.ttf');
 }
 
+@font-face {
+    font-family: "open-sans-regular";
+    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "open-sans-bold";
+    src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
 .html {
     font-family: PFDinTextCompPro !important;
 }
@@ -39,7 +49,7 @@
 
 .program {
     color: #333333;
-    font-family: PFDinTextCompPro-Regular;
+    font-family: open-sans-regular;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 1.03px;
@@ -50,7 +60,7 @@
 
 .alamat {
     color: #333333;
-    font-family: PFDinTextCompPro-Regular;
+    font-family: open-sans-regular;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.04px;
@@ -146,7 +156,7 @@
 }
 
 .link-footer {
-    font-family: PFDinTextCompPro-Regular;
+    font-family: open-sans-regular;
     font-size: 19.0px;
     color: rgba(51, 51, 51, 1.0);
     text-align: left;
