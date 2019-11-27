@@ -2157,3 +2157,18 @@ p.desc {
     width: 100%;
     height: 100% !important;
 }
+
+.icon-desc {
+    color: #0A0B09;
+    font-family: open-sans-bold;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.08px;
+    line-height: 27px;
+    text-align: center;
+}
+
+h6.font-weight-300.text-extra-dark-gray.mb-0.short-desc {
+    font-size: 15px;
+    line-height: 27px;
+}
