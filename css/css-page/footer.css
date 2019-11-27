@@ -157,6 +157,10 @@
     margin-bottom: 20px;
 }
 
+.img-sos img{
+    display: inherit !important;
+}
+
 @media only screen and (min-width: 375px) {
     .col-md-6 {
         padding-left: 15px;

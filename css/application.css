@@ -83,7 +83,7 @@ em {
 }
 
 img {
-    display: block;
+    display: inherit;
     max-width: 100%
 }
 
@@ -9120,3 +9120,25 @@ html file
   .left {
       left : 50% !important; 
   }
+
+  .list-data{
+      list-style: none;
+  }
+
+  li.number {
+      list-style: decimal;
+  }
+
+  .list-decimal {
+    font-family: 'PFDinTextCompPro-Regular';
+  }
+
+  .none{
+      display: none !important;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+

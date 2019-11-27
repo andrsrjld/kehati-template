@@ -50,7 +50,7 @@
 .short-desc {
     color: #333333;
     font-family: PFDinTextCompPro-Regular;
-    font-size: 18px;
+    font-size: 21px !important;
     font-weight: 400;
     letter-spacing: 0.04px;
     line-height: 33px;
@@ -344,7 +344,7 @@ p {
 }
 
 .titlegrid2 {
-    background-color: rgba(255, 255, 255, 0.0);
+    
     top: 5%;
     height: auto;
     width: 92%;
@@ -357,7 +357,7 @@ p {
 }
 
 .titlegrid3 {
-    background-color: rgba(255, 255, 255, 0.0);
+    
     bottom: 24px;
     height: auto;
     width: 80%;
@@ -370,7 +370,7 @@ p {
 }
 
 .titlegrid4 {
-    background-color: rgba(255, 255, 255, 0.0);
+    
     bottom: 80%;
     height: auto;
     width: 80%;
@@ -383,7 +383,7 @@ p {
 }
 
 .titlegrid5 {
-    background-color: #000;
+    
     height: auto;
     width: 100%;
     position: absolute;

@@ -78,7 +78,7 @@ h1.slider-title {
 }
 
 section.wow.fadeIn.bg-light-gray {
-    padding: 20px 12%;
+    padding: 5% 10% 5% 10%;
 }
 
 .bg-light-gray {
@@ -255,4 +255,8 @@ a.btn.btn-light.btn-bergabung.selengkapnyadescription.v1 {
 
 .padding-ten-right {
     padding-right: 0%;
+}
+
+section.wow.fadeIn.bg-light-gray.v1 {
+    padding: 5% 0%;
 }
