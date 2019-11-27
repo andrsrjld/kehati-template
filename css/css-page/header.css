@@ -234,7 +234,7 @@ header.sticky nav.header-light .header-social-icon {
     position: absolute;
     left: 15px;
     background: #fff;
-    min-width: 220px;
+    min-width: 250px;
     padding: 13px 0 15px;
     box-shadow: none;
 }
@@ -253,7 +253,7 @@ header.sticky nav.header-light .header-social-icon {
     display: block;
     color: #0A0B09;
     font-family: open-sans-regular;
-    font-size: 17px;
+    font-size: 11.9px;
     font-weight: 500;
     letter-spacing: 1.14px;
     line-height: 24px;
@@ -567,4 +567,7 @@ img.icon-search {
 
 .dropdown-menu.animated.fadeOut {
     left: 15% !important;
+}
+.z-index-100 {
+    z-index: 100;
 }
