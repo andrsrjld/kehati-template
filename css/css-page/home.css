@@ -358,7 +358,6 @@ p {
 }
 
 .titlegrid2 {
-    
     top: 5%;
     height: auto;
     width: 92%;
@@ -371,7 +370,6 @@ p {
 }
 
 .titlegrid3 {
-    
     bottom: 24px;
     height: auto;
     width: 80%;
@@ -384,7 +382,6 @@ p {
 }
 
 .titlegrid4 {
-    
     bottom: 80%;
     height: auto;
     width: 80%;
@@ -397,7 +394,6 @@ p {
 }
 
 .titlegrid5 {
-    
     height: auto;
     width: 100%;
     position: absolute;
@@ -455,4 +451,12 @@ a.lokasi4 {
 section.half-section {
     padding-top: 85px;
     padding-bottom: 0px;
+}
+
+.col-12.col-lg-12.col-md-12.text-center.sm-margin-30px-bottom {
+    padding: 0% 11%;
+}
+
+.row.row-categoryhome {
+    padding: 0% 5%;
 }

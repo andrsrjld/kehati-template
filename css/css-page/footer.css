@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'PFDinTextCompPro';
     src: url('../../fonts/PFDinTextCompPro-Medium.ttf');
-
 }
 
 @font-face {
@@ -167,7 +166,7 @@
     margin-bottom: 20px;
 }
 
-.img-sos img{
+.img-sos img {
     display: inherit !important;
 }
 
@@ -178,3 +177,6 @@
     }
 }
 
+footer.footer-classic-dark.bg-extra-dark-gray {
+    margin-bottom: 25px;
+}
