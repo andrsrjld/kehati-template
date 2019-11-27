@@ -8,7 +8,7 @@
     src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
 }
 
-.desktop-view{
+.desktop-view {
     display: block !important;
 }
 
@@ -624,17 +624,19 @@ span.btn.btn-dark-gray-unduh.selengkapnya.read-more {
     overflow: hidden;
     border-radius: 11px;
 }
+
 .thumnail-berita img {
     transform: scale(1.2);
 }
 
-.thumnail-berita-ekosistem{
+.thumnail-berita-ekosistem {
     height: 200px;
 }
 
-.thumnail-berita-tentangkami{
+.thumnail-berita-tentangkami {
     height: 250px;
 }
+
 .thumnail-berita-tentangkami img {
     transform: scale(1);
 }
@@ -642,4 +644,58 @@ span.btn.btn-dark-gray-unduh.selengkapnya.read-more {
 .position-relative-margin-top-50 {
     position: relative !important;
     margin-top: 50px;
+}
+
+p.sejak-tahun {
+    color: #000;
+    font-family: open-sans-regular;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.03px;
+    line-height: 27px;
+    width: 100%;
+    text-align: justify;
+    padding-top: 26px;
+}
+
+.btn.btn-dark-gray-unduh {
+    background-color: #3FA06B;
+    border-radius: 10px;
+    width: 162px;
+    height: 40px;
+    color: #FFFFFF;
+    font-family: open-sans-regular;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04px;
+    line-height: 27px;
+    text-align: center;
+    padding: 7px;
+}
+
+.sejaktahun2014ke.tentangkamiv4.v2 {
+    padding: 0px 0%;
+    line-height: 34px;
+    font-size: 15px;
+    font-family: open-sans-regular;
+    letter-spacing: 0px;
+    color: #000;
+    line-height: 27px;
+}
+
+span.small-title {
+    color: #0A0B09;
+    font-family: open-sans-bold;
+    font-weight: 800;
+    line-height: 27px;
+}
+
+.judul-section {
+    color: #0A0B09;
+    font-family: open-sans-bold;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.05px;
+    line-height: 30px;
+    text-align: center;
 }
