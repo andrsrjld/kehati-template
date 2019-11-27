@@ -19,7 +19,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 41px;
         color: #FFF;
         text-align: center;
@@ -70,7 +70,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 22px;
         color: rgba(10, 11, 9, 1.0);
         text-align: center;
@@ -103,13 +103,13 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
-        font-size: 12px;
-        color: #B7B7B7;
+        font-family: 'open-sans-regular';
+        font-size: 16.0px;
+        color: #000;
         text-align: center;
-        letter-spacing: .04px;
+        letter-spacing: 1.04px;
         line-height: 29.0px;
-        padding-top: 15px;
+        padding-top: 17px;
     }
     .descript-insvestasi {
         text-align: center;
@@ -122,7 +122,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 17px;
         color: #fff;
         text-align: center;
@@ -139,7 +139,7 @@
     .whyforestisimport {
         top: 35%;
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 45px;
         color: rgba(255, 255, 255, 1.0);
         text-align: left;
@@ -177,7 +177,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 11px;
         color: #fff;
         text-align: center;
@@ -214,7 +214,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 23px;
         color: #fff;
         text-align: center;
@@ -240,7 +240,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 37px;
         color: #FFF;
         text-align: center;
@@ -291,7 +291,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 23px;
         color: rgba(10, 11, 9, 1.0);
         text-align: center;
@@ -324,13 +324,13 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
-        font-size: 14px;
-        color: #B7B7B7;
+        font-family: 'open-sans-regular';
+        font-size: 16.0px;
+        color: #000;
         text-align: center;
-        letter-spacing: .04px;
+        letter-spacing: 1.04px;
         line-height: 29.0px;
-        padding-top: 15px;
+        padding-top: 17px;
     }
     .descript-insvestasi {
         text-align: center;
@@ -343,7 +343,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 17px;
         color: #fff;
         text-align: center;
@@ -360,7 +360,7 @@
     .whyforestisimport {
         top: 35%;
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 45px;
         color: rgba(255, 255, 255, 1.0);
         text-align: left;
@@ -388,7 +388,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 38px;
         color: #fff;
         text-align: center;
@@ -406,7 +406,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 13px;
         color: #fff;
         text-align: center;
@@ -443,7 +443,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 30px;
         color: #fff;
         text-align: center;
@@ -469,7 +469,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 39px;
         color: #FFF;
         text-align: center;
@@ -520,7 +520,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 24px;
         color: rgba(10, 11, 9, 1.0);
         text-align: center;
@@ -553,13 +553,13 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
-        font-size: 15px;
-        color: #B7B7B7;
+        font-family: 'open-sans-regular';
+        font-size: 16.0px;
+        color: #000;
         text-align: center;
-        letter-spacing: .04px;
+        letter-spacing: 1.04px;
         line-height: 29.0px;
-        padding-top: 15px;
+        padding-top: 17px;
     }
     .descript-insvestasi {
         text-align: center;
@@ -572,7 +572,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 17px;
         color: #fff;
         text-align: center;
@@ -589,7 +589,7 @@
     .whyforestisimport {
         top: 35%;
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 45px;
         color: rgba(255, 255, 255, 1.0);
         text-align: left;
@@ -617,7 +617,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 38px;
         color: #fff;
         text-align: center;
@@ -635,7 +635,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 14px;
         color: #fff;
         text-align: center;
@@ -672,7 +672,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 32px;
         color: #fff;
         text-align: center;
@@ -698,7 +698,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 42px;
         color: #FFF;
         text-align: center;
@@ -749,7 +749,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 26px;
         color: rgba(10, 11, 9, 1.0);
         text-align: center;
@@ -782,13 +782,13 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 16.0px;
-        color: #B7B7B7;
+        color: #000;
         text-align: center;
-        letter-spacing: .04px;
+        letter-spacing: 1.04px;
         line-height: 29.0px;
-        padding-top: 15px;
+        padding-top: 17px;
     }
     .descript-insvestasi {
         text-align: center;
@@ -801,7 +801,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 17px;
         color: #fff;
         text-align: center;
@@ -818,7 +818,7 @@
     .whyforestisimport {
         top: 35%;
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 45px;
         color: rgba(255, 255, 255, 1.0);
         text-align: left;
@@ -846,7 +846,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 38px;
         color: #fff;
         text-align: center;
@@ -864,7 +864,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 15px;
         color: #fff;
         text-align: center;
@@ -901,7 +901,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 32px;
         color: #fff;
         text-align: center;
@@ -927,7 +927,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 48px;
         color: #FFF;
         text-align: center;
@@ -978,7 +978,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 26px;
         color: rgba(10, 11, 9, 1.0);
         text-align: center;
@@ -1011,13 +1011,13 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 16.0px;
-        color: #B7B7B7;
+        color: #000;
         text-align: center;
-        letter-spacing: .04px;
+        letter-spacing: 1.04px;
         line-height: 29.0px;
-        padding-top: 15px;
+        padding-top: 17px;
     }
     .descript-insvestasi {
         text-align: center;
@@ -1030,7 +1030,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 17px;
         color: #fff;
         text-align: center;
@@ -1047,7 +1047,7 @@
     .whyforestisimport {
         top: 35%;
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 45px;
         color: rgba(255, 255, 255, 1.0);
         text-align: left;
@@ -1075,7 +1075,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 38px;
         color: #fff;
         text-align: center;
@@ -1093,7 +1093,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 15px;
         color: #fff;
         text-align: center;
@@ -1130,7 +1130,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 32px;
         color: #fff;
         text-align: center;
@@ -1156,7 +1156,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 60px;
         color: #FFF;
         text-align: center;
@@ -1207,8 +1207,8 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-        font-size: 26px;
+        font-family: 'open-sans-bold';
+        font-size: 30px;
         color: rgba(10, 11, 9, 1.0);
         text-align: center;
         letter-spacing: .09px;
@@ -1240,13 +1240,13 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 16.0px;
-        color: #B7B7B7;
+        color: #000;
         text-align: center;
-        letter-spacing: .04px;
+        letter-spacing: 1.04px;
         line-height: 29.0px;
-        padding-top: 15px;
+        padding-top: 17px;
     }
     .descript-insvestasi {
         text-align: center;
@@ -1259,7 +1259,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+        font-family: 'open-sans-regular';
         font-size: 17px;
         color: #fff;
         text-align: center;
@@ -1276,7 +1276,7 @@
     .whyforestisimport {
         top: 35%;
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 45px;
         color: rgba(255, 255, 255, 1.0);
         text-align: left;
@@ -1304,7 +1304,7 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+        font-family: 'open-sans-bold';
         font-size: 38px;
         color: #fff;
         text-align: center;
@@ -1322,8 +1322,8 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
-        font-size: 17px;
+        font-family: 'open-sans-regular';
+        font-size: 16px;
         color: #fff;
         text-align: center;
         letter-spacing: .04px;
@@ -1359,8 +1359,8 @@
         -ms-transform: rotate(0);
         -webkit-transform: rotate(0);
         transform: rotate(0);
-        font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
-        font-size: 38px;
+        font-family: 'open-sans-bold';
+        font-size: 30px;
         color: #fff;
         text-align: center;
         letter-spacing: .09px;

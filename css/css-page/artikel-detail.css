@@ -90,3 +90,7 @@ a.page-link.description.pagination {
     font: 60px/1.5 OpenSansRegular, Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }
+
+img.cover-detail {
+    width: 1000px;
+}
