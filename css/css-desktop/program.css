@@ -1,13 +1,3 @@
-@font-face {
-    font-family: "open-sans-regular";
-    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: "open-sans-bold";
-    src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
-}
-
 .descript-ekositem {
     color: #B7B7B7;
     font-family: open-sans-regular;
@@ -257,7 +247,6 @@
     .desc-title {
         color: #0A0B09;
         font-family: PFDinTextCompPro;
-        font-size: 40px;
         font-weight: 500;
         letter-spacing: 0.08px;
         line-height: 46px;

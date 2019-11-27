@@ -568,6 +568,8 @@ img.icon-search {
 .dropdown-menu.animated.fadeOut {
     left: 15% !important;
 }
-.z-index-100 {
-    z-index: 100;
+
+
+.simple-dropdown {
+    z-index: 1000 !important;
 }

@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "open-sans-regular";
+    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "open-sans-bold";
+    src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'PFDinTextCompPro';
+    src: url('../../fonts/OpenSans-Bold.ttf');
+}
+@font-face {
+    font-family: 'PFDinTextCompPro-Regular';
+    src: url('../../fonts/OpenSans-Regular.ttf');
+}
+
+.font-title{
+    font-family: PFDinTextCompPro !important;
+    font-size: 25px !important;
+    color: #000000 !important;
+    font-weight: 500;
+    letter-spacing: 0.08px;
+    line-height: 27px;
+}
+
+.font-body{
+    font-family: PFDinTextCompPro-Regular !important;
+    font-size: 15px !important;
+    color: #000000 !important;
+    font-weight: 100 !important;
+    letter-spacing: 0.08px;
+    line-height: 27px;
+}
+
+.font-body-title{
+    font-family: PFDinTextCompPro !important;
+    font-size: 15px !important;
+    color: #000000 !important;
+    font-weight: 500;
+    letter-spacing: 0.08px;
+    line-height: 27px;
+}
