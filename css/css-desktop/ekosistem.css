@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "open-sans-regular";
+    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "open-sans-bold";
+    src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
 @media (min-width:1024px) {
     .mobile-view {
         display: none;
@@ -523,7 +533,7 @@
 }
 
 .thumnail-berita-ekosistem {
-    height: 200px;
+    height: 170px;
 }
 
 .thumnail-berita-tentangkami {
@@ -546,7 +556,7 @@
 p.descript-ekositem {
     color:
         #B7B7B7;
-    font-family: PFDinTextCompPro-regular;
+    font-family: open-sans-regular;
     font-size: 20px;
     font-weight: 100;
     letter-spacing: 1.04px;
@@ -555,14 +565,7 @@ p.descript-ekositem {
 }
 
 .bodytext {
-    caret-color:rgb(0, 0, 0);
-    color:rgb(0, 0, 0);
-    font-family: Calibri;
-    font-size: 20px;
-    font-weight: 100;
-    letter-spacing: 1.04px;
-    line-height: 25px;
-    text-align: left;
+    text-align: justify;
 }
 
 .panel-black {
@@ -624,7 +627,7 @@ p.desc {
 .desc {
     color: 
     #B7B7B7;
-    font-family: PFDinTextCompPro-regular;
+    font-family: open-sans-regular;
     font-size: 19px;
     font-weight: 500;
     letter-spacing: 0.04px;
@@ -635,4 +638,24 @@ p.desc {
 
 .feature-box .content {
     padding: 40px 100px;
+}
+
+.description.title-program{
+    width: 150px;
+}
+
+.open-sans-body{
+    font-family: open-sans-regular;
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 1.04px;
+    line-height: 25px;
+}
+
+.open-sans-title{
+    font-family: open-sans-bold;
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 1.04px;
+    line-height: 25px;
 }

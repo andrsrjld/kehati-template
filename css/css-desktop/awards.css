@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "open-sans-regular";
+    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "open-sans-bold";
+    src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
 .btn.btn-medium{
     width: 100%;
     color: #3FA06B;
@@ -22,7 +32,7 @@
 .descript-nilainilaidasar {
     color: 
     #B7B7B7;
-    font-family: PFDinTextCompPro-Regular;
+    font-family: open-sans-regular;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.3px;
