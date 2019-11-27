@@ -1300,3 +1300,8 @@ a.page-link.description.pagination {
     margin-left: 0%;
     padding: 6% 6%;
 }
+
+.cover-location {
+    border-radius: 25px;
+    width: 50px;
+}
