@@ -75,7 +75,7 @@ section.wow.fadeIn.bg-light-gray.v1 {
 
 .descript-ekositem {
     color: #B7B7B7;
-    font-family: PFDinTextCompPro-Regular;
+    font-family: open-sans-regular;
     font-size: 28px;
     font-weight: 400;
     letter-spacing: 0.05px;
@@ -101,7 +101,7 @@ section.wow.fadeIn.bg-light-gray.v1 {
 
 .judul-section {
     color: #0A0B09;
-    font-family: PFDinTextCompPro-Regular;
+    font-family: open-sans-regular;
     font-size: 28px;
     font-weight: 600;
     letter-spacing: 0.05px;
@@ -115,7 +115,7 @@ section.wow.fadeIn.bg-light-gray.V2 {
 
 .descript-nilainilaidasar {
     color: #B7B7B7;
-    font-family: PFDinTextCompPro-Regular;
+    font-family: open-sans-regular;
     font-weight: 400;
     letter-spacing: 0.3px;
     line-height: 29px;
@@ -345,7 +345,7 @@ p.text-large.bergabung {
 
 p.yang-muda {
     color: #0A0B09;
-    font-family: PFDinTextCompPro-Regular;
+    font-family: open-sans-regular;
     font-size: 27px;
     font-weight: 600;
     letter-spacing: 0.05px;
@@ -414,7 +414,7 @@ li.point-list {
     padding: 0 18%;
     line-height: 34px;
     font-size: 14px;
-    font-family: PFDinTextCompPro-Regular;
+    font-family: open-sans-regular;
     letter-spacing: 0px;
 }
 

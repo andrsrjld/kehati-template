@@ -42,6 +42,17 @@ Table of contents
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
 
+@font-face {
+    font-family: "open-sans-regular";
+    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "open-sans-bold";
+    src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+
 /* ===================================
     Reset
 ====================================== */
@@ -18224,4 +18235,13 @@ section.wow.fadeIn.bg-light-gray {
     background-clip: border-box;
     border: 0px solid rgba(0,0,0,.125);
     border-radius: .25rem;
+}
+
+
+.open-sans-font{
+    font-family: open-sans;
+    font-size: 17px;
+    font-weight: 100;
+    letter-spacing: 1.04px;
+    line-height: 25px;
 }

@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "open-sans-regular";
+    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "open-sans-bold";
+    src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
 @media (min-width:1024px) {
     h1.text-white-2.alt-font.font-weight-600.letter-spacing-minus-1.margin-min90px-bottom {
         background-color: rgba(255, 255, 255, 0.0);

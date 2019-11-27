@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "open-sans-regular";
+    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "open-sans-bold";
+    src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
 .desktop-view{
     display: block !important;
 }
@@ -36,7 +46,7 @@
     }
     p.yang-muda {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 17px;
         font-weight: 600;
         letter-spacing: 0.05px;
@@ -60,7 +70,7 @@
     }
     .judul-section {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 20px;
         font-weight: 600;
         letter-spacing: 0.05px;
@@ -69,7 +79,7 @@
     }
     .descript-ekositem {
         color: #B7B7B7;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 20px;
         font-weight: 400;
         letter-spacing: 0.05px;
@@ -95,7 +105,7 @@
     }
     .descript-nilainilaidasar {
         color: #B7B7B7;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-weight: 400;
         letter-spacing: 0.3px;
         line-height: 29px;
@@ -135,7 +145,7 @@
     }
     p.yang-muda {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 21px;
         font-weight: 600;
         letter-spacing: 0.05px;
@@ -159,7 +169,7 @@
     }
     .judul-section {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 23px;
         font-weight: 600;
         letter-spacing: 0.05px;
@@ -168,7 +178,7 @@
     }
     .descript-ekositem {
         color: #B7B7B7;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 23px;
         font-weight: 400;
         letter-spacing: 0.05px;
@@ -194,7 +204,7 @@
     }
     .descript-nilainilaidasar {
         color: #B7B7B7;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-weight: 400;
         letter-spacing: 0.3px;
         line-height: 29px;
@@ -234,7 +244,7 @@
     }
     p.yang-muda {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 22px;
         font-weight: 600;
         letter-spacing: 0.05px;
@@ -258,7 +268,7 @@
     }
     .judul-section {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 24px;
         font-weight: 600;
         letter-spacing: 0.05px;
@@ -267,7 +277,7 @@
     }
     .descript-ekositem {
         color: #B7B7B7;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 24px;
         font-weight: 400;
         letter-spacing: 0.05px;
@@ -293,7 +303,7 @@
     }
     .descript-nilainilaidasar {
         color: #B7B7B7;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-weight: 400;
         letter-spacing: 0.3px;
         line-height: 29px;
@@ -333,7 +343,7 @@
     }
     p.yang-muda {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 23px;
         font-weight: 600;
         letter-spacing: 0.05px;
@@ -357,7 +367,7 @@
     }
     .judul-section {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 25px;
         font-weight: 600;
         letter-spacing: 0.05px;
@@ -366,7 +376,7 @@
     }
     .descript-ekositem {
         color: #B7B7B7;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 25px;
         font-weight: 400;
         letter-spacing: 0.05px;
@@ -392,7 +402,7 @@
     }
     .descript-nilainilaidasar {
         color: #B7B7B7;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-weight: 400;
         letter-spacing: 0.3px;
         line-height: 29px;
@@ -432,7 +442,7 @@
     }
     p.yang-muda {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 24px;
         font-weight: 600;
         letter-spacing: 0.05px;
@@ -456,7 +466,7 @@
     }
     .judul-section {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 27px;
         font-weight: 600;
         letter-spacing: 0.05px;
@@ -465,7 +475,7 @@
     }
     .descript-ekositem {
         color: #B7B7B7;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 27px;
         font-weight: 400;
         letter-spacing: 0.05px;
@@ -491,7 +501,7 @@
     }
     .descript-nilainilaidasar {
         color: #B7B7B7;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-weight: 400;
         letter-spacing: 0.3px;
         line-height: 29px;
@@ -531,7 +541,7 @@
     }
     p.yang-muda {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 27px;
         font-weight: 600;
         letter-spacing: 0.05px;
@@ -555,7 +565,7 @@
     }
     .judul-section {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 28px;
         font-weight: 600;
         letter-spacing: 0.05px;
@@ -564,7 +574,7 @@
     }
     .descript-ekositem {
         color: #B7B7B7;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 28px;
         font-weight: 400;
         letter-spacing: 0.05px;
@@ -590,7 +600,7 @@
     }
     .descript-nilainilaidasar {
         color: #B7B7B7;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-weight: 400;
         letter-spacing: 0.3px;
         line-height: 29px;

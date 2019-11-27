@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "open-sans-regular";
+    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "open-sans-bold";
+    src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
 @media (min-width:1024px) {
     @font-face {
         font-family: 'PFDinTextCompPro';
@@ -41,7 +51,7 @@
     }
     .short-desc {
         color: #333333;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 12px;
         font-weight: 400;
         letter-spacing: 0.04px;
@@ -87,7 +97,7 @@
     }
     .sejak-tahun {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 11px;
         font-weight: 580;
         letter-spacing: 0.04px;
@@ -97,7 +107,7 @@
     }
     .bergabung {
         color: #3FA06B;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 23px;
         font-weight: 200;
         letter-spacing: 0.05px;
@@ -395,7 +405,7 @@
     }
     .short-desc {
         color: #333333;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 14px;
         font-weight: 400;
         letter-spacing: 0.04px;
@@ -441,7 +451,7 @@
     }
     .sejak-tahun {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 14px;
         font-weight: 580;
         letter-spacing: 0.04px;
@@ -451,7 +461,7 @@
     }
     .bergabung {
         color: #3FA06B;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 22px;
         font-weight: 200;
         letter-spacing: 0.05px;
@@ -754,7 +764,7 @@
     }
     .short-desc {
         color: #333333;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 15px;
         font-weight: 400;
         letter-spacing: 0.04px;
@@ -800,7 +810,7 @@
     }
     .sejak-tahun {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 15px;
         font-weight: 580;
         letter-spacing: 0.04px;
@@ -810,7 +820,7 @@
     }
     .bergabung {
         color: #3FA06B;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 22px;
         font-weight: 200;
         letter-spacing: 0.05px;
@@ -1113,7 +1123,7 @@
     }
     .short-desc {
         color: #333333;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 0.04px;
@@ -1159,7 +1169,7 @@
     }
     .sejak-tahun {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 16px;
         font-weight: 580;
         letter-spacing: 0.04px;
@@ -1169,7 +1179,7 @@
     }
     .bergabung {
         color: #3FA06B;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 24px;
         font-weight: 200;
         letter-spacing: 0.05px;
@@ -1469,7 +1479,7 @@
     }
     .short-desc {
         color: #333333;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 16px;
         font-weight: 400;
         letter-spacing: 0.04px;
@@ -1515,7 +1525,7 @@
     }
     .sejak-tahun {
         color: #0A0B09;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 14px;
         font-weight: 580;
         letter-spacing: 0.04px;
@@ -1525,7 +1535,7 @@
     }
     .bergabung {
         color: #3FA06B;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 21px;
         font-weight: 200;
         letter-spacing: 0.05px;
@@ -1828,7 +1838,7 @@
     }
     .short-desc {
         color: #333333;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 18px;
         font-weight: 400;
         letter-spacing: 0.04px;
@@ -1874,7 +1884,7 @@
     }
     .sejak-tahun {
         
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 18px;
         font-weight: 580;
         letter-spacing: 0.04px;
@@ -1884,7 +1894,7 @@
     }
     .bergabung {
         color: #3FA06B;
-        font-family: PFDinTextCompPro-Regular;
+        font-family: open-sans-regular;
         font-size: 28px;
         font-weight: 200;
         letter-spacing: 0.05px;
