@@ -44,3 +44,11 @@
     letter-spacing: 0.08px;
     line-height: 27px;
 }
+
+
+
+
+.row-p-150 {
+    padding-right: 150px;
+    padding-left: 150px;
+}
