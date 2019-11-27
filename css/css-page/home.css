@@ -13,8 +13,7 @@
     src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
 }
 
-
-.open-sans-font{
+.open-sans-font {
     font-family: open-sans;
     font-size: 17px;
     font-weight: 100;
@@ -64,7 +63,7 @@
 .short-desc {
     color: #333333;
     font-family: open-sans-regular;
-    font-size: 21px !important;
+    font-size: 21px;
     font-weight: 400;
     letter-spacing: 0.04px;
     line-height: 33px;

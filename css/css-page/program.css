@@ -43,3 +43,7 @@ p {
 .margin-min90px-bottom {
     margin-bottom: -80px;
 }
+
+.col-12.col-md-4.sm-margin-five-bottom.last-paragraph-no-margin {
+    margin-bottom: 68px;
+}
