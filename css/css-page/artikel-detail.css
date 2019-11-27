@@ -75,3 +75,8 @@ a.page-link.description.pagination {
     width: fit-content;
     margin: auto;
 }
+
+.hdr-page {
+    font: 60px/1.5 OpenSansRegular, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
