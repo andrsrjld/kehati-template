@@ -166,7 +166,7 @@ a.nav-link.btn.btn-light.btn-bergabung.tab {
 }
 
 ul.nav.nav-tabs.artikel {
-    padding: 0% 12%;
+    padding: 0% 5%;
 }
 
 .thumnail-berita {
@@ -222,4 +222,8 @@ ul.nav.nav-tabs.artikel {
 
 .font-justify {
     text-align: justify;
+}
+
+.line-height-50 {
+    line-height: 50px !important;
 }
