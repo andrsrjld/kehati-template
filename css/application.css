@@ -372,7 +372,7 @@ sub {
 
 .list-vertical-bordered-items>li {
     min-height: 88px;
-    padding-bottom: 22px;
+    padding-bottom: 0px;
     padding-top: 22px;
     position: relative
 }
@@ -1458,7 +1458,7 @@ td {
 }
 
 .gutter-top-in-3 {
-    padding-top: 10%
+    padding-top: 15%
 }
 
 .gutter-top-fixed-3 {
@@ -1786,7 +1786,7 @@ td {
 }
 
 .gutter-bottom-in-3 {
-    padding-bottom: 3%
+    padding-bottom: 10px;
 }
 
 .gutter-bottom-fixed-3 {
