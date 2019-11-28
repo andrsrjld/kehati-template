@@ -116,6 +116,27 @@
     font-size: 10px !important;
 }
 
+.font-body-program {
+    font-family: PFDinTextCompPro-Regular !important;
+    font-size: 13px !important;
+    color: #000000;
+    font-weight: 100 !important;
+    letter-spacing: 0.08px;
+    line-height: 27px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* misc style */
 
@@ -193,4 +214,12 @@ ul.nav.nav-tabs.artikel {
 .gutter-horiz-in {
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.card-image img {
+    padding-bottom: 20px;
+}
+
+.font-justify {
+    text-align: justify;
 }
