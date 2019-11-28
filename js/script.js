@@ -47,9 +47,9 @@ $(function () {
     var tabLink = $(this);
     var target = $(this.hash);
     $(".js-tabs-text").removeClass("m-active");
-    $(".js-tabs-item:visible").fadeOut("200", function () {
+    $(".js-tabs-item:visible").fadeOut("fast", function () {
       tabLink.children().addClass("m-active");
-      target.fadeIn("200", function () {
+      target.fadeIn("fast", function () {
         $(".js-kehutanan").slick("setPosition", 0); // modified here
         $(".js-pertanian").slick("setPosition", 0); // modified here
         $(".js-kelautan").slick("setPosition", 0); // modified here

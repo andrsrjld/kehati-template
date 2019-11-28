@@ -430,3 +430,7 @@ li.point-list {
 .font-body.font-justify.v1 {
     padding: 0% 10%;
 }
+
+section.wow.fadeIn.bg-light-gray {
+    padding: 0px 10%;
+}
