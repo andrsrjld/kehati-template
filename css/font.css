@@ -221,29 +221,30 @@ ul.nav.nav-tabs.artikel {
 .line-height-50 {
     line-height: 50px !important;
 }
-.font-date-art{
+
+.font-date-art {
     font-family: PFDinTextCompPro-Regular !important;
     font-size: 12px !important;
 }
 
-.font-header{
+.font-header {
     font-family: compro-bold !important;
     text-transform: uppercase !important;
     font-size: 15px !important;
 }
 
 @media (min-width:1200px) {
-    nav.navbar.navbar-default ul.nav>li>a{
+    nav.navbar.navbar-default ul.nav>li>a {
         font-family: compro-bold !important;
         text-transform: uppercase !important;
         font-size: 11px !important;
         padding: 13px 0px;
     }
 
-    @media (min-width:1300px) {
-        nav.navbar.navbar-default ul.nav>li>a{
-            font-family: compro-bold !important;
-            text-transform: uppercase !important;
-            font-size: 15px !important;
-            padding: 10px 0px;
-        }
+@media (min-width:1300px) {
+    nav.navbar.navbar-default ul.nav>li>a {
+        font-family: compro-bold !important;
+        text-transform: uppercase !important;
+        font-size: 15px !important;
+        padding: 10px 0px;
+    }
