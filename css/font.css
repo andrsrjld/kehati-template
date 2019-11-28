@@ -242,3 +242,7 @@
                 padding: 10px 0px;
             }
         }
+
+        .alphabet-li{
+            list-style: lower-alpha;
+        }
