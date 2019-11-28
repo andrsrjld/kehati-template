@@ -242,3 +242,11 @@
                 padding: 10px 0px;
             }
         }
+
+        .alphabet-li{
+            list-style: lower-alpha;
+        }
+
+        .row.justify-content-center{
+            margin-top: 70px !important;
+        }
