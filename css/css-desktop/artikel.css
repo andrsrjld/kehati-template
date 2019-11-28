@@ -387,3 +387,7 @@ ul.nav.nav-tabs.artikel {
     border: 1px solid #fff;
     z-index: 99;
 }
+
+.thumnail-berita img {
+    transform: scale(2.3);
+}
