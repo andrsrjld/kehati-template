@@ -92,6 +92,30 @@
     margin-bottom: 0px !important;
 }
 
+.font-publikasi-bio {
+    font-family: PFDinTextCompPro-Regular !important;
+    font-size: 20px !important;
+}
+
+.font-publikasi-title {
+    font-family: PFDinTextCompPro !important;
+    font-size: 25px !important;
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 0.08px;
+    line-height: 27px !important;
+}
+
+.font-publikasi-body {
+    font-family: PFDinTextCompPro-Regular !important;
+    font-size: 15px !important;
+}
+
+.font-body-by-wit {
+    font-family: PFDinTextCompPro-Regular !important;
+    font-size: 10px !important;
+}
+
 
 /* misc style */
 
