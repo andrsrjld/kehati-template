@@ -50,8 +50,10 @@
     <link rel="stylesheet" href="css/css-page/home.css">
     <link rel="stylesheet" href="css/css-page/artikel.css">
     <link rel="stylesheet" href="css/css-page/news.css">
+    <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 1024px)' href="css/css-mobile/buku.css" />
     <link rel="stylesheet" media='screen and (min-width: 1024px) and (max-width: 1980px)' href="css/css-desktop/buku.css" />
+
     <!-- Vendor CSS style -->
     <link rel="stylesheet" href="css/pageloader.css">
 </head>
@@ -65,235 +67,212 @@
     </div>
     <div class="box-layout">
 
-        <!-- start header -->
-        <header class="wow  half-section top-space z-index-100">
-            <!-- start navigation -->
-            <nav class="navbar navbar-default bootsnav background-white header-light navbar-expand-lg">
-                <div class="container nav-header-container">
-                    <!-- start logo -->
-                    <div class="col-auto pl-lg-0">
-                        <a href="/index.html" title="Pofo" class="logo"><img src="img/00-00-logo-kehati-1@2x.png" data-rjs="images/logo@2x.png" class="logo-dark default" alt="Pofo"></a>
-                    </div>
-                    <!-- end logo -->
-                    <div class="col accordion-menu pr-0 pr-md-3">
-                        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#navbar-collapse-toggle-1">
+<!-- start header -->
+<header class="wow  half-section top-space z-index-100">
+        <!-- start navigation -->
+        <nav class="navbar navbar-default bootsnav background-white header-light navbar-expand-lg">
+            <div class="container nav-header-container">
+                <!-- start logo -->
+                <div class="col-auto pl-lg-0">
+                    <a href="/index.html" title="Pofo" class="logo"><img src="img/00-00-logo-kehati-1@2x.png"
+                            data-rjs="images/logo@2x.png" class="logo-dark default" alt="Pofo"></a>
+                </div>
+                <!-- end logo -->
+                <div class="col accordion-menu pr-0 pr-md-3">
+                    <button type="button" class="navbar-toggler collapsed" data-toggle="collapse"
+                        data-target="#navbar-collapse-toggle-1">
                         <span class="sr-only">toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                        <div class="navbar-collapse collapse" id="navbar-collapse-toggle-1">
-                            <ul id="accordion" class="nav navbar-nav font-header" data-in="" data-out="fadeOut">
-                                <!-- start menu item -->
-                                <li class="dropdown simple-dropdown font-header"><a href="/program.html">Program</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-                                    <!-- start sub menu -->
-                                    <ul class="dropdown-menu" role="menu" style="top: 66px; display: none; opacity: 1;">
-                                        <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown" href="/ekosistemkehutanan.html">Ekosistem Kehutanan</a></li>
-                                        <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown" href="/ekosistempertanian.html">Ekosistem Pertanian</a></li>
-                                        <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown" href="/ekosistemkelautan.html">Ekosistem Kelautan</a></li>
-                                    </ul>
-                                </li>
-                                <li class="megamenu-fw font-header">
-                                    <a href="/investasi.html">Investasi Hijau</a>
-                                </li>
+                    <div class="navbar-collapse collapse" id="navbar-collapse-toggle-1">
+                        <ul id="accordion" class="nav navbar-nav font-header"
+                            data-in="" data-out="fadeOut">
+                            <!-- start menu item -->
+                            <li class="dropdown simple-dropdown font-header"><a href="/program.html">Program</a><i
+                                    class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown"
+                                    aria-hidden="true"></i>
+                                <!-- start sub menu -->
+                                <ul class="dropdown-menu" role="menu" style="top: 66px; display: none; opacity: 1;">
+                                    <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown"
+                                            href="/ekosistemkehutanan.html">Ekosistem Kehutanan</a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown"
+                                            href="/ekosistempertanian.html">Ekosistem Pertanian</a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown"
+                                            href="/ekosistemkelautan.html">Ekosistem Kelautan</a></li>
+                                </ul>
+                            </li>
+                            <li class="megamenu-fw font-header">
+                                <a href="/investasi.html">Investasi Hijau</a>
+                            </li>
 
-                                <!-- end menu item -->
-                                <li class="dropdown simple-dropdown font-header"><a href="/publikasi.html">Publikasi</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-                                    <!-- start sub menu -->
-                                    <ul class="dropdown-menu" role="menu" style="top: 66px; display: none; opacity: 1;">
-                                        <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown" href="/artikel.html">Artikel</a></li>
-                                        <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown" href="/news.html">Berita & Pers </a></li>
-                                        <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown" href="/buku.html">Buku </a></li>
-                                        <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown" href="/laporan.html">Laporan Tahunan </a></li>
-                                        <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown" href="/album.html">Galeri </a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown megamenu-fw font-header">
-                                    <a href="/lokasi-kerja.html">Lokasi Kerja</a>
-                                </li>
-                                <li class="dropdown simple-dropdown font-header"><a href="/tentangkami.html">Tentang Kami</a><i class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
-                                    <!-- start sub menu -->
-                                    <ul class="dropdown-menu" role="menu" style="top: 66px; display: none; opacity: 1;">
-                                        <li class="dropdown"><a class="dropdown-toggle font-header " data-toggle="dropdown" href="/tentangkami.html">Sejarah</a></li>
-                                        <li class="dropdown"><a class="dropdown-toggle font-header " data-toggle="dropdown" href="/visi.html">Visi & Misi</a></li>
-                                        <li class="dropdown"><a class="dropdown-toggle font-header " data-toggle="dropdown" href="/nilai.html">Nilai-Nilai Dasar Kehati</a></li>
-                                        <li class="dropdown"><a class="dropdown-toggle font-header " data-toggle="dropdown" href="/kepengurusan.html">Kepengurusan & Manajemen</a></li>
-                                        <li class="dropdown"><a class="dropdown-toggle font-header " data-toggle="dropdown" href="/pengelolaandana.html">Pengelolaan Dana Abadi</a></li>
-                                        <li class="dropdown"><a class="dropdown-toggle font-header " data-toggle="dropdown" href="/laporan.html">Laporan Tahunan</a></li>
-                                    </ul>
-                                </li>
-                                <li class="dropdown megamenu-fw font-header">
-                                    <a href="/awards.html">Kehati Award</a>
-                                </li>
-                                <li class="dropdown megamenu-fw font-header">
-                                    <a href="/biodiversity.html">Biodiversity Warriors</a>
-                                </li>
+                            <!-- end menu item -->
+                            <li class="dropdown simple-dropdown font-header"><a href="/publikasi.html">Publikasi</a><i
+                                    class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown"
+                                    aria-hidden="true"></i>
+                                <!-- start sub menu -->
+                                <ul class="dropdown-menu" role="menu" style="top: 66px; display: none; opacity: 1;">
+                                    <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown"
+                                            href="/artikel.html">Artikel</a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown"
+                                            href="/news.html">Berita & Pers </a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown"
+                                            href="/buku.html">Buku </a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown"
+                                            href="/laporan.html">Laporan Tahunan </a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle font-header" data-toggle="dropdown"
+                                            href="/album.html">Galeri </a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown megamenu-fw font-header">
+                                <a href="/lokasi-kerja.html">Lokasi Kerja</a>
+                            </li>
+                            <li class="dropdown simple-dropdown font-header"><a href="/tentangkami.html">Tentang Kami</a><i
+                                    class="fas fa-angle-down dropdown-toggle" data-toggle="dropdown"
+                                    aria-hidden="true"></i>
+                                <!-- start sub menu -->
+                                <ul class="dropdown-menu" role="menu" style="top: 66px; display: none; opacity: 1;">
+                                    <li class="dropdown"><a class="dropdown-toggle font-header " data-toggle="dropdown"
+                                            href="/tentangkami.html">Sejarah</a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle font-header " data-toggle="dropdown"
+                                            href="/visi.html">Visi & Misi</a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle font-header " data-toggle="dropdown"
+                                            href="/nilai.html">Nilai-Nilai Dasar Kehati</a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle font-header " data-toggle="dropdown"
+                                            href="/kepengurusan.html">Kepengurusan & Manajemen</a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle font-header " data-toggle="dropdown"
+                                            href="/pengelolaandana.html">Pengelolaan Dana Abadi</a></li>
+                                    <li class="dropdown"><a class="dropdown-toggle font-header " data-toggle="dropdown"
+                                            href="/laporan.html">Laporan Tahunan</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown megamenu-fw font-header">
+                                <a href="/awards.html">Kehati Award</a>
+                            </li>
+                            <li class="dropdown megamenu-fw font-header">
+                                <a href="/biodiversity.html">Biodiversity Warriors</a>
+                            </li>
 
-                            </ul>
-                        </div>
+                        </ul>
                     </div>
-                    <div class="col-auto pr-lg-0">
-                        <div class="header-searchbar">
-                            <a href="#search-header" class="header-search-form">
-                                <img class="icon-search" src="img/00-00-shape@2x.png" alt="">
-                            </a>
-                            <!-- search input-->
-                            <form id="search-header" method="post" action="search-result.html" name="search-header" class="mfp-hide search-form-result">
-                                <div class="search-form position-relative">
-                                    <button type="submit" class="fas fa-search close-search search-button"></button>
-                                    <input type="text" name="search" class="search-input" placeholder="Enter your keywords..." autocomplete="off">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="header-social-icon d-none d-md-inline-block">
-                            <div class="row col-switch">
-                                <div class="col-3">
-                                    <div class="idn">IDN</div>
-                                </div>
-                                <div class="col-6"><label class="switch">
+                </div>
+                <div class="col-auto pr-lg-0">
+                    <div class="header-searchbar">
+                        <a href="#search-header" class="header-search-form">
+                            <img class="icon-search" src="img/00-00-shape@2x.png" alt="">
+                        </a>
+                        <!-- search input-->
+                        <form id="search-header" method="post" action="search-result.html" name="search-header"
+                            class="mfp-hide search-form-result">
+                            <div class="search-form position-relative">
+                                <button type="submit" class="fas fa-search close-search search-button"></button>
+                                <input type="text" name="search" class="search-input"
+                                    placeholder="Enter your keywords..." autocomplete="off">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="header-social-icon d-none d-md-inline-block">
+                        <div class="row col-switch">
+                            <div class="col-3">
+                                <div class="idn">IDN</div>
+                            </div>
+                            <div class="col-6"><label class="switch">
                                     <input type="checkbox">
                                     <span class="btn-switch round"></span>
                                 </label></div>
-                                <div class="col-3">
-                                    <div class="eng">ENG</div>
-                                </div>
-
-
+                            <div class="col-3">
+                                <div class="eng">ENG</div>
                             </div>
-
-
                         </div>
+
+
                     </div>
-                    <<<<<<< HEAD </nav>
-                        <!-- end navigation -->
-        </header>
-        <!-- end header -->
-        =======
-        </div>
+                </div>
+            </div>
         </nav>
         <!-- end navigation -->
-        </header>
-        <!-- end header -->
-        >>>>>>> bbf3fbb0aa100e6341451c762d3681587c77724a
+    </header>
+    <!-- end header -->
 
-        <section class="wow fadeIn bg-light-gray">
+        <section class="wow fadeIn half-section p-0 top-space">
             <div class="container-fluid">
-                <div class="swiper-full-screen swiper-container width-100">
-                    <div class="swiper-wrapper">
+                <div class="swiper-full-screen swiper-container width-100 .swiper-container">
+                    <div class="">
                         <!-- start slider item -->
-                        <div class="swiper-slide cover-background" style="background-image:url(img/slidebuku.png)">
+                        <div class="swiper-slide cover-background" style="background-image:url(img/939F2DFC-407A-4620-B83E-1767DC66F0F2.png">
                             <div class="bg-extra-dark-gray"></div>
                             <div class="container  one-fourth-screen sm-height-400px">
                                 <div class="slider-typography text-center">
                                     <div class="slider-text-middle-main">
                                         <div class="slider-text-middle">
                                             <div class="col-12 col-lg-6 col-md-8 mx-auto slide-content">
-                                                <div class="title-slide whyforestisimport artikel">Sawit Rakyat
-                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- end slider item -->
-                        <!-- start slider item -->
-                        <div class="swiper-slide cover-background" style="background-image:url(img/slidebuku.png)">
-                            <div class="bg-extra-dark-gray"></div>
-                            <div class="container  one-fourth-screen sm-height-400px">
-                                <div class="slider-typography text-center">
-                                    <div class="slider-text-middle-main">
-                                        <div class="slider-text-middle">
-                                            <div class="col-12 col-lg-6 col-md-8 mx-auto slide-content">
-                                                <div class="title-slide whyforestisimport artikel">Sawit Rakyat
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end slider item -->
-                        <!-- start slider item -->
-                        <div class="swiper-slide cover-background" style="background-image:url(img/slidebuku.png)">
-                            <div class="bg-extra-dark-gray"></div>
-                            <div class="container  one-fourth-screen sm-height-400px">
-                                <div class="slider-typography text-center">
-                                    <div class="slider-text-middle-main">
-                                        <div class="slider-text-middle">
-                                            <div class="col-12 col-lg-6 col-md-8 mx-auto slide-content">
-                                                <div class="title-slide whyforestisimport artikel">Sawit Rakyat
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+
                         <!-- end slider item -->
                     </div>
                     <!-- Add Pagination -->
-                    <div class="swiper-pagination swiper-pagination-white swiper-full-screen-pagination"></div>
-                    <div class="swiper-button-next swiper-next-style5"></div>
-                    <div class="swiper-button-prev swiper-prev-style5"></div>
+                    <!-- <div class="swiper-pagination swiper-pagination-white swiper-full-screen-pagination"></div>
+                            <div class="swiper-button-next swiper-next-style5"></div>
+                            <div class="swiper-button-prev swiper-prev-style5"></div> -->
                 </div>
             </div>
-            <div class="row row-artikel1">
-                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 wow fadeInUp ">
-                    <div class="bg-white text-center h-100">
-                        <a href="services-simple.html"><img src="img/upload-3.png" alt=""></a>
-                        <div class="padding-20px-all md-padding-15px-all">
-                            <span class="description title-news v1 font-body-title">Berdaya
-                                                    Indonesiaku Laporan Tahunan Tahun 2018</span>
-                            <a href="#" class="btn btn-dark-gray-unduh btn-small text-extra-small border-radius-4 margin-20px-top bergabung-1">Unduh
-                                                    PDF</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 wow fadeInUp col-news">
-                    <div class="bg-white text-center h-100">
-                        <a href="services-simple.html"><img src="img/upload-2.png" alt=""></a>
-                        <div class="padding-20px-all md-padding-15px-all">
-                            <span class="description title-news v1 font-body-title">Keberagaman
-                                                    Hayati dan Budaya: Kunci Kedaulatan Pangan Nusantara</span>
-                            <a href="#" class="btn btn-dark-gray-unduh btn-small text-extra-small border-radius-4 margin-20px-top bergabung-1">Unduh
-                                                    PDF</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <nav class="pagination-artikel" aria-label="Page navigation example">
-                <ul class="pagination">
-                    <li class="page-item artikel v1"><a class="page-link description pagination " href="#">Previous</a>
-                    </li>
-                    <li class="page-item artikel"><a class="page-link description pagination " href="#">1</a></li>
-                    <li class="page-item artikel"><a class="page-link description pagination " href="#">2</a></li>
-                    <li class="page-item artikel"><a class="page-link description pagination " href="#">3</a></li>
-                    <li class="page-item artikel v1"><a class="page-link description pagination " href="#">Next</a></li>
-                </ul>
-            </nav>
         </section>
-
-        <!-- start footer -->
-        <footer class="footer-classic-dark bg-extra-dark-gray ">
-            <div class="footer-widget-area ">
-                <div class="container">
-                    <div class="row">
-                        <!-- start about -->
-                        <div class="col-lg-4 col-md-6 widget md-margin-30px-bottom text-center text-md-left last-paragraph-no-margin visi-footer">
-                            <img class="logo-visi" src="img/visi.png" alt="visi kehati">
-                            <div class="widget-title alt-font text-small text-medium-gray font-weight-600 social-media font-body">
-                                Social Media
-                                <a href="#"><img class="img-sos" src="img/00-00-ic-medsoc-twitter@2x.png" alt=""></a>
-                                <a href="#"><img class="img-sos" src="img/00-00-ic-medsoc-facebook@2x.png" alt=""></a>
-                                <a href="#"><img class="img-sos" src="img/00-00-ic-medsoc-instagram@2x.png" alt=""></a>
-                                <a href="#"><img class="img-sos" src="img/00-00-ic-medsoc-youtube@2x.png" alt=""></a>
+        <div class="row row-artikel1">
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 wow fadeInUp ">
+                <div class="bg-white text-center h-100">
+                    <a href="services-simple.html"><img src="img/Keberagaman Hayati dan Budaya_ Kunci Kedaulatan Pangan Nusantara(1)-2.png" alt=""></a>
+                    <div class="padding-20px-all md-padding-15px-all">
+                        <span class="description title-news v1 font-body-title">Keberagaman Hayati dan Budaya_ Kunci Kedaulatan Pangan Nusantara</span>
+                        <a href="#" class="btn btn-dark-gray-unduh btn-small text-extra-small border-radius-4 margin-20px-top bergabung-1">Unduh
+                                        PDF</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 wow fadeInUp col-news">
+                <div class="bg-white text-center h-100">
+                    <a href="services-simple.html"><img src="img/25th Mengabdi bagi Negeri-1.png" alt=""></a>
+                    <div class="padding-20px-all md-padding-15px-all">
+                        <span class="description title-news v1 font-body-title">25th Mengabdi bagi Negeri</span>
+                        <a href="#" class="btn btn-dark-gray-unduh btn-small text-extra-small border-radius-4 margin-20px-top bergabung-1">Unduh
+                                        PDF</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-3 col-lg-3 col-xl-3 wow fadeInUp col-news">
+                <div class="bg-white text-center h-100">
+                    <a href="services-simple.html"><img src="img/Sawit Rakyat-1.png" alt=""></a>
+                    <div class="padding-20px-all md-padding-15px-all">
+                        <span class="description title-news v1 font-body-title">Sawit Rakyat</span>
+                        <a href="#" class="btn btn-dark-gray-unduh btn-small text-extra-small border-radius-4 margin-20px-top bergabung-1">Unduh
+                                            PDF</a>
+                    </div>
+                </div>
+            </div>
+            <!-- start footer -->
+            <footer class="footer-classic-dark bg-extra-dark-gray ">
+                <div class="footer-widget-area ">
+                    <div class="container">
+                        <div class="row">
+                            <!-- start about -->
+                            <div class="col-lg-4 col-md-6 widget md-margin-30px-bottom text-center text-md-left last-paragraph-no-margin visi-footer">
+                                <img class="logo-visi" src="img/visi.png" alt="visi kehati">
+                                <div class="widget-title alt-font text-small text-medium-gray font-weight-600 social-media font-body">
+                                    Social Media
+                                    <a href="#"><img class="img-sos" src="img/00-00-ic-medsoc-twitter@2x.png" alt=""></a>
+                                    <a href="#"><img class="img-sos" src="img/00-00-ic-medsoc-facebook@2x.png" alt=""></a>
+                                    <a href="#"><img class="img-sos" src="img/00-00-ic-medsoc-instagram@2x.png" alt=""></a>
+                                    <a href="#"><img class="img-sos" src="img/00-00-ic-medsoc-youtube@2x.png" alt=""></a>
+                                </div>
                             </div>
-                        </div>
-                        <!-- end about -->
-                        <!-- start blog post -->
-                        <!-- <div class="col-lg-2 col-md-6 col-6 widget md-margin-30px-bottom">
+                            <!-- end about -->
+                            <!-- start blog post -->
+                            <!-- <div class="col-lg-2 col-md-6 col-6 widget md-margin-30px-bottom">
                                 <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
                                     Program</div>
                                 <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
@@ -303,114 +282,114 @@
                                 <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 text-center text-md-left program">
                                     Lokasi Kerja</div>
                             </div> -->
-                        <!-- end blog post -->
-                        <!-- start newsletter -->
-                        <!-- <div class="col-lg-2 col-md-6 col-6 widget md-margin-30px-bottom text-center text-md-left">
+                            <!-- end blog post -->
+                            <!-- start newsletter -->
+                            <!-- <div class="col-lg-2 col-md-6 col-6 widget md-margin-30px-bottom text-center text-md-left">
                                 <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 program">
                                     Tentang Kami</div>
                                 <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-15px-bottom font-weight-600 program">
                                     Galeri</div>
                             </div> -->
-                        <!-- end newsletter -->
+                            <!-- end newsletter -->
 
-                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                            <div class="row row-menufooter">
-                                <div class="col-6 col-footer">
-                                    <ul class="listmenu">
-                                        <li class="link-footer"><a class="link-footer font-body" href="/index.html">Beranda</a></li>
-                                        <li class="link-footer"><a class="link-footer font-body" href="#">Kemitraan</a></li>
-                                        <li class="link-footer"><a class="link-footer font-body" href="/publikasi.html">Publikasi</a></li>
-                                        <li class="link-footer"><a class="link-footer font-body" href="/program.html">Program</a></li>
-                                    </ul>
-                                </div>
-                                <div class="col-6 col-footer">
-                                    <ul class="listmenu">
-                                        <li class="link-footer"><a class="link-footer font-body" href="/tentangkami.html">Tentang Kami</a></li>
-                                        <li class="link-footer"><a class="link-footer font-body" href="/album.html">Galeri</a></li>
-                                    </ul>
+                            <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                <div class="row row-menufooter">
+                                    <div class="col-6 col-footer">
+                                        <ul class="listmenu">
+                                            <li class="link-footer"><a class="link-footer font-body" href="/index.html">Beranda</a></li>
+                                            <li class="link-footer"><a class="link-footer font-body" href="#">Kemitraan</a></li>
+                                            <li class="link-footer"><a class="link-footer font-body" href="/publikasi.html">Publikasi</a></li>
+                                            <li class="link-footer"><a class="link-footer font-body" href="/program.html">Program</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-footer">
+                                        <ul class="listmenu">
+                                            <li class="link-footer"><a class="link-footer font-body" href="/tentangkami.html">Tentang Kami</a></li>
+                                            <li class="link-footer"><a class="link-footer font-body" href="/album.html">Galeri</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
 
 
-                        <!-- start instagram -->
-                        <div class="col-lg-4 col-md-6 widget md-margin-5px-bottom text-center text-md-left">
-                            <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-20px-bottom font-weight-600 follow-us font-body">
-                                Follow us Instagram</div>
-                            <div class="instagram-follow-api">
-                                <ul id="instaFeed-footer"></ul>
+                            <!-- start instagram -->
+                            <div class="col-lg-4 col-md-6 widget md-margin-5px-bottom text-center text-md-left">
+                                <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-20px-bottom font-weight-600 follow-us font-body">
+                                    Follow us Instagram</div>
+                                <div class="instagram-follow-api">
+                                    <ul id="instaFeed-footer"></ul>
+                                </div>
+                                <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-20px-bottom font-weight-600 yayasankehati font-body">
+                                    @yayasankehati</div>
                             </div>
-                            <div class="widget-title alt-font text-small text-medium-gray text-uppercase margin-20px-bottom font-weight-600 yayasankehati font-body">
-                                @yayasankehati</div>
+                            <!-- end instagram -->
                         </div>
-                        <!-- end instagram -->
                     </div>
                 </div>
-            </div>
-            <div class="container">
-                <div class="footer-bottom border-top border-color-medium-dark-gray padding-30px-top">
-                    <div class="row">
-                        <!-- start copyright -->
-                        <div class="col-lg-12 col-md-12 text-small text-center poweredby font-body-by-wit">&COPY; 2019 KEHATI is Powered by WIT.ID
+                <div class="container">
+                    <div class="footer-bottom border-top border-color-medium-dark-gray padding-30px-top">
+                        <div class="row">
+                            <!-- start copyright -->
+                            <div class="col-lg-12 col-md-12 text-small text-center poweredby font-body-by-wit">&COPY; 2019 KEHATI is Powered by WIT.ID
+                            </div>
+                            <!-- end copyright -->
                         </div>
-                        <!-- end copyright -->
                     </div>
                 </div>
-            </div>
-        </footer>
-        <!-- end footer -->
-        <!-- start scroll to top -->
-        <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
-        <!-- end scroll to top  -->
-        <!-- javascript libraries -->
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/modernizr.js"></script>
-        <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
-        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-        <script type="text/javascript" src="js/skrollr.min.js"></script>
-        <script type="text/javascript" src="js/smooth-scroll.js"></script>
-        <script type="text/javascript" src="js/jquery.appear.js"></script>
-        <!-- menu navigation -->
-        <script type="text/javascript" src="js/bootsnav.js"></script>
-        <script type="text/javascript" src="js/jquery.nav.js"></script>
-        <!-- animation -->
-        <script type="text/javascript" src="js/wow.min.js"></script>
-        <!-- page scroll -->
-        <script type="text/javascript" src="js/page-scroll.js"></script>
-        <!-- swiper carousel -->
-        <script type="text/javascript" src="js/swiper.min.js"></script>
-        <!-- counter -->
-        <script type="text/javascript" src="js/jquery.count-to.js"></script>
-        <!-- parallax -->
-        <script type="text/javascript" src="js/jquery.stellar.js"></script>
-        <!-- magnific popup -->
-        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-        <!-- portfolio with shorting tab -->
-        <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
-        <!-- images loaded -->
-        <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
-        <!-- pull menu -->
-        <script type="text/javascript" src="js/classie.js"></script>
-        <script type="text/javascript" src="js/hamburger-menu.js"></script>
-        <!-- counter  -->
-        <script type="text/javascript" src="js/counter.js"></script>
-        <!-- fit video  -->
-        <script type="text/javascript" src="js/jquery.fitvids.js"></script>
-        <!-- skill bars  -->
-        <script type="text/javascript" src="js/skill.bars.jquery.js"></script>
-        <!-- justified gallery  -->
-        <script type="text/javascript" src="js/justified-gallery.min.js"></script>
-        <!--pie chart-->
-        <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
-        <!-- instagram -->
-        <script type="text/javascript" src="js/instafeed.min.js"></script>
-        <!-- retina -->
-        <script type="text/javascript" src="js/retina.min.js"></script>
-        <!-- revolution -->
-        <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
-        <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-        <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
-        <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
+            </footer>
+            <!-- end footer -->
+            <!-- start scroll to top -->
+            <a class="scroll-top-arrow" href="javascript:void(0);"><i class="ti-arrow-up"></i></a>
+            <!-- end scroll to top  -->
+            <!-- javascript libraries -->
+            <script type="text/javascript" src="js/jquery.js"></script>
+            <script type="text/javascript" src="js/modernizr.js"></script>
+            <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+            <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+            <script type="text/javascript" src="js/skrollr.min.js"></script>
+            <script type="text/javascript" src="js/smooth-scroll.js"></script>
+            <script type="text/javascript" src="js/jquery.appear.js"></script>
+            <!-- menu navigation -->
+            <script type="text/javascript" src="js/bootsnav.js"></script>
+            <script type="text/javascript" src="js/jquery.nav.js"></script>
+            <!-- animation -->
+            <script type="text/javascript" src="js/wow.min.js"></script>
+            <!-- page scroll -->
+            <script type="text/javascript" src="js/page-scroll.js"></script>
+            <!-- swiper carousel -->
+            <script type="text/javascript" src="js/swiper.min.js"></script>
+            <!-- counter -->
+            <script type="text/javascript" src="js/jquery.count-to.js"></script>
+            <!-- parallax -->
+            <script type="text/javascript" src="js/jquery.stellar.js"></script>
+            <!-- magnific popup -->
+            <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+            <!-- portfolio with shorting tab -->
+            <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+            <!-- images loaded -->
+            <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+            <!-- pull menu -->
+            <script type="text/javascript" src="js/classie.js"></script>
+            <script type="text/javascript" src="js/hamburger-menu.js"></script>
+            <!-- counter  -->
+            <script type="text/javascript" src="js/counter.js"></script>
+            <!-- fit video  -->
+            <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+            <!-- skill bars  -->
+            <script type="text/javascript" src="js/skill.bars.jquery.js"></script>
+            <!-- justified gallery  -->
+            <script type="text/javascript" src="js/justified-gallery.min.js"></script>
+            <!--pie chart-->
+            <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+            <!-- instagram -->
+            <script type="text/javascript" src="js/instafeed.min.js"></script>
+            <!-- retina -->
+            <script type="text/javascript" src="js/retina.min.js"></script>
+            <!-- revolution -->
+            <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+            <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+            <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
+            <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
@@ -419,8 +398,8 @@
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
         <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
-        <!-- setting -->
-        <script type="text/javascript" src="js/main.js"></script>
+            <!-- setting -->
+            <script type="text/javascript" src="js/main.js"></script>
 
 </body>
 
