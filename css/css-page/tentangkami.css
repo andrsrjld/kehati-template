@@ -426,3 +426,7 @@ li.point-list {
     padding: 5px 0;
     padding-bottom: 23px;
 }
+
+.font-body.font-justify.v1 {
+    padding: 0% 10%;
+}
