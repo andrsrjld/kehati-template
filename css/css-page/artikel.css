@@ -1,14 +1,4 @@
 
-@font-face {
-    font-family: "open-sans-regular";
-    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: "open-sans-bold";
-    src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
-}
-
 .box-layout {
     padding: 0px !important;
 }
