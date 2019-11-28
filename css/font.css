@@ -18,13 +18,14 @@
     src: url('../../fonts/OpenSans-Regular.ttf');
 }
 
-.font-title {
+/* default font */
+.font-title{
     font-family: PFDinTextCompPro !important;
     font-size: 25px !important;
     color: #000000;
     font-weight: 500;
     letter-spacing: 0.08px;
-    line-height: 27px;
+    line-height: 27px !important;
 }
 
 .font-body {
@@ -33,7 +34,7 @@
     color: #000000;
     font-weight: 100 !important;
     letter-spacing: 0.08px;
-    line-height: 27px;
+    line-height: 27px !important;
 }
 
 .font-body-title {
@@ -45,42 +46,79 @@
     line-height: 27px;
 }
 
-.font-justify {
-    text-align: justify !important;
+/* default font white */
+.font-title-w{
+    font-family: PFDinTextCompPro !important;
+    font-size: 25px !important;
+    color: #fffff !important;
+    font-weight: 500;
+    letter-spacing: 0.08px;
+    line-height: 27px;
 }
 
-.font-center {
-    text-align: center !important;
+.font-body-w{
+    font-family: PFDinTextCompPro-Regular !important;
+    font-size: 15px !important;
+    color: #ffffff !important;
+    font-weight: 100 !important;
+    letter-spacing: 0.08px;
+    line-height: 27px !important;
 }
 
-.font-left {
-    text-align: left !important;
+.font-body-title-w{
+    font-family: PFDinTextCompPro !important;
+    font-size: 15px !important;
+    color: #ffffff !important;
+    font-weight: 500;
+    letter-spacing: 0.08px;
+    line-height: 27px !important;
 }
 
-.font-right {
-    text-align: right !important;
+/* artikel font */
+.font-title-art {
+    font-family: PFDinTextCompPro !important;
+    font-size: 50px !important;
+    color: #000000 !important;
+    font-weight: 500;
+    letter-spacing: 0.08px;
+    line-height: 55px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 0px !important;
 }
 
+
+
+
+/* misc style */
 .row-p-150 {
     padding-right: 150px;
     padding-left: 150px;
 }
 
-.btn.selengkapnya {
-    background-color: #3FA06B !important;
-    border-radius: 10px !important;
-    width: 162px;
-    height: 40px;
-    color: #FFFFFF !important;
-    font-family: PFDinTextCompPro-Regular !important;
-    font-size: 16px !important;
-    font-weight: 500 !important;
-    letter-spacing: 0.04px;
-    line-height: 27px !important;
-    text-align: center !important;
-    padding: 7px !important;
+.yang-muda {
+    width: 400px !important;
 }
 
-.publikasi-img {
-    width: fit-content !important;
+.sejak-tahun {
+    width: 400px !important;
+}
+
+section.wow.fadeIn.bg-light-gray.v1{
+    padding: 1% 0%;
+}
+
+.garis{
+    margin-top: 0px;
+}
+
+a.nav-link.btn.btn-light.btn-bergabung.tab{
+    width: 225px;
+}
+
+ul.nav.nav-tabs.artikel{
+    padding: 0% 12%;
+}
+
+.thumnail-berita{
+    height: 150px;
 }
