@@ -223,3 +223,7 @@ ul.nav.nav-tabs.artikel {
 .font-justify {
     text-align: justify;
 }
+
+.line-height-50 {
+    line-height: 50px !important;
+}
