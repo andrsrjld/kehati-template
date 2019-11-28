@@ -614,5 +614,10 @@ p.desc {
 }
 
 .thumnail-berita img {
-    transform: scale(0.9);
+    transform: scale(1.2);
+}
+
+.thumnail-berita {
+    border-radius: 14px;
+    height: 150px;
 }

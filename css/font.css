@@ -126,18 +126,6 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* misc style */
 
 .row-p-150 {
@@ -170,6 +158,7 @@ ul.nav.nav-tabs.artikel {
 }
 
 .thumnail-berita {
+    border-radius: 14px;
     height: 150px;
 }
 
