@@ -216,3 +216,7 @@ ul.nav.nav-tabs.artikel {
 .line-height-50 {
     line-height: 50px !important;
 }
+.font-date-art{
+    font-family: PFDinTextCompPro-Regular !important;
+    font-size: 12px !important;
+}
