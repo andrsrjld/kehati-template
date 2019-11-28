@@ -312,7 +312,7 @@
     }
     .row.align-items-center {
         padding: 0% 9%;
-        margin-top: -32px;
+        margin-top: 17px;
     }
     p.text-large.bergabung {
         color: #3FA06B;
@@ -654,4 +654,12 @@ section.wow.fadeIn {
 
 section.wow.fadeIn.bg-light-gray.v1 {
     padding: 0% 0%;
+}
+
+a.btn.selengkapnya.v2 {
+    margin-top: 0px;
+}
+
+section.wow.fadeIn.bg-light-gray.V3 {
+    margin-top: -68px;
 }
