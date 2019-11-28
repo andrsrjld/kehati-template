@@ -707,3 +707,8 @@ img.icon-list {
     font-family: PFDinTextCompPro-Regular !important;
     font-size: 15px;
 }
+
+section.wow.fadeIn.bg-light-gray {
+    padding: 0px 10%;
+    margin-top: 0px;
+}
