@@ -497,7 +497,7 @@
         height: 445px;
     }
     .row.align-items-center {
-        padding: 0% 9%;
+        padding: 0% 10%;
         margin-top: -23px;
     }
     p.text-large.bergabung {
@@ -620,7 +620,7 @@ section.wow.fadeIn.bg-light-gray {
 }
 
 .row.contact {
-    padding: 42px 11%;
+    padding: 45px 0%;
 }
 
 p.sejak-tahun {
@@ -636,7 +636,8 @@ p.sejak-tahun {
 }
 
 a.btn.selengkapnya {
-    margin-top: 10px;
+    margin-top: 32px;
+    margin-bottom: 22px;
 }
 
 img.logo-tentangkami {
@@ -645,4 +646,12 @@ img.logo-tentangkami {
 
 section.wow.fadeIn.bg-light-gray.v2 {
     margin-top: 75px;
+}
+
+section.wow.fadeIn {
+    padding-bottom: 0px;
+}
+
+section.wow.fadeIn.bg-light-gray.v1 {
+    padding: 0% 0%;
 }
