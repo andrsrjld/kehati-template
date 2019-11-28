@@ -83,7 +83,7 @@
 
 .font-title-art {
     font-family: PFDinTextCompPro !important;
-    font-size: 50px !important;
+    font-size: 35px !important;
     color: #000000 !important;
     font-weight: 500;
     letter-spacing: 0.08px;
@@ -173,4 +173,24 @@ ul.nav.nav-tabs.artikel {
 
 .font-justify {
     text-align: justify;
+}
+
+.list-data {
+    list-style: none;
+    margin: 0px !important;
+}
+
+.gutter-bottom-in {
+    width: 1000px;
+    padding-bottom: 0px;
+}
+
+.gutter-bottom-in img {
+    width: 1000px;
+    padding-bottom: 0px;
+}
+
+.gutter-horiz-in {
+    padding-left: 0px;
+    padding-right: 0px;
 }
