@@ -18,6 +18,11 @@
     src: url('../../fonts/OpenSans-Regular.ttf');
 }
 
+@font-face {
+    font-family: 'compro-bold';
+    src: url('../fonts/PFDinTextCompPro-Medium.ttf');
+}
+
 
 /* default font */
 
@@ -219,4 +224,18 @@ ul.nav.nav-tabs.artikel {
 .font-date-art{
     font-family: PFDinTextCompPro-Regular !important;
     font-size: 12px !important;
+}
+
+.font-header{
+    font-family: compro-bold !important;
+    text-transform: uppercase !important;
+    font-size: 15px !important;
+}
+
+nav.navbar.navbar-default ul.nav>li>a{
+    font-family: compro-bold !important;
+    text-transform: uppercase !important;
+    font-size: 15px !important;
+    padding: 35px 6px;
+
 }
