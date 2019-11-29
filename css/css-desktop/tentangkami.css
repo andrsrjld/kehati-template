@@ -661,7 +661,7 @@ a.btn.selengkapnya.v2 {
 }
 
 section.wow.fadeIn.bg-light-gray.V3 {
-    margin-top: -68px;
+    margin-top: 44px;
 }
 
 li.point-list {
@@ -710,5 +710,446 @@ img.icon-list {
 
 section.wow.fadeIn.bg-light-gray {
     padding: 0px 10%;
-    margin-top: 0px;
+    margin-top: 54px;
+}
+
+section {
+    padding: 2.5% 0;
+    overflow: hidden;
+}
+
+.desc-title {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro;
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 0.08px;
+    line-height: 46px;
+    text-align: center;
+}
+
+.desc {
+    color: #B7B7B7;
+    font-family: PFDinTextCompPro;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.04px;
+    line-height: 22px;
+    width: 70%;
+    text-align: justify;
+    margin-left: 15%;
+}
+
+p {
+    margin: 0 15% 0px !important;
+}
+
+.height-slider {
+    height: 254px !important;
+}
+
+.program-kehati {
+    color: #FFFFFF;
+    font-family: PFDinTextCompPro;
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.margin-min90px-bottom {
+    margin-bottom: -80px;
+}
+
+.row.align-items-center {
+    padding: 0% 9%;
+    margin-top: -81px;
+}
+
+p {
+    margin: 0 0% 0px !important;
+}
+
+.row.align-items-center {
+    padding: 0% 9%;
+    margin-top: -80px;
+}
+
+.garis {
+    background-color: rgba(63, 160, 107, 1.0);
+    height: 2px;
+    width: 88px;
+    margin: auto;
+    margin-top: 3px;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.descript-ekositem {
+    color: #B7B7B7;
+    font-family: open-sans-regular;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.05px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn.btn-dark-gray-unduh {
+    background-color: #3FA06B;
+    border-radius: 10px;
+    width: 162px;
+    height: 40px;
+    color: #FFFFFF;
+    font-family: PFDinTextCompPro;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.judul-section {
+    color: #0A0B09;
+    font-family: open-sans-regular;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 0.05px;
+    line-height: 30px;
+    text-align: center;
+}
+
+section.wow.fadeIn.bg-light-gray.V2 {
+    margin-top: 38px;
+}
+
+.descript-nilainilaidasar {
+    color: #B7B7B7;
+    font-family: open-sans-regular;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    line-height: 29px;
+    width: 100%;
+    text-align: justify;
+    padding: 30px 15%;
+}
+
+.row.align-items-center.v1 {
+    padding: 0;
+    margin-top: -116px;
+    background: #000;
+}
+
+a.btn.btn-dark-gray.btn-small.text-extra-small.border-radius-4.margin-20px-top.bergabung-1.v1 {
+    background: #000;
+    border: 1px solid #fff;
+}
+
+img.padding-ten-right.md-no-padding-right.w-100.v1 {
+    margin-top: 75px;
+    margin-left: -12px;
+}
+
+p.yang-muda.v1 {
+    width: 400px;
+    font-size: 31px;
+    color: #fff;
+    line-height: 36px;
+    letter-spacing: 6px;
+}
+
+.descript-nilainilaidasar.v3 {
+    text-align: center;
+    padding-bottom: 0px;
+}
+
+.slider {
+    width: 72%;
+    margin: 100px auto;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+.slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: .2;
+}
+
+.slick-active {
+    opacity: 1;
+}
+
+.slick-current {
+    opacity: 1;
+}
+
+.slick-prev.slick-arrow {
+    top: 30%;
+    background: #B7B7B7;
+    background-image: url(../../img/01-01-shape-copy@2x.png);
+    width: 43px;
+    height: 60px;
+    position: absolute;
+    left: -14%;
+    background-repeat: no-repeat;
+    background-size: 23%;
+    background-position: 58% 50%;
+    transform: rotate(180deg);
+}
+
+.slick-next.slick-arrow {
+    top: 30%;
+    transform: inherit;
+    background: #b7b7b7;
+    background-image: url(../../img/01-01-shape-copy@2x.png);
+    width: 43px;
+    height: 60px;
+    position: absolute;
+    right: -14%;
+    background-repeat: no-repeat;
+    background-size: 23%;
+    background-position: 58% 50%;
+}
+
+.slick-prev {
+    left: -25px;
+}
+
+[dir='rtl'] .slick-prev {
+    right: -25px;
+    left: auto;
+}
+
+.slick-prev:before {
+    content: '<';
+    font-size: 25px;
+    color: #0000;
+    font-weight: bold;
+}
+
+[dir='rtl'] .slick-prev:before {
+    content: '<';
+    font-size: 25px;
+    color: #0000;
+    font-weight: bold;
+}
+
+.slick-next {
+    right: -25px;
+}
+
+[dir='rtl'] .slick-next {
+    right: auto;
+    left: -25px;
+}
+
+.slick-next:before {
+    content: '>';
+    font-size: 25px;
+    color: #0000;
+    font-weight: bold;
+}
+
+[dir='rtl'] .slick-next:before {
+    content: '>';
+    font-size: 25px;
+    color: #0000;
+    font-weight: bold;
+}
+
+.slider {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.slick-prev:before {
+    display: none;
+}
+
+.slick-next:before {
+    display: none;
+}
+
+.description.title-news.tentangkami {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro-Medium;
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 0.03px;
+    line-height: 17px;
+    width: 144px;
+    text-align: center;
+    margin: auto;
+    margin-top: 17px;
+    margin-bottom: 20px;
+}
+
+img.pathner {
+    width: auto;
+    margin: auto;
+    min-height: 60px;
+    max-height: 90px;
+}
+
+section.wow.fadeIn.bg-light-gray.V4 {
+    margin-top: 65px;
+}
+
+section.wow.fadeIn.bg-light-gray.v5 {
+    margin-top: -45px;
+}
+
+.row.pengurus {
+    padding: 4% 0%;
+}
+
+img.img-dana {
+    margin-top: 80px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+h1.text-white-2.alt-font.font-weight-600.letter-spacing-minus-1.margin-min90px-bottom.program-kehati {
+    margin-top: 21%;
+    color: #FFFFFF;
+    font-family: PFDinTextCompPro-Medium;
+    font-size: 42px;
+    font-weight: 500;
+    letter-spacing: 0.08px;
+    line-height: 46px;
+    width: 100%;
+    text-align: center;
+}
+
+section.wow.fadeIn.parallax {
+    height: 445px;
+}
+
+.row.align-items-center {
+    padding: 0% 9%;
+    margin-top: -80px;
+}
+
+p.text-large.bergabung {
+    color: #3FA06B;
+    font-family: PFDinTextCompPro-Medium;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.03px;
+    line-height: 14px;
+    text-align: left;
+}
+
+p.yang-muda {
+    color: #0A0B09;
+    font-family: open-sans-regular;
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 0.05px;
+    line-height: 27px;
+    width: 415px;
+    text-align: left;
+}
+
+p.sejak-tahun {
+    color: #B7B7B7;
+    font-family: PFDinTextCompPro-Medium;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03px;
+    line-height: 23px;
+    width: 460px;
+    text-align: left;
+    padding-top: 26px;
+}
+
+img.padding-ten-right.md-no-padding-right.w-100 {
+    margin-top: 122px;
+}
+
+.row.row-pathner {
+    margin-top: 50px;
+}
+
+.sejaktahun2014ke.tentangkamiv4.v2 {
+    padding: 0 18%;
+    line-height: 34px;
+}
+
+ul.list.misi {
+    margin-top: 15px;
+    padding: 0% 1.5%;
+    padding-right: 0%;
+    list-style-image: url(../../img/point.png);
+}
+
+span.small-title {
+    color: #0A0B09;
+    font-weight: 800;
+}
+
+ul.sejaktahun2014ke.tentangkamiv4.v2.list {
+    margin-top: 55px;
+}
+
+.div-visi {
+    margin-top: 46px;
+}
+
+ul.sejaktahun2014ke.tentangkamiv4.v2.list {
+    margin-top: 15px;
+    width: 83%;
+    padding-right: 0%;
+    list-style-image: url(../../img/point.png);
+}
+
+li.point-list {
+    text-align: justify;
+}
+
+.sejaktahun2014ke.tentangkamiv4.v2 {
+    padding: 0 18%;
+    line-height: 34px;
+    font-size: 14px;
+    font-family: open-sans-regular;
+    letter-spacing: 0px;
+}
+
+.description.title-news.v1 {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.04px;
+    line-height: 22px;
+    width: 214px;
+    text-align: left;
+    padding: 5px 0;
+    padding-bottom: 23px;
+}
+
+.font-body.font-justify.v1 {
+    padding: 0% 10%;
+}
+
+section.wow.fadeIn.bg-light-gray {
+    padding: 0px 10%;
+}
+
+iframe.map {
+    margin-top: 43px;
 }
