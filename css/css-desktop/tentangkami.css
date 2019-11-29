@@ -712,3 +712,32 @@ section.wow.fadeIn.bg-light-gray {
     padding: 0px 10%;
     margin-top: 0px;
 }
+
+.margin-20px-top {
+    margin-top: 0px;
+}
+
+section.wow.fadeIn.bg-light-gray {
+    padding: 0px 10%;
+    margin-top: 65px;
+}
+
+section.wow.fadeIn.bg-light-gray.V2 {
+    margin-top: 80px;
+}
+
+section.wow.fadeIn.bg-light-gray.V3 {
+    margin-top: 77px;
+}
+
+iframe.map {
+    margin-top: 45px;
+}
+
+.col-sm-12.col-md-6.col-lg-3.col-xl-3 {
+    margin-bottom: 29px;
+}
+
+section.wow.fadeIn.bg-light-gray.v5 {
+    margin-top: 70px;
+}
