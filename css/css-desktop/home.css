@@ -1,0 +1,2116 @@
+    .container-fluid {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .box-layout {
+        padding: 0px !important;
+    }
+    .width-100 {
+        width: 100%;
+    }
+    .mask {
+        border-radius: 10px;
+    }
+    .border-color-extra-light-gray {
+        border-color: transparent !important;
+    }
+    .border-bottom {
+        border-bottom: transparent !important;
+    }
+    .font-medium {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        width: 355px;
+        text-align: center;
+    }
+    .short-desc {
+        color: #333333;
+        font-family: open-sans-regular;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0.04px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .icon-desc {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 26px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .logo-desc {
+        width: 204px;
+        height: 199px;
+    }
+    section {
+        padding: 10px 0;
+        overflow: hidden;
+    }
+    .feature-box .content {
+        padding: 0px 0px;
+    }
+    .padding-ten-right {
+        padding-right: 0%;
+    }
+    .yang-muda {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 0.06px;
+        line-height: 48px;
+        width: 193.48px;
+        text-align: left;
+        margin-bottom: 15px !important;
+    }
+    p {
+        margin: 0 0 0px !important;
+    }
+    .sejak-tahun {
+        color: #0A0B09;
+        font-family: open-sans-regular;
+        font-size: 11px;
+        font-weight: 580;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        width: 217px;
+        text-align: left;
+    }
+    .bergabung {
+        color: #3FA06B;
+        font-family: open-sans-regular;
+        font-size: 23px;
+        font-weight: 200;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: left;
+        margin-bottom: 15px !important;
+    }
+    .bergabung-1 {
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 15px !important;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .btn.btn-dark-gray {
+        background: #3FA06B;
+        border-color: #3FA06B;
+        color: #fff;
+        border-radius: 8px !important;
+    }
+    .btn.btn-dark-gray:hover,
+    .btn.btn-dark-gray:focus {
+        background: transparent;
+        color: #3FA06B;
+    }
+    .bg-light-gray {
+        background-color: #ffffff;
+    }
+    .text-publikasi {
+        text-align: center !important;
+    }
+    .padding-40px-all {
+        padding: 20px;
+    }
+    .publikasi {
+        color: white !important;
+    }
+    .text-extra-dark-gray.font-weight-600.d-block.alt-font {
+        height: 55px !important;
+    }
+    .padding-20px-all {
+        padding-top: 20px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .unduh-text {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 25px;
+    }
+    .btn.btn-dark-gray-unduh {
+        background: #3FA06B;
+        border-color: #3FA06B;
+        color: #fff;
+        border-radius: 8px !important;
+        width: 177px;
+    }
+    .margin-two-bottom {
+        margin-bottom: 2%;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    .padding-ten-right {
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+    }
+    .garis {
+        background-color: rgba(63, 160, 107, 1.0);
+        height: 2px;
+        width: 88px;
+        margin: auto;
+        margin-top: auto;
+        margin-top: -20px;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .full-width-image {
+        width: 100% !important;
+    }
+    .row.justify-content-center {
+        margin-right: -75px;
+        margin-left: -75px;
+        margin-top: 20px;
+    }
+    /* style dari kehati */
+    .crop-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 14px;
+        position: relative;
+        overflow: hidden;
+    }
+    .crop-img img {
+        width: 100%;
+        height: max-content;
+    }
+    .crop-img:hover img {
+        transform: scale(1.1);
+    }
+    .grid-post {
+        padding: 0 9%;
+        height: 714px;
+        width: 100%;
+        margin: 0;
+        margin-top: 0px;
+        margin-top: 23px;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    section.wow.fadeIn.desktop-about.v1 {
+        margin-top: -237px;
+    }
+    .row-grid {
+        position: relative;
+        width: 100%;
+        height: 480px;
+    }
+    .grid1 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .grid2 {
+        height: 66.66%;
+        padding: 0.3%;
+        position: absolute;
+        top: 33.33%;
+        left: 0%;
+    }
+    .grid3 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 33.33%;
+    }
+    .grid4 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 33.33%;
+        left: 33.33%;
+    }
+    .grid5 {
+        height: 66.66%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 66.66%;
+    }
+    .grid6 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 66.66%;
+        left: 33.33%;
+    }
+    .crop-img div.blank {
+        width: 100%;
+        height: 100%;
+        background: rgba(63, 160, 107, 1.0);
+        border-radius: 14px;
+    }
+    .titlegrid {
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        width: 338px;
+        text-align: left;
+    }
+    .titlegrid1 {
+        bottom: 24px;
+        height: auto;
+        width: 92%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid2 {
+        top: 5%;
+        height: auto;
+        width: 92%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid3 {
+        height: auto;
+        width: 80%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid4 {
+        height: auto;
+        width: 60%;
+        position: absolute;
+        margin: 0;
+        left: 2.5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid5 {
+        height: auto;
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        bottom: 0;
+        padding-left: 46px;
+        padding-right: 46px;
+        padding-top: 14px;
+        padding-bottom: 20px;
+    }
+    .mobile-grid-view {
+        display: none;
+    }
+    .mobile-about {
+        display: none;
+    }
+}
+
+@media (min-width:1200px) {
+    .container-fluid {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .box-layout {
+        padding: 0px !important;
+    }
+    .width-100 {
+        width: 100%;
+    }
+    .mask {
+        border-radius: 10px;
+    }
+    .border-color-extra-light-gray {
+        border-color: transparent !important;
+    }
+    .border-bottom {
+        border-bottom: transparent !important;
+    }
+    .font-medium {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        width: 355px;
+        text-align: center;
+    }
+    .short-desc {
+        color: #333333;
+        font-family: open-sans-regular;
+        font-size: 14px;
+        font-weight: 400;
+        letter-spacing: 0.04px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .icon-desc {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .logo-desc {
+        width: 204px;
+        height: 199px;
+    }
+    section {
+        padding: 10px 0;
+        overflow: hidden;
+    }
+    .feature-box .content {
+        padding: 0px 0px;
+    }
+    .padding-ten-right {
+        padding-right: 0%;
+    }
+    .yang-muda {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 32px;
+        font-weight: 500;
+        letter-spacing: 0.06px;
+        line-height: 48px;
+        width: 280.48px;
+        text-align: left;
+        margin-bottom: 15px !important;
+    }
+    p {
+        margin: 0 0 0px !important;
+    }
+    .sejak-tahun {
+        color: #0A0B09;
+        font-family: open-sans-regular;
+        font-size: 14px;
+        font-weight: 580;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        width: 275px;
+        text-align: left;
+    }
+    .bergabung {
+        color: #3FA06B;
+        font-family: open-sans-regular;
+        font-size: 22px;
+        font-weight: 200;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: left;
+        margin-bottom: 15px !important;
+    }
+    .bergabung-1 {
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 15px !important;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .btn.btn-dark-gray {
+        background: #3FA06B;
+        border-color: #3FA06B;
+        color: #fff;
+        border-radius: 8px !important;
+    }
+    .btn.btn-dark-gray:hover,
+    .btn.btn-dark-gray:focus {
+        background: transparent;
+        color: #3FA06B;
+    }
+    .bg-light-gray {
+        background-color: #ffffff;
+    }
+    .text-publikasi {
+        text-align: center !important;
+    }
+    .padding-40px-all {
+        padding: 20px;
+    }
+    .publikasi {
+        color: white !important;
+    }
+    .text-extra-dark-gray.font-weight-600.d-block.alt-font {
+        height: 55px !important;
+    }
+    .padding-20px-all {
+        padding-top: 20px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .unduh-text {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 25px;
+    }
+    .btn.btn-dark-gray-unduh {
+        background: #3FA06B;
+        border-color: #3FA06B;
+        color: #fff;
+        border-radius: 8px !important;
+        width: 177px;
+    }
+    .margin-two-bottom {
+        margin-bottom: 2%;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 34px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    .padding-ten-right {
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+    }
+    .garis {
+        background-color: rgba(63, 160, 107, 1.0);
+        height: 2px;
+        width: 88px;
+        margin: auto;
+        margin-top: auto;
+        margin-top: -20px;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .full-width-image {
+        width: 100% !important;
+    }
+    .row.justify-content-center {
+        margin-right: -75px;
+        margin-left: -75px;
+        margin-top: 20px;
+    }
+    /* style dari kehati */
+    .crop-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 14px;
+        position: relative;
+        overflow: hidden;
+    }
+    .crop-img img {
+        width: 100%;
+    }
+    .crop-img:hover img {
+        transform: scale(1.1);
+    }
+    .grid-post {
+        padding: 0 9%;
+        height: 714px;
+        width: 100%;
+        margin: 0;
+        margin-top: 0px;
+        margin-top: 23px;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    section.wow.fadeIn.desktop-about.v1 {
+        margin-top: -151px;
+    }
+    .row-grid {
+        position: relative;
+        width: 100%;
+        height: 566px;
+    }
+    .grid1 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .grid2 {
+        height: 66.66%;
+        padding: 0.3%;
+        position: absolute;
+        top: 33.33%;
+        left: 0%;
+    }
+    .grid3 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 33.33%;
+    }
+    .grid4 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 33.33%;
+        left: 33.33%;
+    }
+    .grid5 {
+        height: 66.66%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 66.66%;
+    }
+    .grid6 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 66.66%;
+        left: 33.33%;
+    }
+    .crop-img div.blank {
+        width: 100%;
+        height: 100%;
+        background: rgba(63, 160, 107, 1.0);
+        border-radius: 14px;
+    }
+    .titlegrid {
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        width: 338px;
+        text-align: left;
+    }
+    .titlegrid1 {
+        bottom: 19px;
+        height: auto;
+        width: 92%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid2 {
+        top: 5%;
+        height: auto;
+        width: 92%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid3 {
+        bottom: 24px;
+        height: auto;
+        width: 80%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid4 {
+        bottom: 60%;
+        height: auto;
+        width: 80%;
+        position: absolute;
+        margin: 0;
+        left: 2.5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid5 {
+        height: auto;
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        bottom: 0;
+        padding-left: 46px;
+        padding-right: 46px;
+        padding-top: 14px;
+        padding-bottom: 20px;
+    }
+    .mobile-grid-view {
+        display: none;
+    }
+    .mobile-about {
+        display: none;
+    }
+}
+
+@media (min-width:1280px) {
+
+    .container-fluid {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .box-layout {
+        padding: 0px !important;
+    }
+    .width-100 {
+        width: 100%;
+    }
+    .mask {
+        border-radius: 10px;
+    }
+    .border-color-extra-light-gray {
+        border-color: transparent !important;
+    }
+    .border-bottom {
+        border-bottom: transparent !important;
+    }
+    .font-medium {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        width: 355px;
+        text-align: center;
+    }
+    .short-desc {
+        color: #333333;
+        font-family: open-sans-regular;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0.04px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .icon-desc {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 31px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .logo-desc {
+        width: 204px;
+        height: 199px;
+    }
+    section {
+        padding: 10px 0;
+        overflow: hidden;
+    }
+    .feature-box .content {
+        padding: 0px 0px;
+    }
+    .padding-ten-right {
+        padding-right: 0%;
+    }
+    .yang-muda {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 32px;
+        font-weight: 500;
+        letter-spacing: 0.06px;
+        line-height: 48px;
+        width: 266.48px;
+        text-align: left;
+        margin-bottom: 15px !important;
+    }
+    p {
+        margin: 0 0 0px !important;
+    }
+    .sejak-tahun {
+        color: #0A0B09;
+        font-family: open-sans-regular;
+        font-size: 15px;
+        font-weight: 580;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        width: 269px;
+        text-align: left;
+    }
+    .bergabung {
+        color: #3FA06B;
+        font-family: open-sans-regular;
+        font-size: 22px;
+        font-weight: 200;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: left;
+        margin-bottom: 15px !important;
+    }
+    .bergabung-1 {
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 15px !important;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .btn.btn-dark-gray {
+        background: #3FA06B;
+        border-color: #3FA06B;
+        color: #fff;
+        border-radius: 8px !important;
+    }
+    .btn.btn-dark-gray:hover,
+    .btn.btn-dark-gray:focus {
+        background: transparent;
+        color: #3FA06B;
+    }
+    .bg-light-gray {
+        background-color: #ffffff;
+    }
+    .text-publikasi {
+        text-align: center !important;
+    }
+    .padding-40px-all {
+        padding: 20px;
+    }
+    .publikasi {
+        color: white !important;
+    }
+    .text-extra-dark-gray.font-weight-600.d-block.alt-font {
+        height: 55px !important;
+    }
+    .padding-20px-all {
+        padding-top: 20px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .unduh-text {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 25px;
+    }
+    .btn.btn-dark-gray-unduh {
+        background: #3FA06B;
+        border-color: #3FA06B;
+        color: #fff;
+        border-radius: 8px !important;
+        width: 177px;
+    }
+    .margin-two-bottom {
+        margin-bottom: 2%;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    .padding-ten-right {
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+    }
+    .garis {
+        background-color: rgba(63, 160, 107, 1.0);
+        height: 2px;
+        width: 88px;
+        margin: auto;
+        margin-top: auto;
+        margin-top: -20px;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .full-width-image {
+        width: 100% !important;
+    }
+    .row.justify-content-center {
+        margin-right: -75px;
+        margin-left: -75px;
+        margin-top: 20px;
+    }
+    /* style dari kehati */
+    .crop-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 14px;
+        position: relative;
+        overflow: hidden;
+    }
+    .crop-img img {
+        width: 100%;
+    }
+    .crop-img:hover img {
+        transform: scale(1.1);
+    }
+    .grid-post {
+        padding: 0 9%;
+        height: 714px;
+        width: 100%;
+        margin: 0;
+        margin-top: 0px;
+        margin-top: 23px;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    section.wow.fadeIn.desktop-about.v1 {
+        margin-top: -83px;
+    }
+    .row-grid {
+        position: relative;
+        width: 100%;
+        height: 632px;
+    }
+    .grid1 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .grid2 {
+        height: 66.66%;
+        padding: 0.3%;
+        position: absolute;
+        top: 33.33%;
+        left: 0%;
+    }
+    .grid3 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 33.33%;
+    }
+    .grid4 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 33.33%;
+        left: 33.33%;
+    }
+    .grid5 {
+        height: 66.66%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 66.66%;
+    }
+    .grid6 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 66.66%;
+        left: 33.33%;
+    }
+    .crop-img div.blank {
+        width: 100%;
+        height: 100%;
+        background: rgba(63, 160, 107, 1.0);
+        border-radius: 14px;
+    }
+    .titlegrid {
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        width: 338px;
+        text-align: left;
+    }
+    .titlegrid1 {
+        bottom: 44px;
+        height: auto;
+        width: 92%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid2 {
+        top: 5%;
+        height: auto;
+        width: 92%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid3 {
+        bottom: 24px;
+        height: auto;
+        width: 80%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid4 {
+        bottom: 60%;
+        height: auto;
+        width: 80%;
+        position: absolute;
+        margin: 0;
+        left: 2.5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid5 {
+        height: auto;
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        bottom: 0;
+        padding-left: 46px;
+        padding-right: 46px;
+        padding-top: 14px;
+        padding-bottom: 20px;
+    }
+    .mobile-grid-view {
+        display: none;
+    }
+    .mobile-about {
+        display: none;
+    }
+}
+
+@media (min-width:1360px) {
+    .container-fluid {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .box-layout {
+        padding: 0px !important;
+    }
+    .width-100 {
+        width: 100%;
+    }
+    .mask {
+        border-radius: 10px;
+    }
+    .border-color-extra-light-gray {
+        border-color: transparent !important;
+    }
+    .border-bottom {
+        border-bottom: transparent !important;
+    }
+    .font-medium {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        width: 355px;
+        text-align: center;
+    }
+    .short-desc {
+        color: #333333;
+        font-family: open-sans-regular;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.04px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .icon-desc {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 35px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .logo-desc {
+        width: 204px;
+        height: 199px;
+    }
+    section {
+        padding: 10px 0;
+        overflow: hidden;
+    }
+    .feature-box .content {
+        padding: 0px 0px;
+    }
+    .padding-ten-right {
+        padding-right: 0%;
+    }
+    .yang-muda {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 36px;
+        font-weight: 500;
+        letter-spacing: 0.06px;
+        line-height: 48px;
+        width: 308.48px;
+        text-align: left;
+        margin-bottom: 15px !important;
+    }
+    p {
+        margin: 0 0 0px !important;
+    }
+    .sejak-tahun {
+        color: #0A0B09;
+        font-family: open-sans-regular;
+        font-size: 16px;
+        font-weight: 580;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        width: 319px;
+        text-align: left;
+    }
+    .bergabung {
+        color: #3FA06B;
+        font-family: open-sans-regular;
+        font-size: 24px;
+        font-weight: 200;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: left;
+        margin-bottom: 15px !important;
+    }
+    .bergabung-1 {
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 15px !important;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .btn.btn-dark-gray {
+        background: #3FA06B;
+        border-color: #3FA06B;
+        color: #fff;
+        border-radius: 8px !important;
+    }
+    .btn.btn-dark-gray:hover,
+    .btn.btn-dark-gray:focus {
+        background: transparent;
+        color: #3FA06B;
+    }
+    .bg-light-gray {
+        background-color: #ffffff;
+    }
+    .text-publikasi {
+        text-align: center !important;
+    }
+    .padding-40px-all {
+        padding: 20px;
+    }
+    .publikasi {
+        color: white !important;
+    }
+    .text-extra-dark-gray.font-weight-600.d-block.alt-font {
+        height: 55px !important;
+    }
+    .padding-20px-all {
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .unduh-text {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 25px;
+    }
+    .btn.btn-dark-gray-unduh {
+        background: #3FA06B;
+        border-color: #3FA06B;
+        color: #fff;
+        border-radius: 8px !important;
+        width: 177px;
+    }
+    .margin-two-bottom {
+        margin-bottom: 2%;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 36px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    .padding-ten-right {
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+    }
+    .garis {
+        background-color: rgba(63, 160, 107, 1.0);
+        height: 2px;
+        width: 88px;
+        margin: auto;
+        margin-top: auto;
+        margin-top: -20px;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .full-width-image {
+        width: 100% !important;
+    }
+    .row.justify-content-center {
+        margin-right: -75px;
+        margin-left: -75px;
+        margin-top: 20px;
+    }
+    /* style dari kehati */
+    .crop-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 14px;
+        position: relative;
+        overflow: hidden;
+    }
+    .crop-img img {
+        width: 100%;
+    }
+    .crop-img:hover img {
+        transform: scale(1.1);
+    }
+    .grid-post {
+        padding: 0 9%;
+        height: 714px;
+        width: 100%;
+        margin: 0;
+        margin-top: 0px;
+        margin-top: 23px;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    section.wow.fadeIn.desktop-about.v1 {
+        margin-top: -68px;
+    }
+    .row-grid {
+        position: relative;
+        width: 100%;
+        height: 643px;
+    }
+    .grid1 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .grid2 {
+        height: 66.66%;
+        padding: 0.3%;
+        position: absolute;
+        top: 33.33%;
+        left: 0%;
+    }
+    .grid3 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 33.33%;
+    }
+    .grid4 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 33.33%;
+        left: 33.33%;
+    }
+    .grid5 {
+        height: 66.66%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 66.66%;
+    }
+    .grid6 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 66.66%;
+        left: 33.33%;
+    }
+    .crop-img div.blank {
+        width: 100%;
+        height: 100%;
+        background: rgba(63, 160, 107, 1.0);
+        border-radius: 14px;
+    }
+    .titlegrid {
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 21px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        width: 338px;
+        text-align: left;
+    }
+    .titlegrid1 {
+        bottom: 24px;
+        height: auto;
+        width: 92%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid2 {
+        top: 5%;
+        height: auto;
+        width: 92%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid3 {
+        bottom: 24px;
+        height: auto;
+        width: 80%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid4 {
+        bottom: 60%;
+        height: auto;
+        width: 80%;
+        position: absolute;
+        margin: 0;
+        left: 2.5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid5 {
+        height: auto;
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        bottom: 0;
+        padding-left: 46px;
+        padding-right: 46px;
+        padding-top: 14px;
+        padding-bottom: 20px;
+    }
+    .mobile-grid-view {
+        display: none;
+    }
+    .mobile-about {
+        display: none;
+    }
+}
+
+@media (min-width:1440px) {
+    .container-fluid {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .box-layout {
+        padding: 0px !important;
+    }
+    .width-100 {
+        width: 100%;
+    }
+    .mask {
+        border-radius: 10px;
+    }
+    .border-color-extra-light-gray {
+        border-color: transparent !important;
+    }
+    .border-bottom {
+        border-bottom: transparent !important;
+    }
+    .font-medium {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        width: 355px;
+        text-align: center;
+    }
+    .short-desc {
+        color: #333333;
+        font-family: open-sans-regular;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.04px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .icon-desc {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 33px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .logo-desc {
+        width: 204px;
+        height: 199px;
+    }
+    section {
+        padding: 10px 0;
+        overflow: hidden;
+    }
+    .feature-box .content {
+        padding: 0px 0px;
+    }
+    .padding-ten-right {
+        padding-right: 0%;
+    }
+    .yang-muda {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 28px;
+        font-weight: 500;
+        letter-spacing: 0.06px;
+        line-height: 48px;
+        width: 275.48px;
+        text-align: left;
+        margin-bottom: 15px !important;
+    }
+    p {
+        margin: 0 0 0px !important;
+    }
+    .sejak-tahun {
+        color: #0A0B09;
+        font-family: open-sans-regular;
+        font-size: 14px;
+        font-weight: 580;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        width: 255px;
+        text-align: left;
+    }
+    .bergabung {
+        color: #3FA06B;
+        font-family: open-sans-regular;
+        font-size: 21px;
+        font-weight: 200;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: left;
+        margin-bottom: 15px !important;
+    }
+    .bergabung-1 {
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 15px !important;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .btn.btn-dark-gray {
+        background: #3FA06B;
+        border-color: #3FA06B;
+        color: #fff;
+        border-radius: 8px !important;
+    }
+    .btn.btn-dark-gray:hover,
+    .btn.btn-dark-gray:focus {
+        background: transparent;
+        color: #3FA06B;
+    }
+    .bg-light-gray {
+        background-color: #ffffff;
+    }
+    .text-publikasi {
+        text-align: center !important;
+    }
+    .padding-40px-all {
+        padding: 20px;
+    }
+    .publikasi {
+        color: white !important;
+    }
+    .text-extra-dark-gray.font-weight-600.d-block.alt-font {
+        height: 55px !important;
+    }
+    .padding-20px-all {
+        padding-top: 20px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .unduh-text {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        text-align: center;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 25px;
+    }
+    .btn.btn-dark-gray-unduh {
+        background: #3FA06B;
+        border-color: #3FA06B;
+        color: #fff;
+        border-radius: 8px !important;
+        width: 177px;
+    }
+    .margin-two-bottom {
+        margin-bottom: 2%;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    .padding-ten-right {
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+    }
+    .garis {
+        background-color: rgba(63, 160, 107, 1.0);
+        height: 2px;
+        width: 88px;
+        margin: auto;
+        margin-top: auto;
+        margin-top: -20px;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .full-width-image {
+        width: 100% !important;
+    }
+    .row.justify-content-center {
+        margin-right: -75px;
+        margin-left: -75px;
+        margin-top: 20px;
+    }
+    /* style dari kehati */
+    .crop-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 14px;
+        position: relative;
+        overflow: hidden;
+    }
+    .crop-img img {
+        width: 100%;
+    }
+    .crop-img:hover img {
+        transform: scale(1.1);
+    }
+    .grid-post {
+        padding: 0 9%;
+        height: 714px;
+        width: 100%;
+        margin: 0;
+        margin-top: 0px;
+        margin-top: 23px;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    section.wow.fadeIn.desktop-about.v1 {
+        margin-top: -32px;
+    }
+    .row-grid {
+        position: relative;
+        width: 100%;
+        height: 681px;
+    }
+    .grid1 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .grid2 {
+        height: 66.66%;
+        padding: 0.3%;
+        position: absolute;
+        top: 33.33%;
+        left: 0%;
+    }
+    .grid3 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 33.33%;
+    }
+    .grid4 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 33.33%;
+        left: 33.33%;
+    }
+    .grid5 {
+        height: 66.66%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 66.66%;
+    }
+    .grid6 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 66.66%;
+        left: 33.33%;
+    }
+    .crop-img div.blank {
+        width: 100%;
+        height: 100%;
+        background: rgba(63, 160, 107, 1.0);
+        border-radius: 14px;
+    }
+    .titlegrid {
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 22px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        width: 338px;
+        text-align: left;
+    }
+    .titlegrid1 {
+        bottom: 24px;
+        height: auto;
+        width: 92%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid2 {
+        top: 5%;
+        height: auto;
+        width: 92%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid3 {
+        bottom: 24px;
+        height: auto;
+        width: 80%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid4 {
+        bottom: 60%;
+        height: auto;
+        width: 80%;
+        position: absolute;
+        margin: 0;
+        left: 2.5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid5 {
+        height: auto;
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        bottom: 0;
+        padding-left: 46px;
+        padding-right: 46px;
+        padding-top: 14px;
+        padding-bottom: 20px;
+    }
+    .mobile-grid-view {
+        display: none;
+    }
+    .mobile-about {
+        display: none;
+    }
+}
+
+@media (min-width:1600px) {
+    .container-fluid {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .box-layout {
+        padding: 0px !important;
+    }
+    .width-100 {
+        width: 100%;
+    }
+    .mask {
+        border-radius: 10px;
+    }
+    .border-color-extra-light-gray {
+        border-color: transparent !important;
+    }
+    .border-bottom {
+        border-bottom: transparent !important;
+    }
+    .font-medium {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        width: 355px;
+        text-align: center;
+    }
+    .short-desc {
+        color: #333333;
+        font-family: open-sans-regular;
+        font-size: 18px;
+        font-weight: 400;
+        letter-spacing: 0.04px;
+        line-height: 22px;
+        text-align: center;
+    }
+    .icon-desc {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 35px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        text-align: center;
+    }
+    .logo-desc {
+        width: 204px;
+        height: 199px;
+    }
+    section {
+        padding: 10px 0;
+        overflow: hidden;
+    }
+    .feature-box .content {
+        padding: 0px 0px;
+    }
+    .padding-ten-right {
+        padding-right: 0%;
+    }
+    .yang-muda {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.06px;
+        line-height: 48px;
+        width: 308.48px;
+        text-align: left;
+        margin-bottom: 15px !important;
+    }
+    p {
+        margin: 0 0 0px !important;
+    }
+    .sejak-tahun {
+        font-family: open-sans-regular;
+        font-size: 18px;
+        font-weight: 580;
+        letter-spacing: 0.04px;
+        line-height: 25px;
+        width: 319px;
+        text-align: left;
+    }
+    .bergabung {
+        color: #3FA06B;
+        font-family: open-sans-regular;
+        font-size: 28px;
+        font-weight: 200;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        text-align: left;
+        margin-bottom: 15px !important;
+    }
+    .bergabung-1 {
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 15px !important;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .btn.btn-dark-gray {
+        background: #3FA06B;
+        border-color: #3FA06B;
+        color: #fff;
+        border-radius: 8px !important;
+    }
+    .btn.btn-dark-gray:hover,
+    .btn.btn-dark-gray:focus {
+        background: transparent;
+        color: #3FA06B;
+    }
+    .bg-light-gray {
+        background-color: #ffffff;
+    }
+    .text-publikasi {
+        text-align: center !important;
+    }
+    .padding-40px-all {
+        padding: 20px;
+    }
+    .publikasi {
+        color: white !important;
+    }
+    .text-extra-dark-gray.font-weight-600.d-block.alt-font {
+        height: 55px !important;
+    }
+    .padding-20px-all {
+        padding-top: 20px;
+        padding-right: 60px;
+        padding-left: 60px;
+    }
+    .unduh-text {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        text-align: center;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 25px;
+    }
+    .btn.btn-dark-gray-unduh {
+        background: #3FA06B;
+        border-color: #3FA06B;
+        color: #fff;
+        border-radius: 8px !important;
+        width: 177px;
+    }
+    .margin-two-bottom {
+        margin-bottom: 2%;
+    }
+    .judul-section {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.09px;
+        line-height: 48px;
+        text-align: center;
+    }
+    .padding-ten-right {
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+    }
+    .garis {
+        background-color: rgba(63, 160, 107, 1.0);
+        height: 2px;
+        width: 88px;
+        margin: auto;
+        margin-top: auto;
+        margin-top: -20px;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .full-width-image {
+        width: 100% !important;
+    }
+    .row.justify-content-center {
+        margin-right: -75px;
+        margin-left: -75px;
+        margin-top: 20px;
+    }
+    /* style dari kehati */
+    .crop-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 14px;
+        position: relative;
+        overflow: hidden;
+    }
+    .crop-img img {
+        width: 100%;
+    }
+    .crop-img:hover img {
+        transform: scale(1.1);
+    }
+    .grid-post {
+        padding: 0 9%;
+        height: 714px;
+        width: 100%;
+        margin: 0;
+        margin-top: 0px;
+        margin-top: 23px;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    section.wow.fadeIn.desktop-about.v1 {
+        margin-top: 0px;
+    }
+    .row-grid {
+        position: relative;
+        width: 100%;
+        height: 715px;
+    }
+    .grid1 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+    }
+    .grid2 {
+        height: 66.66%;
+        padding: 0.3%;
+        position: absolute;
+        top: 33.33%;
+        left: 0%;
+    }
+    .grid3 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 33.33%;
+    }
+    .grid4 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 33.33%;
+        left: 33.33%;
+    }
+    .grid5 {
+        height: 66.66%;
+        padding: 0.3%;
+        position: absolute;
+        top: 0%;
+        left: 66.66%;
+    }
+    .grid6 {
+        height: 33.33%;
+        padding: 0.3%;
+        position: absolute;
+        top: 66.66%;
+        left: 33.33%;
+    }
+    .crop-img div.blank {
+        width: 100%;
+        height: 100%;
+        background: rgba(63, 160, 107, 1.0);
+        border-radius: 14px;
+    }
+    .titlegrid {
+        color: #FFFFFF;
+        font-family: PFDinTextCompPro;
+        font-size: 25px;
+        font-weight: 500;
+        letter-spacing: 0.05px;
+        line-height: 30px;
+        width: 338px;
+        text-align: left;
+    }
+    .titlegrid1 {
+        bottom: 24px;
+        height: auto;
+        width: 92%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid2 {
+        top: 5%;
+        height: auto;
+        width: 92%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid3 {
+        bottom: 24px;
+        height: auto;
+        width: 80%;
+        position: absolute;
+        margin: 0;
+        left: 5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid4 {
+        bottom: 60%;
+        height: auto;
+        width: 80%;
+        position: absolute;
+        margin: 0;
+        left: 2.5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .titlegrid5 {
+        height: auto;
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        bottom: 0;
+        padding-left: 46px;
+        padding-right: 46px;
+        padding-top: 14px;
+        padding-bottom: 20px;
+    }
+    .mobile-grid-view {
+        display: none;
+    }
+    .mobile-about {
+        display: none;
+    }
+}
+
+.desc {
+    color: #B7B7B7;
+    font-family: PFDinTextCompPro;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 0.04px;
+    line-height: 22px;
+    width: 70%;
+    text-align: justify;
+    margin-left: 15%;
+}
+
+p.desc {
+    width: 100%;
+    padding: 0 10%;
+}
+
+.crop-img img {
+    width: 100%;
+    height: 100% !important;
+}
+
+.icon-desc {
+    color: #0A0B09;
+    font-family: open-sans-bold;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.08px;
+    line-height: 27px;
+    text-align: center;
+}
+
+h6.font-weight-300.text-extra-dark-gray.mb-0.short-desc {
+    font-size: 15px;
+    line-height: 27px;
+}

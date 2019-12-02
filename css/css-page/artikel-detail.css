@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "open-sans-regular";
+    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "open-sans-bold";
+    src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+.font-medium {
+    color: #FFFFFF;
+    font-family: PFDinTextCompPro;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.05px;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5%;
+}
+
+.majalah {
+    text-align: justify;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.artikel {
+    margin-top: 2%;
+}
+
+section {
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.font-medium2 {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro;
+    font-size: 20px;
+}
+
+.thumnail-berita img {
+    width: 140%;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.row.row-artikel1 {
+    padding: 0% 14%;
+    margin-top: 0;
+}
+
+.margin-two-bottom {
+    margin-bottom: 3%;
+}
+
+li.nav-item {
+    margin: auto;
+}
+
+a.nav-link.btn.btn-light.btn-bergabung.tab.active {
+    background: #3FA06B;
+    color: #fff;
+}
+
+a.page-link.description.pagination {
+    color: #B7B7B7;
+    font-family: PFDinTextCompPro;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.03px;
+    line-height: 17px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 8px 12px;
+}
+
+.pagination {
+    border-radius: 0;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    margin: auto;
+}
+
+.hdr-page {
+    font: 60px/1.5 OpenSansRegular, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+img.cover-detail {
+    width: 1000px;
+}

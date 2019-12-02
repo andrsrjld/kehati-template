@@ -1,0 +1,201 @@
+.mengapa-kehati {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro;
+    font-size: 25px;
+    font-weight: 500;
+    letter-spacing: 0.05px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.descript-ekositem {
+    color:
+        #B7B7B7;
+    font-family: PFDinTextCompPro;
+    padding: 0% 16%;
+    color:
+        rgba(183, 183, 183, 1.0);
+    text-align: justify;
+    letter-spacing: .03px;
+    margin-top: 40px;
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.width-100 {
+    width: 96%;
+}
+
+.ada-padding-bottom {
+    padding-bottom: 5% !important;
+}
+
+.div-publikasi {
+    background-color: rgba(255, 255, 255, 0.0);
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+    margin-top: 0px;
+    margin-top: 3px;
+}
+
+.bigtitle {
+    background-color: rgba(255, 255, 255, 0.0);
+    height: auto;
+    width: 100%;
+    margin: 18px 0px;
+    padding: 0% 10%;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+    font-size: 26px;
+    color: rgba(10, 11, 9, 1.0);
+    text-align: center;
+    letter-spacing: .09px;
+    line-height: 45px;
+}
+
+.garis {
+    background-color: rgba(63, 160, 107, 1.0);
+    height: 2px;
+    width: 88px;
+    margin: auto;
+    margin-top: -10px;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+}
+
+.ekosistempertanian {
+    padding: 0% 16%;
+    color: rgba(183, 183, 183, 1.0);
+    text-align: justify;
+    letter-spacing: .03px;
+    margin-top: 40px;
+}
+
+.description {
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0% 12%;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: 'PFDinTextCompPro-Regular', Helvetica, Arial, serif;
+    font-size: 16.0px;
+    color: #B7B7B7;
+    text-align: center;
+    letter-spacing: .04px;
+    line-height: 29.0px;
+    padding-top: 15px;
+}
+
+.descript-insvestasi {
+    text-align: center;
+}
+
+.descript-insvestasi.v1 {
+    background: #0000;
+    margin: 0;
+    padding: 0;
+    transform: scale(0.8);
+}
+
+.row-investasi {
+    margin-top: 26px;
+}
+
+.col-investasi {
+    padding: 5% 4%;
+}
+
+.whyforestisimport {
+    top: 35%;
+    transform: rotate(0);
+    font-family: 'PFDinTextCompPro-Medium', Helvetica, Arial, serif;
+    font-size: 45px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    letter-spacing: .08px;
+    line-height: 77.0px;
+}
+
+.title-slide.whyforestisimport.artikel {
+    text-align: center;
+    width: 50%;
+    left: 0;
+    top: 10%;
+    margin-left: 25%;
+}
+
+.title-investasi {
+    width: 100%;
+    left: 0;
+    top: 40%;
+    text-align: center;
+}
+
+.title-investasi.v1 {
+    margin: 0;
+    padding: 0;
+    position: initial;
+    transform: scale(0.8);
+    width: 100%;
+}
+
+.descript-insvestasi {
+    text-align: center;
+}
+
+.descript-insvestasi.v1 {
+    background: #0000;
+    margin: 0;
+    padding: 0;
+    transform: scale(0.8);
+}
+
+.sejak-8 {
+    color: #FFFFFF;
+    font-family: PFDinTextCompPro;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.03px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.display-block {
+    background-size: cover;
+}
+
+.cover-nvestasi {
+    margin-top: 80px;
+}
+
+.title-investasi {
+    width: 100%;
+    left: 0;
+    top: 40%;
+    text-align: center;
+}
+
+.title-investasi.v1 {
+    margin: 0;
+    padding: 0;
+    position: initial;
+    transform: scale(0.8);
+    width: 100%;
+}
+
+.no-repeat {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.artikel-img:hover img {
+    transform: scale(1.1);
+}

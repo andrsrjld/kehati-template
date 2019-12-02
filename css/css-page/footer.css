@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'PFDinTextCompPro';
+    src: url('../../fonts/PFDinTextCompPro-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'PFDinTextCompPro-Regular';
+    src: url('../../fonts/PFDinTextCompPro-Regular.ttf');
+}
+
+@font-face {
+    font-family: "open-sans-regular";
+    src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "open-sans-bold";
+    src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+.html {
+    font-family: PFDinTextCompPro !important;
+}
+
+.border-top {
+    border-top: 0px solid #dee2e6 !important;
+}
+
+.border-color-medium-dark-gray {
+    border-color: #363636 !important;
+}
+
+.social-media {
+    color: #333333;
+    font-family: PFDinTextCompPro;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.04px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.logo-kehati {
+    width: 199px;
+    height: 75px;
+    margin-bottom: 4rem !important;
+}
+
+.program {
+    color: #333333;
+    font-family: open-sans-regular;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.03px;
+    line-height: 22px;
+    text-align: left;
+    text-transform: inherit !important;
+}
+
+.alamat {
+    color: #333333;
+    font-family: open-sans-regular;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.04px;
+    line-height: 22px;
+    width: 299px;
+    text-align: left;
+    margin-bottom: 3rem !important;
+}
+
+.yayasan-kehati {
+    color: #333333;
+    font-family: PFDinTextCompPro;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.04px;
+    line-height: 24px;
+    width: 106px;
+    text-align: left;
+    text-transform: inherit !important;
+    margin-top: 2rem;
+}
+
+.follow-us {
+    color: #333333;
+    font-family: PFDinTextCompPro;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.14px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 26px;
+}
+
+.yayasankehati {
+    color: #333333;
+    font-family: PFDinTextCompPro;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1.14px;
+    line-height: 24px;
+    text-align: left;
+    text-transform: inherit !important;
+}
+
+.poweredby {
+    color: #B7B7B7;
+    font-family: PFDinTextCompPro;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.03px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.bg-extra-dark-gray {
+    background-color: #FFFFFF;
+}
+
+.bg-extra-dark-black {
+    background-color: #333333;
+}
+
+.img-sos {
+    width: 15px;
+    margin-left: 13px;
+}
+
+.col-footer {
+    margin-bottom: 46px;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.labelfooter {
+    margin-left: 20px;
+    height: auto;
+    width: 100%;
+    -ms-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    font-family: PFDinTextCompPro;
+    font-size: 25.0px;
+    color: rgba(51, 51, 51, 1.0);
+    text-align: left;
+    letter-spacing: 1.14px;
+    line-height: 19.0px;
+}
+
+.row.row-menufooter {
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.link-footer {
+    font-family: open-sans-regular;
+    font-size: 19.0px;
+    color: rgba(51, 51, 51, 1.0);
+    text-align: left;
+    letter-spacing: 1.03px;
+    line-height: 18.0px;
+    list-style-type: none;
+    margin-left: -22.5px;
+    margin-bottom: 20px;
+}
+
+.img-sos img {
+    display: inherit !important;
+}
+
+@media only screen and (min-width: 375px) {
+    .col-md-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+footer.footer-classic-dark.bg-extra-dark-gray {
+    margin-bottom: 25px;
+}

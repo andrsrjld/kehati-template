@@ -1,0 +1,699 @@
+.unduh-text {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 0px;
+    line-height: 25px;
+}
+
+.desktop-view {
+    display: none !important;
+}
+
+.mobile-view {
+    display: block;
+}
+
+
+/* ----------- iPhone 5 ----------- */
+
+@media only screen and (min-width: 320px) and (max-width: 374px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+    .mobile-grid-view {
+        display: none;
+    }
+    .col-auto.pr-lg-0 {
+        margin-top: 5%;
+    }
+    section.half-section {
+        padding-top: 85px;
+        padding-bottom: 0px;
+    }
+    .short-desc {
+        padding: 0 12%;
+    }
+    .icon-desc {
+        font-size: 30px;
+    }
+    .grid-post {
+        padding: 0 9%;
+        height: 100%;
+    }
+    .row-grid {
+        position: inherit;
+        width: 110%;
+        height: 100%;
+    }
+    .grid1 {
+        height: 25%;
+        padding: 1%;
+        position: inherit;
+        top: 0%;
+        left: 0%;
+    }
+    .grid2 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    .grid3 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    .grid4 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    .grid5 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    .grid6 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    .titlegrid5 {
+        background-color: #000;
+        height: auto;
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        bottom: 0;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .titlegrid4 {
+        background-color: rgba(255, 255, 255, 0.0);
+        bottom: 25%;
+        height: auto;
+        width: 90%;
+        position: absolute;
+        margin: 0;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .col-md-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .btn.btn-dark-gray.btn-small.text-extra-small.border-radius-4.margin-20px-top.bergabung-1 {
+        margin-right: 20px;
+    }
+    section {
+        padding: 25px 0;
+        overflow: hidden;
+    }
+    .sm-padding-15px-left {
+        margin-top: 0px !important;
+    }
+    .sejak-tahun {
+        width: 100%;
+    }
+    .yang-muda {
+        width: 100%;
+    }
+    .md-padding-15px-all {
+        padding: 10px !important;
+    }
+}
+
+
+/* ----------- Android ----------- */
+
+@media only screen and (min-width: 360px) and (max-width: 479px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+    .mobile-grid-view {
+        display: none;
+    }
+    .mobile-about {
+        display: block;
+    }
+    .desktop-about {
+        display: none;
+    }
+    .col-auto.pr-lg-0 {
+        margin-top: 3%;
+    }
+    section.half-section {
+        padding-top: 85px;
+        padding-bottom: 0px;
+    }
+    .short-desc {
+        padding: 0 12%;
+    }
+    .icon-desc {
+        font-size: 30px;
+    }
+    .grid-post {
+        padding: 0 9%;
+        height: 100%;
+    }
+    .row-grid {
+        position: inherit;
+        width: 110%;
+        height: 100%;
+    }
+    .grid1 {
+        height: 25%;
+        padding: 1%;
+        position: inherit;
+        top: 0%;
+        left: 0%;
+    }
+    .grid2 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    .grid3 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    .grid4 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    .grid5 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    .grid6 {
+        height: 35%;
+        padding: 1%;
+        position: inherit;
+    }
+    .titlegrid5 {
+        background-color: #000;
+        height: auto;
+        width: 100%;
+        position: absolute;
+        margin: 0;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        bottom: 0;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .titlegrid4 {
+        background-color: rgba(255, 255, 255, 0.0);
+        bottom: 40%;
+        height: auto;
+        width: 90%;
+        position: absolute;
+        margin: 0;
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+        -ms-transform: rotate(0);
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+    }
+    .col-md-6 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .btn.btn-dark-gray.btn-small.text-extra-small.border-radius-4.margin-20px-top.bergabung-1 {
+        margin-right: 20px;
+    }
+    section {
+        padding: 25px 0;
+        overflow: hidden;
+    }
+    .sm-padding-15px-left {
+        margin-top: -30px;
+    }
+}
+
+
+/* ----------- iPhone 6, 6S, 7, 8 and X ----------- */
+
+@media only screen and (min-width: 375px) and (max-width: 479px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+    .mobile-grid-view {
+        display: none;
+    }
+    .mobile-about {
+        display: block;
+    }
+    h1.text-white-2.alt-font.font-weight-600.letter-spacing-minus-1.margin-min90px-bottom.program-kehati {
+        margin-top: 50%;
+    }
+    .margin-min90px-bottom {
+        margin-bottom: -50%;
+    }
+    .row.align-items-center {
+        padding: 10% 10%;
+        margin-top: -80px;
+    }
+    p.text-large.bergabung {
+        font-size: 25px;
+        text-align: center;
+    }
+    p.yang-muda {
+        font-size: 40px;
+        line-height: 35px;
+        width: 100%;
+        text-align: left;
+        letter-spacing: 1px !important;
+    }
+    p.sejak-tahun {
+        width: 100%;
+        line-height: 30px;
+        font-size: 17px;
+        padding-top: 15px;
+        text-align: justify;
+        font-family: PFDinTextCompPro;
+        font-weight: 200;
+    }
+    p {
+        margin: 0 0% 0px !important;
+    }
+    .judul-section {
+        margin-top: 35px;
+        font-size: 35px;
+    }
+    .sejaktahun2014ke.tentangkamiv4.v2 {
+        padding: 0% 10% 10%;
+        line-height: 25px;
+        font-size: 20px;
+        text-align: justify;
+    }
+    ul li:nth-child(n+2) {
+        display: none;
+    }
+    span {
+        cursor: pointer;
+    }
+    .descript-nilainilaidasar {
+        padding: 0% 10% 0%;
+        line-height: 25px;
+        font-size: 20px;
+    }
+    .btn.btn-dark-gray-unduh {
+        width: 100%;
+    }
+    #more {
+        display: none;
+    }
+    .garis {
+        margin-bottom: 10px;
+    }
+    img.padding-ten-right.md-no-padding-right.w-100.v1 {
+        margin-top: 75px;
+        margin-left: 0px;
+    }
+    .sm-padding-15px-left {
+        margin-top: 0px;
+        padding-bottom: 50px;
+    }
+    .row.align-items-center.v1 {
+        height: 150%;
+    }
+    .padding-10 {
+        padding-left: 10% !important;
+        padding-right: 10%;
+    }
+    .descript-nilainilaidasar.v3 {
+        text-align: justify;
+    }
+    .slick-next.slick-arrow {
+        display: none !important;
+    }
+    .slick-prev.slick-arrow {
+        display: none !important;
+    }
+    .slick-dots li {
+        display: none;
+    }
+}
+
+
+/* ----------- Android Tablet ----------- */
+
+
+/* Potrait */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+    .unduh-text {
+        font-size: 21px;
+    }
+    .publikasi-img {
+        width: 90%;
+    }
+    .icon-desc {
+        font-size: 30px;
+    }
+    .mobile-grid-view {
+        display: block;
+        padding-bottom: 70%;
+    }
+    .desktop-grid-view {
+        display: none;
+    }
+    .mobile-about {
+        display: block;
+    }
+    .desktop-about {
+        display: none;
+    }
+    .mobile-grid-view {
+        display: block;
+        position: inherit;
+        margin: 15px;
+        padding-bottom: 75%;
+    }
+    .icon-desc {
+        letter-spacing: 0px !important;
+    }
+    .tablet-view1 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 0.5%;
+    }
+    .tablet-view2 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 0%;
+        width: 50%;
+    }
+    .tablet-view3 {
+        height: 60%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+        width: 50%;
+    }
+    .tablet-view4 {
+        height: 53.5%;
+        padding: 1%;
+        position: absolute;
+        top: 67.33%;
+        left: 0%;
+        width: 50%;
+    }
+    .tablet-view5 {
+        height: 26.5%;
+        padding: 1%;
+        position: absolute;
+        top: 94.33%;
+        left: 50%;
+        width: 50%;
+    }
+    .tablet-view6 {
+        height: 24.33%;
+        padding: 1%;
+        position: absolute;
+        top: 121%;
+        left: 0%;
+    }
+    .titlegrid4 {
+        bottom: 60%;
+    }
+    .titlegrid5 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: Landscape) {
+    .unduh-text {
+        font-size: 21;
+    }
+    .publikasi-img {
+        width: 90%;
+    }
+    .icon-desc {
+        font-size: 30px;
+    }
+    .mobile-grid-view {
+        display: block;
+        padding-bottom: 70%;
+    }
+    .desktop-grid-view {
+        display: none;
+    }
+    .mobile-about {
+        display: block;
+    }
+    .desktop-about {
+        display: none;
+    }
+    .mobile-grid-view {
+        display: block;
+        position: inherit;
+        margin: 15px;
+        padding-bottom: 65%;
+    }
+    .icon-desc {
+        letter-spacing: 0px !important;
+    }
+    .tablet-view1 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 0.5%;
+    }
+    .tablet-view2 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 0%;
+        width: 50%;
+    }
+    .tablet-view3 {
+        height: 60%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+        width: 50%;
+    }
+    .tablet-view4 {
+        height: 59%;
+        padding: 1%;
+        position: absolute;
+        top: 67.33%;
+        left: 0%;
+        width: 50%;
+    }
+    .tablet-view5 {
+        height: 32.33%;
+        padding: 1%;
+        position: absolute;
+        top: 94.33%;
+        left: 50%;
+        width: 50%;
+    }
+    .tablet-view6 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 126.5%;
+        left: 0%;
+    }
+    .text-extra-dark-gray.font-weight-600.d-block.alt-font {
+        height: 70px !important;
+    }
+}
+
+
+/* ----------- Ipad 3rd & 4th Generation, Air, Mini ----------- */
+
+
+/* Portrait */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+    .unduh-text {
+        font-size: 21;
+    }
+    .publikasi-img {
+        width: 95%;
+    }
+    .mobile-grid-view {
+        display: block;
+        padding-bottom: 60%;
+    }
+    .desktop-grid-view {
+        display: none;
+    }
+    .mobile-about {
+        display: block;
+    }
+    .desktop-about {
+        display: none;
+    }
+    .icon-desc {
+        letter-spacing: 0px !important;
+    }
+    .tablet-view1 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 0.5%;
+    }
+    .tablet-view2 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 0%;
+    }
+    .tablet-view3 {
+        height: 60%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+    }
+    .tablet-view4 {
+        height: 60%;
+        padding: 1%;
+        position: absolute;
+        top: 67.33%;
+        left: 0%;
+    }
+    .tablet-view5 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 94.33%;
+        left: 50%;
+    }
+    .tablet-view6 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 127.5%;
+        left: 0%;
+    }
+    .text-extra-dark-gray.font-weight-600.d-block.alt-font {
+        height: 70px !important;
+    }
+}
+
+
+/* Landscape */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: Landscape) {
+    .unduh-text {
+        font-size: 21;
+    }
+    .publikasi-img {
+        width: 95%;
+    }
+    .mobile-grid-view {
+        display: block;
+    }
+    .desktop-grid-view {
+        display: none;
+    }
+    .mobile-about {
+        display: block;
+    }
+    .desktop-about {
+        display: none;
+    }
+    .mobile-grid-view {
+        display: block;
+        position: inherit;
+        margin: 15px;
+        padding-bottom: 50%;
+    }
+    .icon-desc {
+        letter-spacing: 0px !important;
+    }
+    .tablet-view1 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 0.5%;
+    }
+    .tablet-view2 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 0%;
+    }
+    .tablet-view3 {
+        height: 60%;
+        padding: 1%;
+        position: absolute;
+        top: 34%;
+        left: 50%;
+    }
+    .tablet-view4 {
+        height: 60%;
+        padding: 1%;
+        position: absolute;
+        top: 67.33%;
+        left: 0%;
+    }
+    .tablet-view5 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 94.33%;
+        left: 50%;
+    }
+    .tablet-view6 {
+        height: 33.33%;
+        padding: 1%;
+        position: absolute;
+        top: 127.5%;
+        left: 0%;
+    }
+    .icon-desc {
+        letter-spacing: 0px !important;
+    }
+}
+
+.thumnail-berita {
+    width: 100%;
+    height: 155px;
+    overflow: hidden;
+    border-radius: 11px;
+}
+.thumnail-berita img {
+    transform: scale(1.2);
+}
+
+.thumnail-berita-ekosistem{
+    height: 200px;
+}
+
+.thumnail-berita-tentangkami{
+    height: 250px;
+}
+.thumnail-berita-tentangkami img {
+    transform: scale(1);
+}
+
+.position-relative-margin-top-50 {
+    position: relative !important;
+    margin-top: 50px;
+}

@@ -1,0 +1,382 @@
+@media (min-width:1024px) {
+    .swiper-container {
+        height: 309px;
+    }
+    .title-slide.whyforestisimport.artikel {
+        position: inherit;
+        top: 47%;
+        color: #FFFFFF;
+        font-family: open-sans-regular;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    ul.nav.nav-tabs.artikel {
+        position: absolute;
+        top: 410px;
+        width: 100%;
+        padding: 0% 15%;
+        border: 1px solid #fff;
+    }
+    a.nav-link.btn.btn-light.btn-bergabung.tab {
+        border: 2px solid #3FA06B;
+        border-radius: 10px;
+        width: 100px;
+        height: 36px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 9px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .description.timenews {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro;
+        font-size: 8px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 17px;
+        margin-top: 13px;
+        text-align: left;
+    }
+    .description.title-news.v1 {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 22px;
+        width: 122px;
+        text-align: left;
+        padding: 5px 0;
+        padding-bottom: 23px;
+    }
+
+@media (min-width:1200px) {
+    .swiper-container {
+        height: 666px;
+    }
+    .title-slide.whyforestisimport.artikel {
+        position: inherit;
+        top: 47%;
+        color: #FFFFFF;
+        font-family: open-sans-regular;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    ul.nav.nav-tabs.artikel {
+        position: absolute;
+        top: 767px;
+        width: 100%;
+        padding: 0% 15%;
+        border: 1px solid #fff;
+        z-index: 99;
+    }
+    a.nav-link.btn.btn-light.btn-bergabung.tab {
+        border: 2px solid #3FA06B;
+        border-radius: 10px;
+        width: 120px;
+        height: 36px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .description.timenews {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 17px;
+        margin-top: 13px;
+        text-align: left;
+    }
+    .description.title-news.v1 {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 22px;
+        width: 190px;
+        text-align: left;
+        padding: 5px 0;
+        padding-bottom: 23px;
+    }
+}
+
+@media (min-width:1280px) {
+    .swiper-container {
+        height: 666px;
+    }
+    .title-slide.whyforestisimport.artikel {
+        position: inherit;
+        top: 47%;
+        color: #FFFFFF;
+        font-family: open-sans-regular;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    ul.nav.nav-tabs.artikel {
+        position: absolute;
+        top: 767px;
+        width: 100%;
+        padding: 0% 15%;
+        border: 1px solid #fff;
+        z-index: 99;
+    }
+    a.nav-link.btn.btn-light.btn-bergabung.tab {
+        border: 2px solid #3FA06B;
+        border-radius: 10px;
+        width: 123px;
+        height: 36px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .description.timenews {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 17px;
+        margin-top: 13px;
+        text-align: left;
+    }
+    .description.title-news.v1 {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 22px;
+        width: 214px;
+        text-align: left;
+        padding: 5px 0;
+        padding-bottom: 23px;
+    }
+}
+
+@media (min-width:1360px) {
+    .swiper-container {
+        height: 666px;
+    }
+    .title-slide.whyforestisimport.artikel {
+        position: inherit;
+        top: 47%;
+        color: #FFFFFF;
+        font-family: open-sans-regular;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    ul.nav.nav-tabs.artikel {
+        position: absolute;
+        top: 767px;
+        width: 100%;
+        padding: 0% 15%;
+        border: 1px solid #fff;
+        z-index: 99;
+    }
+    a.nav-link.btn.btn-light.btn-bergabung.tab {
+        border: 2px solid #3FA06B;
+        border-radius: 10px;
+        width: 130px;
+        height: 36px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 13px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .description.timenews {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 17px;
+        margin-top: 13px;
+        text-align: left;
+    }
+    .description.title-news.v1 {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 22px;
+        width: 214px;
+        text-align: left;
+        padding: 5px 0;
+        padding-bottom: 23px;
+    }
+}
+
+@media (min-width:1440px) {
+    .swiper-container {
+        height: 666px;
+    }
+    .title-slide.whyforestisimport.artikel {
+        position: inherit;
+        top: 47%;
+        color: #FFFFFF;
+        font-family: open-sans-regular;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    ul.nav.nav-tabs.artikel {
+        position: absolute;
+        top: 767px;
+        width: 100%;
+        padding: 0% 15%;
+        border: 1px solid #fff;
+        z-index: 99;
+    }
+    a.nav-link.btn.btn-light.btn-bergabung.tab {
+        border: 2px solid #3FA06B;
+        border-radius: 10px;
+        width: 147px;
+        height: 36px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .description.timenews {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 17px;
+        margin-top: 13px;
+        text-align: left;
+    }
+    .description.title-news.v1 {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 22px;
+        width: 179px;
+        text-align: left;
+        padding: 5px 0;
+        padding-bottom: 23px;
+    }
+}
+
+@media (min-width:1600px) {
+    .swiper-container {
+        height: 666px;
+    }
+    .title-slide.whyforestisimport.artikel {
+        position: inherit;
+        top: 47%;
+        color: #FFFFFF;
+        font-family: open-sans-regular;
+        font-size: 40px;
+        font-weight: 500;
+        letter-spacing: 0.08px;
+        line-height: 46px;
+        width: 100%;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    ul.nav.nav-tabs.artikel {
+        position: absolute;
+        top: 767px;
+        width: 100%;
+        padding: 0% 15%;
+        border: 1px solid #fff;
+        z-index: 99;
+    }
+    a.nav-link.btn.btn-light.btn-bergabung.tab {
+        border: 2px solid #3FA06B;
+        border-radius: 10px;
+        width: 147px;
+        height: 36px;
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 15px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 19px;
+        text-align: center;
+    }
+    .description.timenews {
+        color: #B7B7B7;
+        font-family: PFDinTextCompPro;
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0.03px;
+        line-height: 17px;
+        margin-top: 13px;
+        text-align: left;
+    }
+    .description.title-news.v1 {
+        color: #0A0B09;
+        font-family: PFDinTextCompPro;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.04px;
+        line-height: 22px;
+        width: 214px;
+        text-align: left;
+        padding: 5px 0;
+        padding-bottom: 23px;
+    }
+}
+
+ul.nav.nav-tabs.artikel {
+    position: absolute;
+    top: 767px;
+    width: 100%;
+    padding: 0% 21%;
+    border: 1px solid #fff;
+    z-index: 99;
+}
+
+.thumnail-berita img {
+    transform: scale(2.3);
+}

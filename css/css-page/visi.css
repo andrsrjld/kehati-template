@@ -1,0 +1,56 @@
+.sejaktahun2014ke.tentangkamiv4.v2 {
+    padding: 0 18%;
+    line-height: 34px;
+}
+
+ul.list.misi {
+    margin-top: 15px;
+    padding: 0% 1.5%;
+    padding-right: 0%;
+    list-style-image: url(../../img/point.png);
+}
+
+span.small-title {
+    color: #0A0B09;
+    font-weight: 800;
+}
+
+ul.sejaktahun2014ke.tentangkamiv4.v2.list {
+    margin-top: 55px;
+}
+
+.div-visi {
+    margin-top: 46px;
+}
+
+ul.sejaktahun2014ke.tentangkamiv4.v2.list {
+    margin-top: 15px;
+    width: 83%;
+    padding-right: 0%;
+    list-style-image: url(../../img/point.png);
+}
+
+li.point-list {
+    text-align: justify;
+}
+
+.sejaktahun2014ke.tentangkamiv4.v2 {
+    padding: 0 18%;
+    line-height: 34px;
+    font-size: 14px;
+    font-family: open-sans-regular;
+    letter-spacing: 0px;
+}
+
+.description.title-news.v1 {
+    color: #0A0B09;
+    font-family: PFDinTextCompPro;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.04px;
+    line-height: 22px;
+    width: 214px;
+    text-align: left;
+    padding: 5px 0;
+    padding-bottom: 23px;
+}

@@ -1,0 +1,252 @@
+        @font-face {
+            font-family: "open-sans-regular";
+            src: url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+        }
+        
+        @font-face {
+            font-family: "open-sans-bold";
+            src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
+        }
+        
+        @font-face {
+            font-family: 'PFDinTextCompPro';
+            src: url('../../fonts/OpenSans-Bold.ttf');
+        }
+        
+        @font-face {
+            font-family: 'PFDinTextCompPro-Regular';
+            src: url('../../fonts/OpenSans-Regular.ttf');
+        }
+        
+        @font-face {
+            font-family: 'compro-bold';
+            src: url('../fonts/PFDinTextCompPro-Medium.ttf');
+        }
+        /* default font */
+        
+        .font-title {
+            font-family: PFDinTextCompPro !important;
+            font-size: 25px !important;
+            color: #000000;
+            font-weight: 500;
+            letter-spacing: 0.08px;
+            line-height: 27px !important;
+        }
+        
+        .font-body {
+            font-family: PFDinTextCompPro-Regular !important;
+            font-size: 15px !important;
+            color: #000000;
+            font-weight: 100 !important;
+            letter-spacing: 0.08px;
+            line-height: 27px !important;
+        }
+        
+        .font-body-title {
+            font-family: PFDinTextCompPro !important;
+            font-size: 15px !important;
+            color: #000000;
+            font-weight: 500;
+            letter-spacing: 0.08px;
+            line-height: 27px;
+        }
+        /* default font white */
+        
+        .font-title-w {
+            font-family: PFDinTextCompPro !important;
+            font-size: 25px !important;
+            color: #fffff !important;
+            font-weight: 500;
+            letter-spacing: 0.08px;
+            line-height: 27px;
+        }
+        
+        .font-body-w {
+            font-family: PFDinTextCompPro-Regular !important;
+            font-size: 15px !important;
+            color: #ffffff !important;
+            font-weight: 100 !important;
+            letter-spacing: 0.08px;
+            line-height: 27px !important;
+        }
+        
+        .font-body-title-w {
+            font-family: PFDinTextCompPro !important;
+            font-size: 15px !important;
+            color: #ffffff !important;
+            font-weight: 500;
+            letter-spacing: 0.08px;
+            line-height: 27px !important;
+        }
+        /* artikel font */
+        
+        .font-title-art {
+            font-family: PFDinTextCompPro !important;
+            font-size: 35px !important;
+            color: #000000 !important;
+            font-weight: 500;
+            letter-spacing: 0.08px;
+            line-height: 55px !important;
+            padding-bottom: 0px !important;
+            margin-bottom: 0px !important;
+        }
+        
+        .font-publikasi-bio {
+            font-family: PFDinTextCompPro-Regular !important;
+            font-size: 20px !important;
+        }
+        
+        .font-publikasi-title {
+            font-family: PFDinTextCompPro !important;
+            font-size: 25px !important;
+            color: #000000;
+            font-weight: 500;
+            letter-spacing: 0.08px;
+            line-height: 27px !important;
+        }
+        
+        .font-publikasi-body {
+            font-family: PFDinTextCompPro-Regular !important;
+            font-size: 15px !important;
+        }
+        
+        .font-body-by-wit {
+            font-family: PFDinTextCompPro-Regular !important;
+            font-size: 10px !important;
+        }
+        
+        .font-body-program {
+            font-family: PFDinTextCompPro-Regular !important;
+            font-size: 13px !important;
+            color: #000000;
+            font-weight: 100 !important;
+            letter-spacing: 0.08px;
+            line-height: 27px !important;
+        }
+        /* misc style */
+        
+        .row-p-150 {
+            padding-right: 150px;
+            padding-left: 150px;
+        }
+        
+        .yang-muda {
+            width: 400px !important;
+        }
+        
+        .sejak-tahun {
+            width: 400px !important;
+        }
+        
+        section.wow.fadeIn.bg-light-gray.v1 {
+            padding: 0% 0%;
+        }
+        
+        .garis {
+            margin-top: 0px;
+        }
+        
+        a.nav-link.btn.btn-light.btn-bergabung.tab {
+            width: 225px;
+        }
+        
+        ul.nav.nav-tabs.artikel {
+            padding: 0% 5%;
+        }
+        
+        .thumnail-berita {
+            border-radius: 14px;
+            height: 150px;
+        }
+        
+        .btn.selengkapnya {
+            background-color: #3FA06B !important;
+            border-radius: 10px !important;
+            width: 162px;
+            height: 40px;
+            color: #FFFFFF !important;
+            font-family: PFDinTextCompPro-Regular !important;
+            font-size: 16px !important;
+            font-weight: 500 !important;
+            letter-spacing: 0.04px;
+            line-height: 27px !important;
+            text-align: center !important;
+            padding: 7px !important;
+        }
+        
+        .font-center {
+            text-align: center;
+        }
+        
+        .font-justify {
+            text-align: justify;
+        }
+        
+        .list-data {
+            list-style: none;
+            margin: 0px !important;
+        }
+        
+        .gutter-bottom-in {
+            width: 1000px;
+            padding-bottom: 0px;
+        }
+        
+        .gutter-bottom-in img {
+            width: 1000px;
+            padding-bottom: 0px;
+        }
+        
+        .gutter-horiz-in {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        
+        .card-image img {
+            padding-bottom: 20px;
+        }
+        
+        .font-justify {
+            text-align: justify;
+        }
+        
+        .line-height-50 {
+            line-height: 50px !important;
+        }
+        
+        .font-date-art {
+            font-family: PFDinTextCompPro-Regular !important;
+            font-size: 12px !important;
+        }
+        
+        .font-header {
+            font-family: compro-bold !important;
+            text-transform: uppercase !important;
+            font-size: 15px !important;
+        }
+        
+        @media (min-width:1200px) {
+            nav.navbar.navbar-default ul.nav>li>a {
+                font-family: compro-bold !important;
+                text-transform: uppercase !important;
+                font-size: 11px !important;
+                padding: 13px 0px;
+            }
+        }
+        
+        @media (min-width:1300px) {
+            nav.navbar.navbar-default ul.nav>li>a {
+                font-family: compro-bold !important;
+                text-transform: uppercase !important;
+                font-size: 15px !important;
+                padding: 10px 0px;
+            }
+        }
+
+        .alphabet-li{
+            list-style: lower-alpha;
+        }
+
+        .row.justify-content-center{
+            margin-top: 70px !important;
+        }
