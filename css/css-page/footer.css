@@ -180,3 +180,20 @@
 footer.footer-classic-dark.bg-extra-dark-gray {
     margin-bottom: 25px;
 }
+
+footer.footer-classic-dark.bg-extra-dark-gray {
+    border-top: 4px solid #3fa06b;
+}
+
+.font-body.alamatfooter {
+    margin-top: 10px;
+    width: 58%;
+    margin-bottom: 10px;
+}
+
+.btn.btn-dark-gray {
+    background: #3FA06B;
+    border-color: #3FA06B;
+    color: #fff;
+    border-radius: 8px !important;
+}
