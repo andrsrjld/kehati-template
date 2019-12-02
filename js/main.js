@@ -1903,7 +1903,7 @@ $(document).ready(function() {
             target: 'instaFeed-style1',
             get: 'user',
             userId: 2348588921,
-            limit: '8',
+            limit: '3',
             accessToken: '2348588921.1677ed0.a460325611844430881ec290b0d3d03e',
             resolution: "low_resolution",
             error: {
@@ -1919,7 +1919,7 @@ $(document).ready(function() {
             target: 'instaFeed-aside',
             get: 'user',
             userId: 2348588921,
-            limit: '6',
+            limit: '3',
             accessToken: '2348588921.1677ed0.a460325611844430881ec290b0d3d03e',
             resolution: "low_resolution",
             error: {
@@ -1935,7 +1935,7 @@ $(document).ready(function() {
             target: 'instaFeed-footer',
             get: 'user',
             userId: 2348588921,
-            limit: '6',
+            limit: '3',
             accessToken: '2348588921.1677ed0.a460325611844430881ec290b0d3d03e',
             resolution: "low_resolution",
             error: {
@@ -2513,17 +2513,17 @@ $(document).on('load', function() {
 });
 
 
-$(document).on('ready', function () {
+$(document).on('ready', function() {
     // variables
-	var contextWindow = $(window);
-	var $root = $('html');
+    var contextWindow = $(window);
+    var $root = $('html');
     var siteHeaderFooter = $('.page-footer, .page-header, .page-cover');
-    
+
     // 7. Page Loader : hide loader when all are loaded
-	contextWindow.on('load', function () {
-		$('#page-loader').addClass('p-hidden');
-		$('.section').addClass('anim');
-		$('.scrollpage-container .section-home').addClass('active');
-		siteHeaderFooter.removeClass('loading-anim');
-	});
+    contextWindow.on('load', function() {
+        $('#page-loader').addClass('p-hidden');
+        $('.section').addClass('anim');
+        $('.scrollpage-container .section-home').addClass('active');
+        siteHeaderFooter.removeClass('loading-anim');
+    });
 });
