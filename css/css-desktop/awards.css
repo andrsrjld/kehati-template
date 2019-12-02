@@ -8,21 +8,23 @@
     src: url('../../fonts/OpenSans-Bold.ttf') format('truetype');
 }
 
-.btn.btn-medium{
+.btn.btn-medium {
     width: 100%;
     color: #3FA06B;
     padding: 10px 25px 10px;
 }
-.btn.btn-transparent-black:hover, .btn.btn-transparent-black:focus{
-  width: 100%;
-  background:#3FA06B;
-  border-color:#3FA06B;
-  color:#ffffff;
-  font-family: PFDinTextCompPro-Regular !important;
-  font-size: 15px;
+
+.btn.btn-transparent-black:hover,
+.btn.btn-transparent-black:focus {
+    width: 100%;
+    background: #3FA06B;
+    border-color: #3FA06B;
+    color: #ffffff;
+    font-family: PFDinTextCompPro-Regular !important;
+    font-size: 15px;
 }
 
-.btn.btn-transparent-black{
+.btn.btn-transparent-black {
     border-color: #3FA06B;
     color: #3FA06B;
     font-family: PFDinTextCompPro-Regular !important;
@@ -30,8 +32,7 @@
 }
 
 .descript-nilainilaidasar {
-    color: 
-    #B7B7B7;
+    color: #B7B7B7;
     font-family: open-sans-regular;
     font-size: 18px;
     font-weight: 400;
@@ -40,4 +41,18 @@
     width: 100%;
     text-align: justify;
     padding: 30px 15%;
+}
+
+.container-fluid {
+    width: 100%;
+    margin-top: 39px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section.half-section {
+    padding-top: 47px;
+    padding-bottom: 0px;
 }
