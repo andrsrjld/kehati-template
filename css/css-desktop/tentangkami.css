@@ -641,7 +641,8 @@ a.btn.selengkapnya {
 }
 
 img.logo-tentangkami {
-    width: 100%;
+    width: 40%;
+    margin: 40px 30%;
 }
 
 section.wow.fadeIn.bg-light-gray.v2 {
