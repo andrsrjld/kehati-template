@@ -197,3 +197,7 @@ footer.footer-classic-dark.bg-extra-dark-gray {
     color: #fff;
     border-radius: 8px !important;
 }
+
+.row.copyright {
+    margin-top: -60px;
+}
