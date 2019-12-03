@@ -873,23 +873,17 @@ a:hover {
     outline-color: rgb(17, 152, 82);
 }
 
-.inputsort::-webkit-input-placeholder {
-    color: #000;
-}
+.inputsort::-webkit-input-placeholder {}
 
 
 /*support mozilla*/
 
-.inputsort:-moz-input-placeholder {
-    color: #000;
-}
+.inputsort:-moz-input-placeholder {}
 
 
 /*support internet explorer*/
 
-.inputsort:-ms-input-placeholder {
-    color: #000;
-}
+.inputsort:-ms-input-placeholder {}
 
 .col-sort {
     margin-bottom: 30px;
@@ -1272,8 +1266,11 @@ a.page-link.description.pagination {
 }
 
 .row-sortkerja {
-    margin-top: 7%;
-    padding: 0% 8.7%;
+    padding: 0% 0%;
+}
+
+section {
+    margin-top: 100px
 }
 
 .label-pagination {
