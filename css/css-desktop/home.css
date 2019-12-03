@@ -2197,5 +2197,13 @@ p.sejak-tahun.font-publikasi-body {
 }
 
 .titlegrid.titlegrid5 {
-    background: #00000050;
+    background: #00000070;
+}
+
+.col-12.col-sm-12.col-lg-4.col-md-6.text-center.text-md-left.md-padding-eight-left.sm-padding-15px-left {
+    padding-left: 7%;
+}
+
+.row.copyright {
+    margin-top: -60px;
 }
