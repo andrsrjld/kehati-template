@@ -1159,3 +1159,49 @@ img.icon-reksadana {
     width: 40%;
     margin: 5px 30%;
 }
+
+img.fotoprofile {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.font-publikasi-bio.jabatan {
+    width: 80%;
+    color: #3fa06b;
+    font-weight: bold;
+}
+
+.font-publikasi-bio {
+    color: #000;
+}
+
+.font-publikasi-bio.nama {
+    width: 80%;
+    font-weight: bold;
+}
+
+.col-profile {
+    padding: 20px 0%;
+}
+
+.row.row-profile {
+    padding: 30px 0px;
+}
+
+.desbio {
+    width: 80%;
+}
+
+.font-publikasi-bio.jabatan.v1 {
+    float: right;
+    width: max-content;
+}
+
+.row.anggota {
+    margin-top: 30px;
+}
+
+.col-12.angota {
+    padding: 15px 0px;
+    border-bottom: 1px solid #3fa06b;
+}
