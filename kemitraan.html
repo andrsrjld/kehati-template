@@ -1,13 +1,15 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
+<!-- Mirrored from www.themezaa.com/html/pofo/home-creative-branding-agency.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Nov 2019 09:54:55 GMT -->
+
 <head>
     <!-- title -->
-    <title>KEHATI</title>
+    <title>Kehati</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
-    <meta name="author" content="WIT">
+    <meta name="author" content="ThemeZaa">
     <!-- description -->
     <meta name="description" content="POFO is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose agency and portfolio HTML5 template with 25 ready home page demos.">
     <!-- keywords -->
@@ -43,14 +45,17 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- responsive css -->
     <link rel="stylesheet" href="css/css-page/responsive.css" />
-    <link rel="stylesheet" href="css/css-page/footer.css">
-    <link rel="stylesheet" href="css/css-page/home.css">
-    <link rel="stylesheet" href="css/css-page/lokasi-kerja.css">
     <link rel="stylesheet" href="css/css-page/header.css">
 
-    <link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 1024px)' href="css/css-mobile/lokasi-kerja.css" />
-    <link rel="stylesheet" media='screen and (min-width: 1024px) and (max-width: 1980px)' href="css/css-desktop/lokasi-kerja.css" />
-    <!-- Vendor CSS style -->
+    <link rel="stylesheet" href="css/css-page/artikel.css">
+    <link rel="stylesheet" href="css/css-page/footer.css">
+
+    <link rel="stylesheet" media='screen and (min-width: 320px) and (max-width: 1024px)' href="css/css-mobile/artikel.css" />
+    <link rel="stylesheet" media='screen and (min-width: 1024px) and (max-width: 1980px)' href="css/css-desktop/artikel.css" />
+
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css'>
+    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="css/pageloader.css">
     <link rel="stylesheet" href="css/font.css">
 </head>
@@ -166,132 +171,217 @@
             </nav>
             <!-- end navigation -->
         </header>
-        <!-- end header -->
-
-        <!-- start page title section -->
-        <section class="wow fadeIn half-section p-0 top-space">
+        <section class="section01">
             <div class="container-fluid">
-                <div class="swiper-full-screen swiper-container width-100 .swiper-container">
-                    <div class="swiper-wrapper">
-                        <!-- start slider item -->
-                        <div class="swiper-slide cover-background" style="background-image:url(img/F952230B-BE83-4A36-969F-9CB5FF032367.png)">
+                <div class="swiper-full-screen swiper-container width-100">
+                    <div class="">
+                        <div class="swiper-slide cover-background" style="background-image:url(img/header-default.png)">
                             <div class="bg-extra-dark-gray"></div>
                             <div class="container  one-fourth-screen sm-height-400px">
                                 <div class="slider-typography text-center">
                                     <div class="slider-text-middle-main">
                                         <div class="slider-text-middle">
-                                            <div class="col-12 col-lg-6 col-md-8 mx-auto slide-content">
-                                                <div class="title-slide whyforestisimport artikel">
-                                                </div>
-                                            </div>
+                                            <div class="col-12 col-lg-6 col-md-8 mx-auto slide-content"></div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- end slider item -->
                     </div>
-
                 </div>
-            </div>
         </section>
-
         <section>
-            <div class="row row-sortkerja">
-                <div class="col-12 col-sort">
-                    <input type="text" class="labelfooter inputsort keywords" placeholder="Keywords">
+            <ul class="nav nav-tabs artikel" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link btn btn-light btn-bergabung tab active" href="#slidesemua" role="tab" data-toggle="tab">Penerima Hibah</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-light btn-bergabung tab" href="#slidekehutanan" role="tab" data-toggle="tab">Corporate Partners</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn btn-light btn-bergabung tab" href="#slidepertanian" role="tab" data-toggle="tab">Jaringan    </a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade active show" id="slidesemua">
+                    <div class="row row-artikel1">
+                        <div class="col-12 penerima">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="font-body nama">Forum ekowisata Jawa Timur / EJEF)</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="font-body category">Penerima Hibaah</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 penerima">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="font-body nama">Ikatan Polisi Kehutanan (IPKI)</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="font-body category">Penerima Hibaah</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 penerima">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="font-body nama">CoDe Warrior</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="font-body category">Penerima Hibaah</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 penerima">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="font-body nama">Taman Baca Kudi</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="font-body category">Penerima Hibaah</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 penerima">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="font-body nama">Rhizopora Team</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="font-body category">Penerima Hibaah</div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-12 penerima">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="font-body nama">Kelompok Ilmiah anak (KIA) SD Citra Alam</div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="font-body category">Penerima Hibaah</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
                 </div>
-            </div>
-            <div class="listlocation">
-                <a href="#">
-                    <div class="row rowlocation">
-                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1">
-                                    <div class="cover-location"><img src="/img/location1.png" alt=""></div>
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-11 col-xl-11">
-                                    <div class="labelfooter label-location project-title">Forum ekowisata Jawa Timur / EJEF</div>
-                                </div>
-                            </div>
+                <div role="tabpanel" class="tab-pane fade" id="slidekehutanan">
+                    <div class="row row-artikel1">
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/coporate 1.png" alt=""></center>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                            <div class="labelfooter label-location project-name category"></div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/coporate 2.png" alt=""></center>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                            <div class="labelfooter label-location project-name category align-right">Penerima Hibah
-                            </div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/coporate 3.jpg" alt=""></center>
                         </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="row rowlocation">
-                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1">
-                                    <div class="cover-location"><img src="/img/location1.png" alt=""></div>
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-11 col-xl-11">
-                                    <div class="labelfooter label-location project-title">Rumah Alam Sumatera</div>
-                                </div>
-                            </div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/coporate 4.jpg" alt=""></center>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                            <div class="labelfooter label-location project-name category"></div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/coporate 5.png" alt=""></center>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                            <div class="labelfooter label-location project-name category align-right">Penerima Hibah
-                            </div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/coporate 6.jpg" alt=""></center>
+                        </div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/coporate 7.jpg" alt=""></center>
+                        </div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/coporate 8.png" alt=""></center>
                         </div>
                     </div>
-                </a>
-                <a href="#">
-                    <div class="row rowlocation">
-                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1">
-                                    <div class="cover-location"><img src="/img/location1.png" alt=""></div>
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-11 col-xl-11">
-                                    <div class="labelfooter label-location project-title">Yayasan Pembangunan Sosial Ekonomi</div>
-                                </div>
-                            </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="slidepertanian">
+                    <div class="row row-artikel1">
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/jaringan 1.jpg" alt=""></center>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                            <div class="labelfooter label-location project-name category"></div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/jaringan 2.png" alt=""></center>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                            <div class="labelfooter label-location project-name category align-right">Penerima Hibah
-                            </div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/jaringan 3.png" alt=""></center>
                         </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="row rowlocation">
-                        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-12 col-lg-1 col-xl-1">
-                                    <div class="cover-location"><img src="/img/location1.png" alt=""></div>
-                                </div>
-                                <div class="col-sm-12 col-md-12 col-lg-11 col-xl-11">
-                                    <div class="labelfooter label-location project-title">Ikatan Polisi Kehutanan (IPKI)</div>
-                                </div>
-                            </div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/jaringan 4.png" alt=""></center>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-2 col-xl-2">
-                            <div class="labelfooter label-location project-name category"></div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/jaringan 5.png" alt=""></center>
                         </div>
-                        <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4">
-                            <div class="labelfooter label-location project-name category align-right">Penerima Hibah
-                            </div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/jaringan 6.png" alt=""></center>
+                        </div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/jaringan 7.jpg" alt=""></center>
+                        </div>
+                        <div class="col-3 col-mitra">
+                            <center><img class="logo-mitra" src="img/jaringan 8.png" alt=""></center>
                         </div>
                     </div>
-                </a>
+
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="slidekelautan">
+                    <div class="row row-artikel1">
+                        <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3  col-news">
+                            <div class="thumnail-berita">
+                                <a href="artikel/20-lembaga.html"><img src="img/artikel/lembaga.jpg" alt=""></a>
+                            </div>
+                            <div class="description timenews font-date-art">02 April 2019</div>
+                            <a href="artikel/20-lembaga.html">
+                                <div class="description title-news v1 font-body-title">20 lembaga lokal Papua Barat terima ...</div>
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3  col-news">
+                            <div class="thumnail-berita">
+                                <a href="artikel/sampah-laut.html"><img src="img/artikel/sampah.jpg" alt=""></a>
+                            </div>
+                            <div class="description timenews font-date-art">15 September 2019</div>
+                            <a href="artikel/sampah-laut.html">
+                                <div class="description title-news v1 font-body-title">Bersama Memerangi Sampah Laut
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="slidekampanye">
+                    <div class="row row-artikel1">
+                        <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3  col-news">
+                            <div class="thumnail-berita">
+                                <a href="/artikel/migrasi-raptor.html"><img src="img/artikel/raptop.jpeg" alt=""></a>
+                            </div>
+                            <div class="description timenews font-date-art">28 Oktober 2019</div>
+                            <a href="/artikel/migrasi-raptor.html">
+                                <div class="description title-news v1 font-body-title">Fenomena Migrasi Raptor
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3  col-news">
+                            <div class="thumnail-berita">
+                                <a href="/artikel/bambu-sampah.html"><img src="img/artikel/bambu.png" alt=""></a>
+                            </div>
+                            <div class="description timenews font-date-art">18 Juli 2019</div>
+                            <a href="/artikel/bambu-sampah.html">
+                                <div class="description title-news v1 font-body-title">Bambu Bisa Jadi Solusi Isu Sampah ...
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
             <nav class="pagination-artikel" aria-label="Page navigation example">
                 <ul class="pagination">
-                    <li class="page-item artikel v1"><a class="page-link description pagination " href="#">Previous</a>
-                    </li>
+                    <li class="page-item artikel v1"><a class="page-link description pagination " href="#">Previous</a></li>
                     <li class="page-item artikel"><a class="page-link description pagination " href="#">1</a></li>
                     <li class="page-item artikel"><a class="page-link description pagination " href="#">2</a></li>
                     <li class="page-item artikel"><a class="page-link description pagination " href="#">3</a></li>
@@ -299,7 +389,6 @@
                 </ul>
             </nav>
         </section>
-
         <!-- start footer -->
         <footer class="footer-classic-dark bg-extra-dark-gray ">
             <div class="footer-widget-area ">
@@ -433,21 +522,17 @@
         <script type="text/javascript" src="js/instafeed.min.js"></script>
         <!-- retina -->
         <script type="text/javascript" src="js/retina.min.js"></script>
+        <!-- revolution -->
         <script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
         <script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
-        <!-- revolution slider extensions (load below extensions JS files only on local file systems to make the slider work! The following part can be removed on server for on demand loading) -->
-        <!--<script type="text/javascript" src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.migration.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script type="text/javascript" src="revolution/js/extensions/revolution.extension.video.min.js"></script>-->
         <!-- setting -->
         <script type="text/javascript" src="js/main.js"></script>
 
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script>
+        <script src="js/script.js"></script>
+
 </body>
+
+<!-- Mirrored from www.themezaa.com/html/pofo/home-creative-branding-agency.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 06 Nov 2019 09:55:25 GMT -->
 
 </html>
