@@ -1156,8 +1156,8 @@ iframe.map {
 }
 
 img.icon-reksadana {
-    width: 40%;
-    margin: 5px 30%;
+    width: 86%;
+    display: none;
 }
 
 img.fotoprofile {
@@ -1207,5 +1207,6 @@ img.fotoprofile {
 }
 
 .col-12.col-reksa {
+    border: 1px solid #3fa06b;
     margin-bottom: 40px;
 }
