@@ -295,18 +295,3 @@ p.desc {
 .desc-title-pb-30 {
     padding-bottom: 30px;
 }
-
-.font-title {
-    margin-top: 15px;
-}
-
-.logo-desc {
-    width: 80%;
-    float: left;
-    height: auto;
-}
-
-.row.category {
-    width: 80%;
-    margin: 0 auto;
-}
